@@ -26,9 +26,10 @@ def load_audio_ffmpeg(audio_file: Path, sample_rate: int = SAMPLE_RATE) -> np.nd
     """Load audio via ffmpeg -> mono 16 kHz float32 [-1, 1]."""
     try:
         out, err = (
-            ffmpeg
-            .input(str(audio_file), threads=0)
-            .output("pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}")
+            ffmpeg.input(str(audio_file), threads=0)
+            .output(
+                "pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}"
+            )
             .run(capture_stdout=True, capture_stderr=True)
         )
         audio = np.frombuffer(out, np.int16).astype(np.float32) / 32768.0
@@ -49,8 +50,7 @@ def diarize_audio(audio_file: Path):
             )
 
         pipeline = Pipeline.from_pretrained(
-            "pyannote/speaker-diarization",
-            use_auth_token=HF_TOKEN
+            "pyannote/speaker-diarization", use_auth_token=HF_TOKEN
         )
         return pipeline(str(audio_file))
     except Exception as e:
@@ -74,7 +74,7 @@ def transcribe_audio_with_diarization(audio_file: Path, output_file: Path):
     # itertracks returns (segment, track, label) when yield_label=True
     for segment, _, speaker_label in tqdm(
         diarization_result.itertracks(yield_label=True),
-        desc="Transcribing with speakers"
+        desc="Transcribing with speakers",
     ):
         start_sample = max(0, int(segment.start * SAMPLE_RATE))
         end_sample = min(len(audio), int(segment.end * SAMPLE_RATE))
@@ -106,8 +106,7 @@ def convert_mp3_to_wav(input_file: Path, output_file: Path):
     """Convert mp3 -> wav (mono, 16k) to be consistent with processing."""
     try:
         (
-            ffmpeg
-            .input(str(input_file))
+            ffmpeg.input(str(input_file))
             .output(str(output_file), ac=1, ar=SAMPLE_RATE)
             .overwrite_output()
             .run()
@@ -142,5 +141,5 @@ if __name__ == "__main__":
     # Example with raw string:
     main(
         r"resources\audio\consultation_x1_combined_dialogue.mp3",
-        r"src\Model\AudToSpeach\V1\transcription_output-M1.txt"
+        r"src\Model\AudToSpeach\V1\transcription_output-M1.txt",
     )

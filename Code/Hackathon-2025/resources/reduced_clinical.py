@@ -9,8 +9,8 @@ MODEL = "gpt-4.1"  # high accuracy for careful redaction; you may switch to a ch
 NUM_PAIRS = 20
 
 TRANSCRIPTS_DIR = Path(r"resources\transcript")
-CLINICAL_DIR   = Path(r"resources\clinical_note")
-OUTPUT_DIR     = Path(r"resources\reduced_clinical_notes")
+CLINICAL_DIR = Path(r"resources\clinical_note")
+OUTPUT_DIR = Path(r"resources\reduced_clinical_notes")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Optional: max characters from each file to send (safety for very large notes).
@@ -53,9 +53,10 @@ INSTRUCTIONS (apply strictly):
 - Do not add analysis or explanation; return only the reduced clinical note text.
 """
 
+
 def read_pair(idx: int) -> Tuple[str, str, str]:
     t_path = TRANSCRIPTS_DIR / f"consultation_x{idx}.txt"
-    c_path = CLINICAL_DIR   / f"clinical_note_x{idx}.txt"
+    c_path = CLINICAL_DIR / f"clinical_note_x{idx}.txt"
     if not t_path.exists():
         raise FileNotFoundError(f"Missing transcript: {t_path}")
     if not c_path.exists():
@@ -71,10 +72,12 @@ def read_pair(idx: int) -> Tuple[str, str, str]:
 
     return str(t_path), t_txt, c_txt
 
+
 def write_reduced(idx: int, content: str):
     out_path = OUTPUT_DIR / f"reduced_note_x{idx}.txt"
     out_path.write_text(content, encoding="utf-8")
     return out_path
+
 
 def call_openai(client: OpenAI, transcript: str, clinical_note: str) -> str:
     """
@@ -82,8 +85,7 @@ def call_openai(client: OpenAI, transcript: str, clinical_note: str) -> str:
     Returns the reduced clinical note text.
     """
     user_prompt = USER_PROMPT_TEMPLATE.format(
-        transcript=transcript.strip(),
-        clinical_note=clinical_note.strip()
+        transcript=transcript.strip(), clinical_note=clinical_note.strip()
     )
 
     # Using the Responses API (official client)
@@ -92,10 +94,10 @@ def call_openai(client: OpenAI, transcript: str, clinical_note: str) -> str:
         model=MODEL,
         input=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt}
+            {"role": "user", "content": user_prompt},
         ],
         # We explicitly ask for text output only.
-        temperature=0
+        temperature=0,
     )
 
     # The text is typically at output_text; this helper safely extracts it.
@@ -106,7 +108,9 @@ def call_openai(client: OpenAI, transcript: str, clinical_note: str) -> str:
         # Fallback: concatenate text parts
         text_parts = []
         for item in getattr(rsp, "output", []) or []:
-            if getattr(item, "type", "") == "message" and getattr(item, "content", None):
+            if getattr(item, "type", "") == "message" and getattr(
+                item, "content", None
+            ):
                 for block in item.content:
                     if block.type == "output_text" and getattr(block, "text", None):
                         text_parts.append(block.text)
@@ -115,6 +119,7 @@ def call_openai(client: OpenAI, transcript: str, clinical_note: str) -> str:
     if not text or not text.strip():
         raise RuntimeError("Empty response from model.")
     return text.strip()
+
 
 def main():
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -153,6 +158,7 @@ def main():
             failures += 1
 
     print(f"\nDone. Successes: {successes} | Failures: {failures}")
+
 
 if __name__ == "__main__":
     main()
