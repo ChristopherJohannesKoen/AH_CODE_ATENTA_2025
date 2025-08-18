@@ -1,0 +1,94 @@
+SPEAKER_00: Hi Sarah, it's nice to see you again.
+SPEAKER_00: I remember you mentioned that you
+SPEAKER_00: Have you been able to do that lately?
+SPEAKER_00: has your energy level been reduced.
+SPEAKER_01: Hi Dr. Thompson.
+SPEAKER_01: Honestly, I haven't had the energy to do that.
+SPEAKER_01: really worn out.
+SPEAKER_00: Just to make sure I have all your details right here.
+SPEAKER_01: Sure, Sarah Anderson, August 14th.
+SPEAKER_00: And you're here today mainly because of feeling
+SPEAKER_01: Yeah, that's correct. It started maybe two weeks ago.
+SPEAKER_01: but the yellow in my eyes.
+SPEAKER_00: And you mentioned these symptoms became more noticeable after
+SPEAKER_01: Yes, but oh wait, I started the medication about a month ago.
+SPEAKER_01: The fatigue began just after the war.
+SPEAKER_01: I said three weeks earlier, but actually it was clear.
+SPEAKER_00: Thank you for clarifying, just to help me understand.
+SPEAKER_00: Did you have any fevers? Cough?
+SPEAKER_01: No, no fevers or anything.
+SPEAKER_01: and my urine's kind of dark.
+SPEAKER_01: any new rashes or itching? No, not that I've noticed. Can you remind me of your medical history?
+SPEAKER_00: particularly any issues with your
+SPEAKER_01: Nothing with my liver or blood that I know of and any surgeries besides what I see in
+SPEAKER_01: That's it, just my opinion.
+SPEAKER_00: your family history, any blood disorders that you have.
+SPEAKER_00: I know your mom has rumored to be
+SPEAKER_01: Yeah, she does.
+SPEAKER_01: not that I've heard.
+SPEAKER_00: Are you currently taking any medications?
+SPEAKER_01: No, just that one for my...
+SPEAKER_00: Any allergies to medication?
+SPEAKER_00: other than cephalosporin.
+SPEAKER_00: No, that's it. Thank you.
+SPEAKER_00: Now I'd like to do a focused physical exam.
+SPEAKER_00: I'm going to start by looking at your eyes.
+SPEAKER_00: I'm examining the sclera.
+SPEAKER_00: I do notice some yellow.
+SPEAKER_00: Now I'm gently pulling down your lower eyelid.
+SPEAKER_00: and I see there on the pale side which suggests
+SPEAKER_01: So that means not enough red blood cells.
+SPEAKER_00: Now looking at your skin.
+SPEAKER_00: I do notice generalized
+SPEAKER_00: I'll also check for any
+SPEAKER_00: Your vital signs are all in the normal range.
+SPEAKER_01: Does that mean it's not too serious or?
+SPEAKER_00: based on your lab work, your indirect Billerubin level.
+SPEAKER_00: Billerubin is a breakdown product from red blood cells.
+SPEAKER_00: And when it's up, it usually means red cells are being destroyed.
+SPEAKER_00: with your symptoms.
+SPEAKER_00: today. Okay, Sarah, what you're experiencing
+SPEAKER_00: called autoimmune hemolysis.
+SPEAKER_00: most likely triggered
+SPEAKER_00: In simple terms, your body's immune system is targeting and breaking
+SPEAKER_00: and jaundice both from anemia and from
+SPEAKER_00: I understand that it sounds alarming.
+SPEAKER_00: but in many cases, especially when it's drug and drugs.
+SPEAKER_00: We'll also use a medicine called
+SPEAKER_01: So I wait, is prednisone a steroid? Are there side effects? Yes, prednisone is a steroid.
+SPEAKER_00: taking 40 milligrams once.
+SPEAKER_00: The benefit is that it should be
+SPEAKER_00: Stop your body from a...
+SPEAKER_00: The risks include
+SPEAKER_00: blood sugar, increased blood sugar, and increased blood sugar.
+SPEAKER_00: insomnia or stomach upset.
+SPEAKER_00: though these are usually less likely in the show.
+SPEAKER_00: if you have any issues at all.
+SPEAKER_01: Will I have to take it from you?
+SPEAKER_00: The plan is to start with this dose and then as you improve, we'll work with a hematologist
+SPEAKER_00: The hematologist will be involved because they specialize in
+SPEAKER_01: Do I need to stop hiking or change anything in my routine?
+SPEAKER_00: It's best to take it easy until your energy is gone.
+SPEAKER_00: but gentle activity is far more important.
+SPEAKER_00: Hydration is also very important.
+SPEAKER_01: Will I need more blood tests? Yes, we'll repeat.
+SPEAKER_00: some blood tests in about a year.
+SPEAKER_00: or if you're jaundice worsens.
+SPEAKER_01: away.
+SPEAKER_01: Do I need to avoid any foods or anything while I'm at it?
+SPEAKER_00: No specific food restrictions for people.
+SPEAKER_00: but try to avoid excessive salt.
+SPEAKER_00: and take the medication with you.
+SPEAKER_00: That helps.
+SPEAKER_01: And what about my blood pressure meds?
+SPEAKER_01: I keep taking them? Yeah.
+SPEAKER_00: Continue your hydrochlorothiazide as you go.
+SPEAKER_00: there are any changes.
+SPEAKER_01: My plan is prednisone.
+SPEAKER_01: more blood tests in a week.
+SPEAKER_00: Exactly right. And as I said, if anything gets worse or you have any worries, please
+SPEAKER_01: Thank you, Dr. Thompson.
+SPEAKER_01: appreciate all your time. Sorry for all the questions.
+SPEAKER_00: Absolutely no need to apologize.
+SPEAKER_00: These are important questions.
+SPEAKER_00: Take care, Sarah.

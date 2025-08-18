@@ -1,0 +1,44 @@
+{
+  "patient": {
+    "name": "John Doe",
+    "date_of_birth": "1985-04-15",
+    "age": null,
+    "sex": null,
+    "medical_record_number": null
+  },
+  "encounter": {
+    "date_of_visit": null,
+    "primary_care_provider": null,
+    "personal_note": null
+  },
+  "clinical_note": {
+    "history_of_present_illness": "John Doe presents with a painful lump on the lateral aspect of his left foot that developed about five days ago after returning from a hike. The mass has been getting more sore and hurts most when walking. He reports swelling and pain localized to the area, with no fever, chills, or feeling generally unwell. He can move his toes and can put weight on the foot, though it is uncomfortable. He denies previous similar issues on his foot.",
+    "allergies": [
+      "No known allergies."
+    ],
+    "medications": [
+      "Ibuprofen as needed for pain."
+    ],
+    "previous_history": {
+      "past_medical_history": "Seasonal allergies",
+      "past_surgical_history": "Appendectomy, 2006",
+      "family_history": "Father with high blood pressure",
+      "social_history": null
+    },
+    "review_of_systems": "Positive for localized swelling and pain on the left foot. Denies fever, chills, or feeling generally unwell.",
+    "physical_exam": "On examination, there is a palpable, fluctuant mass on the dorsum of the left foot, lateral side, with mild tenderness noted upon palpation. The area is red and swollen. Sensation is intact over the top and sides of the foot. Dorsalis pedis and posterior tibial pulses are strong and equal to the other side. No involvement of tendons or joints noted.",
+    "vital_signs": {
+      "temperature": null,
+      "blood_pressure": null,
+      "heart_rate": null,
+      "respiratory_rate": null,
+      "oxygen_saturation": null
+    },
+    "assessment": {
+      "summary": "The patient has a boil (localized abscess) on the left foot, consistent with a localized bacterial infection.",
+      "icd10_code": null
+    },
+    "plan": "Perform incision and drainage of the abscess on the left foot. Send a sample of the pus for culture. Consider antibiotics based on culture results. Advise on wound care and signs of infection. Follow-up in about a week. Advise to avoid hiking until fully healed.",
+    "medical_decision_making": "The decision to perform incision and drainage is based on the fluctuant nature of the mass and localized infection. Antibiotic therapy will be considered based on culture findings and clinical course. The patient was counseled on risks and benefits of the procedure and post-procedure care."
+  }
+}

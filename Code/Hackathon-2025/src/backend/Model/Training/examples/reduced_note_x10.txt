@@ -1,0 +1,70 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-04-15
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness:
+
+John Doe presents with a painful lump on the lateral aspect of his left foot that developed about five days ago, after returning from a hike. The mass has been getting more sore and hurts most when walking. He reports swelling and pain localized to the area, with no fever, chills, or feeling generally unwell. He can move his toes and can put weight on the foot, though it is uncomfortable. He denies previous similar issues on his foot.
+
+Allergies:
+
+No known allergies.
+
+Medications:
+
+Ibuprofen as needed for pain.
+
+Previous History:
+
+Past Medical History: Seasonal allergies
+Past Surgical History: Appendectomy, 2006
+Family History: Father with high blood pressure
+Social History: null
+
+Review of Systems:
+
+Positive for localized swelling and pain on the left foot. Denies fever, chills, or feeling generally unwell.
+
+Physical Exam:
+
+null
+
+Vital Signs:
+Temperature: null
+Blood Pressure: null
+Heart Rate: null
+Respiratory Rate: null
+Oxygen Saturation: null
+
+On examination, there is a palpable, fluctuant mass on the dorsum of the left foot, lateral side, with mild tenderness noted upon palpation. The area is red and swollen. Sensation is intact over the top and sides of the foot. Dorsalis pedis and posterior tibial pulses are strong and equal to the other side. No involvement of tendons or joints noted.
+
+Assessment:
+
+The patient has a boil (localized abscess) on the left foot, consistent with a localized bacterial infection.
+
+Plan:
+
+Perform incision and drainage of the abscess on the left foot to alleviate pressure and promote drainage.
+Send a sample of the pus for culture.
+Consider antibiotics depending on the culture results and clinical course.
+Advise the patient on wound care and signs of infection to monitor post-procedure.
+Follow-up appointment in about a week to assess healing and response to treatment.
+Advise to avoid hiking until fully healed.
+
+Medical Decision Making:
+
+The decision to perform incision and drainage is based on the fluctuant nature of the mass and localized infection. Antibiotic therapy will be considered based on culture findings and clinical course. The patient was counseled on risks and benefits of the procedure and post-procedure care.

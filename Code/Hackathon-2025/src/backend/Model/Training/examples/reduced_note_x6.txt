@@ -1,0 +1,54 @@
+Clinical Note:
+
+Patient Name: Helen Carter
+
+Date of Birth: 1982-03-12
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Amanda Lin
+
+Personal note: Patient enjoys attending local art classes during the weekends.
+
+History of Present Illness: Helen Carter presents as a new patient with concerns about her weight and its impact on her health. She reports a history of increased joint pain and fatigue, which she attributes to her weight gain. She experiences discomfort in her knees and back. She has noted occasional shortness of breath, especially when climbing stairs or carrying groceries, but denies any chest pain or palpitations. She reports the joint pain started during the summer after she stopped walking at lunchtime. Sitting for a long time makes the pain worse; standing and moving sometimes helps, but walking can also worsen knee pain. The pain is mostly a dull ache, sometimes sharp with standing up quickly or climbing stairs. Fatigue worsens by the end of the workday. No swelling in legs or feet.
+
+Allergies: None
+
+Medications: None
+
+Previous History: 
+Past Medical History: Hypertension
+Past Surgical History: Appendectomy at age 23
+Family History: Mother had type 2 diabetes, Father has heart disease
+Social History: Non-smoker, occasionally drinks wine on weekends, lives with her partner
+
+Review of Systems: Reports joint pain, especially in knees and back, fatigue, and occasional shortness of breath. Denies chest pain, palpitations, swelling in legs or feet, numbness, tingling, or weakness.
+
+Physical Exam: null
+
+Vital Signs: 
+Temperature: null
+Blood Pressure: 145/90 mmHg
+Heart Rate: null
+Respiratory Rate: null
+Oxygen Saturation: null
+
+Physical exam findings include a calculated BMI of 42, classifying the patient as morbidly obese. On exam, both knees are tender at the medial joint line, with mild crepitus and decreased movement. There is clicking in the right knee with bending. Pulses at the feet are strong and equal, and there is no swelling. Neurological exam is normal (no numbness, tingling, or weakness). null
+
+Assessment: The patient presents with morbid obesity (BMI 42), hypertension, and early degenerative changes in the knees consistent with osteoarthritis. Family history is notable for type 2 diabetes (mother) and heart disease (father).
+
+Plan:
+
+Initiate antihypertensive therapy with Lisinopril 10 mg daily.
+Referral to a dietitian for nutritional counseling to assist with weight management.
+Order a baseline metabolic panel.
+Encourage regular physical activity tailored to the patient’s tolerance (e.g., walking, swimming, chair exercises).
+Schedule follow-up in 1 month to monitor blood pressure and discuss weight management progress.
+
+Medical Decision Making: null

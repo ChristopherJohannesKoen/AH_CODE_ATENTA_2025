@@ -1,0 +1,46 @@
+### Brain (doctor-style reasoning)
+**Patient Snapshot:**
+- Name: Christopher Kuhn
+- Age: 21 years
+- Gender: Male (inferred from name)
+- Ethnicity: White (inferred from transcript)
+
+**Key Symptoms & Timeline:**
+- Vomiting (described as "shitting out my mouth")
+- Hematemesis (coughing up blood)
+- Hematochezia (shitting blood)
+- High fever
+- Pregnancy (not typical for male, may indicate a misunderstanding or a serious condition)
+- Constant stomach cramps
+- Skin changes: green discoloration, peeling, and hair loss
+- Bloodshot eyes
+- Falling fingernails
+
+**Provisional Assessment & Differentials:**
+- The combination of severe gastrointestinal symptoms, fever, and skin changes suggests a possible infectious process, such as a severe gastrointestinal infection or toxic ingestion. 
+- Differential diagnoses may include:
+  - Gastroenteritis (viral or bacterial)
+  - Hemorrhagic fever (e.g., Ebola, if in endemic area)
+  - Severe liver disease (e.g., hepatitis)
+  - Toxic exposure (e.g., heavy metals)
+  - Autoimmune disorder (e.g., lupus with severe manifestations)
+
+**Suggested Field Inferences:**
+- Patient Age → 21 years (confidence=1.0; rationale: explicitly stated)
+- Patient Gender → Male (confidence=1.0; rationale: inferred from name)
+- Symptoms Duration → Acute (confidence=0.8; rationale: symptoms appear to be severe and recent)
+- Pregnancy Status → Not applicable (confidence=0.9; rationale: male patient, likely misunderstanding)
+
+**Missing Info / Follow-ups:**
+- Detailed medical history (previous illnesses, medications, allergies)
+- Recent travel history or exposure to infectious diseases
+- Family history of similar symptoms
+- Laboratory tests (CBC, liver function tests, stool analysis)
+
+**Risk Flags or Red Flags:**
+- Presence of blood in vomit and stool (indicates potential serious condition)
+- High fever and skin changes (may suggest systemic infection or severe illness)
+- Rapid deterioration of health (e.g., peeling skin, hair loss) raises concern for critical illness.
+
+### Transcript (role-tagged)
+Doctor: My name is Christopher Kuhn. I am 21 years old. I am white with black hair. I I shit out my mouth. I vomit out my shit. I coughing up blood. I'm shitting blood as well. I have a high fever. I'm pregnant. I have constant stomach cramps. My skin is green. My eyes are bloodshot. My hair is falling out. My skin is starting to peel off. My fingernails are falling out. My skin is starting to peel off. My skin is starting to peel off.

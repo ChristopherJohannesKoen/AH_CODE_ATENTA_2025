@@ -1,0 +1,38 @@
+{
+  "patient": {
+    "name": "",
+    "date_of_birth": "1965-07-19",
+    "age": "null",
+    "sex": "null",
+    "medical_record_number": "null"
+  },
+  "encounter": {
+    "date_of_visit": "1965-07-19",
+    "primary_care_provider": "Dr. Alan Grant",
+    "personal_note": "Patient enjoys traveling and recently visited Europe."
+  },
+  "clinical_note": {
+    "history_of_present_illness": "Evelyn Barnes is a null who presents with complaints of dizziness and lightheadedness. The symptoms commenced after she started a new diuretic medication, hydrochlorothiazide. She reports that the dizziness and lightheadedness became noticeable the second day after initiating the treatment, and that the symptoms are worse when standing up and improve when sitting or lying down. She denies fainting, chest pain, palpitations, headaches, vision changes, or trouble speaking.",
+    "previous_history": {
+      "past_medical_history": "Hypertension",
+      "past_surgical_history": "Appendectomy in 1987",
+      "family_history": "Evelyn Barnes is a null who presents with complaints of dizziness and lightheadedness. The symptoms commenced after she started a new diuretic medication, hydrochlorothiazide. She reports that the dizziness and lightheadedness became noticeable the second day after initiating the treatment, and that the symptoms are worse when standing up and improve when sitting or lying down. She denies fainting, chest pain, palpitations, headaches, vision changes, or trouble speaking.",
+      "social_history": "null"
+    },
+    "review_of_systems": "",
+    "physical_exam": "The patient appears alert and oriented, in no acute distress. Blood pressure measurements: Sitting - 98/60 mmHg, Standing - 90/58 mmHg. Heart rate: 72. Lungs are clear. Heart: normal rhythm, no murmurs. ECG: normal sinus rhythm, no significant changes. Respiratory: breathing comfortably. Other exam findings: null",
+    "vital_signs": {
+      "temperature": "null",
+      "blood_pressure": "The patient appears alert and oriented, in no acute distress. Blood pressure measurements: Sitting - 98/60 mmHg, Standing - 90/58 mmHg. Heart rate: 72. Lungs are clear. Heart: normal rhythm, no murmurs. ECG: normal sinus rhythm, no significant changes. Respiratory: breathing comfortably. Other exam findings: null",
+      "heart_rate": "72",
+      "respiratory_rate": "null",
+      "oxygen_saturation": "null"
+    },
+    "assessment": {
+      "summary": "null",
+      "icd10_code": "Hydrochlorothiazide"
+    },
+    "plan": "",
+    "medical_decision_making": "The medical decision-making process involved identifying the temporal relationship between starting hydrochlorothiazide and the onset of hypotension. The decision was made to reduce the dose to 12.5mg daily and initiate home blood pressure monitoring. Follow-up is planned in one week to reassess symptoms and treatment response."
+  }
+}

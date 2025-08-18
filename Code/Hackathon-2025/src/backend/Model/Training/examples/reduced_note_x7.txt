@@ -1,0 +1,49 @@
+Clinical Note:
+
+Patient Name: Evelyn Barnes
+
+Date of Birth: 1965-07-19
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Alan Grant
+
+Personal note: Patient enjoys traveling and recently visited Europe.
+
+History of Present Illness: Evelyn Barnes is a null who presents with complaints of dizziness and lightheadedness. The symptoms commenced after she started a new diuretic medication, hydrochlorothiazide. She reports that the dizziness and lightheadedness became noticeable the second day after initiating the treatment, and that the symptoms are worse when standing up and improve when sitting or lying down. She denies fainting, chest pain, palpitations, headaches, vision changes, or trouble speaking.
+
+Allergies: No known drug allergies.
+
+Medications: Hydrochlorothiazide
+
+Previous History: 
+Past Medical History: Hypertension
+Past Surgical History: Appendectomy in 1987
+Family History: Mother had hypertension and heart trouble, including a heart attack in her seventies.
+Social History: null
+
+Review of Systems: 
+Cardiovascular: Positive for lightheadedness, negative for chest pain or palpitations.
+Neurological: Negative for headaches, vision changes, or trouble speaking.
+General: null
+
+Physical Exam: The patient appears alert and oriented, in no acute distress. Blood pressure measurements: Sitting - 98/60 mmHg, Standing - 90/58 mmHg. Heart rate: 72. Lungs are clear. Heart: normal rhythm, no murmurs. ECG: normal sinus rhythm, no significant changes. Respiratory: breathing comfortably. Other exam findings: null
+
+Vital Signs: 
+Temperature: null
+Blood Pressure: Sitting - 98/60 mmHg, Standing - 90/58 mmHg
+Heart Rate: 72
+Respiratory Rate: null
+Oxygen Saturation: null
+
+Assessment: The patient is experiencing hypotension, likely drug-induced due to hydrochlorothiazide.
+
+Plan: Reduce the dose of hydrochlorothiazide to 12.5mg daily. Continue taking the medication in the morning. Begin home blood pressure monitoring twice daily (morning before taking the pill and evening) for one week. Record readings and notify the office if blood pressure is below 90/60 or if symptoms worsen (dizziness, fainting, chest pain). Follow up in one week.
+
+Medical Decision Making: The medical decision-making process involved identifying the temporal relationship between starting hydrochlorothiazide and the onset of hypotension. The decision was made to reduce the dose to 12.5mg daily and initiate home blood pressure monitoring. Follow-up is planned in one week to reassess symptoms and treatment response.

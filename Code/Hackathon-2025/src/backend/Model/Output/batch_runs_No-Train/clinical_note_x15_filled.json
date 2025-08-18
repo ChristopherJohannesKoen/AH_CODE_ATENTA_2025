@@ -1,0 +1,224 @@
+{
+  "filled": {
+    "patient": {
+      "name": "Emily Thompson",
+      "date_of_birth": null,
+      "age": 16,
+      "sex": "Female",
+      "medical_record_number": null
+    },
+    "encounter": {
+      "date_of_visit": null,
+      "primary_care_provider": "Dr. Rogers",
+      "personal_note": "Accompanied by mother."
+    },
+    "clinical_note": {
+      "history_of_present_illness": "Pain and swelling in left ankle after fall during dance contest. Immediate pain after landing awkwardly. Notable swelling on lateral side, persistent pain with movement and weight-bearing, limited range of motion, no bruising.",
+      "allergies": [],
+      "medications": [
+        "Ibuprofen"
+      ],
+      "previous_history": {
+        "past_medical_history": "Mild wrist sprain last year.",
+        "past_surgical_history": null,
+        "family_history": null,
+        "social_history": null
+      },
+      "review_of_systems": "No numbness, tingling, or pain radiating to other areas.",
+      "physical_exam": "Notable swelling on lateral ankle, tenderness on lateral malleolus, limited range of motion, no bruising.",
+      "vital_signs": {
+        "temperature": null,
+        "blood_pressure": null,
+        "heart_rate": null,
+        "respiratory_rate": null,
+        "oxygen_saturation": null
+      },
+      "assessment": {
+        "summary": "Left ankle sprain (likely lateral ankle sprain).",
+        "icd10_code": null
+      },
+      "plan": "RICE: Rest, ice, compression, elevation. Avoid weight for 48 hours, use crutches if needed. Ice every 2-3 hours, use elastic bandage for compression, elevate ankle. Follow-up in 2 weeks or sooner if symptoms worsen.",
+      "medical_decision_making": "X-rays show no fracture, just a sprain. Monitor for increased swelling, severe pain, or inability to move toes."
+    }
+  },
+  "evidence": {
+    "patient.name": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.date_of_birth": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.age": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.sex": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.medical_record_number": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.date_of_visit": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.primary_care_provider": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.personal_note": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.history_of_present_illness": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_medical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_surgical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.family_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.social_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.review_of_systems": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.physical_exam": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.temperature": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.blood_pressure": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.heart_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.respiratory_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.oxygen_saturation": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.summary": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.icd10_code": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.plan": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.medical_decision_making": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    }
+  },
+  "meta": {
+    "audio_path": "resources\\audio\\consultation_x15_combined_dialogue.mp3",
+    "template_path": "src\\backend\\Model\\Templates\\clinical_note_template.json",
+    "transcript_path": "src\\backend\\Model\\Output\\batch_runs\\clinical_note_x15_filled_transcript.txt",
+    "generated_at": "2025-08-16T15:17:19.200739Z",
+    "whisper_model": "base",
+    "diarization_enabled": false,
+    "roles": {
+      "SPEAKER_00": "Doctor"
+    },
+    "llm": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "brain": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "persona": "doctor"
+    },
+    "style_profile": {
+      "mode": 1,
+      "used": false,
+      "name": null,
+      "store": null
+    },
+    "bootstrap": {
+      "enabled": false,
+      "saved_labels": false,
+      "provider": null,
+      "model": null
+    }
+  }
+}

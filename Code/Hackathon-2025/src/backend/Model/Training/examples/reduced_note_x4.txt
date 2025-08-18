@@ -1,0 +1,41 @@
+Clinical Note:
+
+Patient Name: Johnathan Lee
+
+Date of Birth: 1984-05-16
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Miranda Patel
+
+Personal note: null
+
+History of Present Illness: Johnathan Lee presents with acute onset of left eye pain, redness, and blurring of vision, which started a few days ago after returning from a camping trip. The patient describes the symptoms as a red, painful eye with significant blurring of vision, associated with photophobia, tearing, and a foreign body sensation. He denies experiencing visual halos, headaches, or fever. He reports no previous episodes and does not wear contact lenses.
+
+Allergies: No allergies to medicines.
+
+Medications: Not on any prescriptions.
+
+Previous History: Past Medical History: null Past Surgical History: Appendectomy in 2005 Family History: Father with history of high blood pressure; no known family history of eye diseases or similar problems. Social History: null
+
+Review of Systems: Reports photophobia, tearing, and foreign body sensation in the affected eye. Denies visual halos, headaches, or fever. null
+
+Physical Exam: General appearance: null Vital Signs: null
+
+Detailed Findings:
+
+Conjunctival injection and corneal opacity noted in the left eye.
+Decreased visual acuity in the left eye, unable to read letters smaller than 20/80.
+Anterior chamber: no cells or flare. Lens: clear. No evidence of involvement at the back of the eye on fundoscopy. Right eye: normal.
+
+Assessment: Corneal ulcer in the left eye.
+
+Plan: Initiate treatment with topical antibiotic drops—Moxifloxacin 0.5%—administered every 2 hours in the affected eye, including overnight for the first 24 hours. Corneal scraping performed and sent for culture. Return for follow-up in 24 to 48 hours. Avoid rubbing the eye, eye makeup, contact lenses, swimming pools, and hot tubs. Rest as much as possible. Call if pain, redness, or vision worsens, or if new symptoms develop. May work as tolerated, avoiding eye strain.
+
+Medical Decision Making: null

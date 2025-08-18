@@ -1,0 +1,54 @@
+STYLE_GUIDE
+
+Global Principles:
+1. Tone: Use a professional and clinical tone throughout the document. Avoid colloquialisms or overly casual language.
+2. Brevity: Keep descriptions concise while ensuring clarity. Avoid unnecessary details that do not contribute to the clinical understanding.
+3. Tense: Use present tense for current conditions and past tense for historical information.
+4. Units: Use standard medical units (e.g., mmHg for blood pressure, bpm for heart rate, F for temperature).
+5. Date Formats: Use the format YYYY-MM-DD for all dates (e.g., 2023-10-20).
+6. List Formatting: Use bullet points for lists of allergies, medications, and previous history. Ensure each item is on a new line.
+
+Per-field Mapping Rules:
+- Patient Name: Directly extract from the transcript. Normalize to "First Last" format.
+- Date of Birth: Extract as is from the transcript; ensure format is YYYY-MM-DD.
+- Age: Calculate based on the date of birth and the date of visit. Use whole numbers (e.g., 38).
+- Sex: Extract directly from the transcript; normalize to "Male" or "Female."
+- Medical Record Number: Extract directly from the transcript; ensure it is presented as is.
+
+Encounter:
+- Date of Visit: Extract directly from the transcript; ensure format is YYYY-MM-DD.
+- Primary Care Provider: Extract directly from the transcript; normalize to "Dr. First Last."
+- Personal Note: Extract directly from the transcript; summarize if excessively verbose.
+
+Clinical Note:
+- History of Present Illness: Summarize key points from the transcript, focusing on symptoms and relevant history.
+- Allergies: List all allergies; if none are specified, use an empty array.
+- Medications: List all current medications; if none are specified, use an empty array.
+- Previous History: 
+  - Past Medical History: Summarize relevant medical history.
+  - Past Surgical History: Summarize relevant surgical history.
+  - Family History: Summarize relevant family medical history.
+  - Social History: Summarize relevant social context.
+- Review of Systems: Summarize findings; if none are specified, use null.
+- Physical Exam: Summarize key findings; if none are specified, use null.
+- Vital Signs: Extract each vital sign as specified; if any are missing, indicate null.
+- Assessment: Summarize the clinical assessment and include relevant ICD-10 codes.
+- Plan: Summarize the treatment plan; if none are specified, use null.
+- Medical Decision Making: Summarize the complexity and rationale for decisions made; if none are specified, use null.
+
+Defaults and Fallbacks:
+- If any field is absent in the transcript, default to null (e.g., if allergies are not mentioned, set allergies to an empty array).
+- For age, if the date of birth is missing, set to null.
+- If the personal note is excessively verbose, summarize to a single sentence capturing the essence.
+
+Acceptable Synonyms/Aliases:
+- "Primary Care Provider" can also be referred to as "Attending Physician" or "Doctor."
+- "Personal Note" may also be referred to as "Patient Interests" or "Patient Background."
+
+Strict Constraints to Avoid Hallucination:
+- If a field is not explicitly mentioned in the transcript, do not infer or assume values; set them to null.
+- Avoid using vague terms; be specific in descriptions and assessments.
+
+Tie-breakers:
+- If multiple values appear for a single field, prioritize the most recent or relevant information based on the context provided in the transcript.
+- For conflicting information, choose the detail that aligns with the majority of the clinical context or is most clinically relevant.

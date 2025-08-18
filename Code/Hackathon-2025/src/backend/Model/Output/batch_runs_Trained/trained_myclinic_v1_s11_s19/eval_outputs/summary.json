@@ -1,0 +1,56 @@
+{
+  "pairs_evaluated": 9,
+  "stems": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "missing_files": {
+    "in_gt_notes_only": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "in_gt_tx_only": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "in_model_json_only": [],
+    "in_model_tx_only": []
+  },
+  "macro_averages": {
+    "WER": 0.13555077777777777,
+    "BLEU4_tx": 0.7543034444444445,
+    "ROUGE_L_F1_tx": 0.9038529999999998,
+    "Jaccard_tx": 0.8952995555555555,
+    "BLEU4_note": 0.08507655555555556,
+    "ROUGE_L_F1_note": 0.3245174444444444,
+    "Jaccard_note": 0.3147456666666667,
+    "JSON_coverage": 0.4950933333333334
+  },
+  "artifacts": {
+    "per_pair_scores_csv": "src\\backend\\Model\\Output\\batch_runs\\trained_myclinic_v1_s11_s19\\eval_outputs\\per_pair_scores.csv",
+    "per_pair_section_matches_csv": "src\\backend\\Model\\Output\\batch_runs\\trained_myclinic_v1_s11_s19\\eval_outputs\\per_pair_section_matches.csv"
+  }
+}

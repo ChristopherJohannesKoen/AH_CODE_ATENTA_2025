@@ -1,0 +1,326 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #2f2f2f;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.status-badge {
+  margin-right: auto;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.status-badge.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-badge.edited {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Patient Sidebar */
+.patient-sidebar {
+  width: 250px;
+  height: fit-content;
+  background: white;
+  color: #2f2f2f;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.patient-info {
+  margin-top: 15px;
+}
+
+.patient-info p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.quick-actions {
+  margin-top: 30px;
+}
+
+/* Mic Button Styles */
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.mic {
+  width: auto;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.action-button:hover .mic {
+  transform: scale(1.1);
+}
+
+.mic-status {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* Mic ON state */
+.action-button.active {
+  background-color: rgba(220, 53, 69, 0.1);
+  border-radius: 50%;
+}
+/* Document Viewer */
+.document-viewer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollable-content {
+  flex: 1;
+  background: white;
+  color: #2f2f2f;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  overflow-y: auto;
+  max-height: 70vh;
+  width: 70vw;
+}
+
+.scrollable-content h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.scrollable-content pre {
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.approve-button, .edit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.approve-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.approve-button.active {
+  background-color: #218838;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5);
+}
+
+.edit-button {
+  position: relative;
+  background-color: #17a2b8;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #138496;
+}
+
+.edit-button.active {
+  background-color: #138496;
+  box-shadow: 0 0 0 2px rgba(23, 162, 184, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+  
+  .patient-sidebar {
+    width: auto;
+    height: min-content;
+  }
+}
+
+/* JSON Editor Styles */
+.json-editor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+}
+
+.json-textarea {
+  flex-grow: 1;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  white-space: pre;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+.json-textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.edit-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+.json-viewer {
+  position: relative;
+}
+
+
+.json-viewer pre {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.json-viewer .edit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Loading and Error States */
+.loading-screen, .error-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4CAF50;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

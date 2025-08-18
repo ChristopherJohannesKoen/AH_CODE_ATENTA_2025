@@ -1,0 +1,44 @@
+{
+  "patient": {
+    "name": "Angela",
+    "date_of_birth": null,
+    "age": null,
+    "sex": "female",
+    "medical_record_number": null
+  },
+  "encounter": {
+    "date_of_visit": null,
+    "primary_care_provider": null,
+    "personal_note": null
+  },
+  "clinical_note": {
+    "history_of_present_illness": "Angela is a newborn female, presented with yellowing of the skin, born at 38 weeks gestation to a mother with blood type O while Angela has blood type A. Admitted to NICU for management of hemolytic disease due to ABO incompatibility. Condition marked by jaundice on face and chest. Feeding not smooth, with irritability and decreased interest in feeding. No fever or respiratory distress reported.",
+    "allergies": [
+      "No known allergies."
+    ],
+    "medications": [
+      "None."
+    ],
+    "previous_history": {
+      "past_medical_history": null,
+      "past_surgical_history": null,
+      "family_history": "No known family history of blood or genetic problems.",
+      "social_history": null
+    },
+    "review_of_systems": "Positive for jaundice, irritability, and poor feeding. Negative for fever or respiratory distress.",
+    "physical_exam": "Physical exam findings include yellow skin, particularly over the face and chest. Sclerae are somewhat yellowish. Slightly enlarged liver edge on palpation. Heart and lung exams normal. Neurological exam appropriate for age.",
+    "vital_signs": {
+      "temperature": null,
+      "blood_pressure": null,
+      "heart_rate": "130 bpm",
+      "respiratory_rate": null,
+      "oxygen_saturation": null
+    },
+    "assessment": {
+      "summary": "Angela is diagnosed with hemolytic disease due to ABO incompatibility.",
+      "icd10_code": null
+    },
+    "plan": "- Continue phototherapy to manage elevated bilirubin levels.\n- Monitor bilirubin levels daily.\n- Maintain NICU care with ongoing observation for any signs of anemia or other concerns.\n- Arrange close follow-up with pediatrician after discharge.",
+    "medical_decision_making": "The decision for Angela's NICU admission was based on significant hyperbilirubinemia necessitating phototherapy. Regular monitoring is critical to prevent potential complications. Angela's current stability, along with the absence of other complications, supports continued NICU management to ensure safe progress and eventual improvement."
+  }
+}

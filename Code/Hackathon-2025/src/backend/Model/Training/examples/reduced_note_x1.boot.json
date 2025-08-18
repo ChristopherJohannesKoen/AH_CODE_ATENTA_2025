@@ -1,0 +1,38 @@
+{
+  "patient": {
+    "name": "",
+    "date_of_birth": "1985-08-14",
+    "age": "null",
+    "sex": "null",
+    "medical_record_number": "null"
+  },
+  "encounter": {
+    "date_of_visit": "1985-08-14",
+    "primary_care_provider": "Dr. Thompson",
+    "personal_note": "null"
+  },
+  "clinical_note": {
+    "history_of_present_illness": "Sarah Anderson presents to the clinic with complaints of fatigue and jaundice. She reports feeling very tired and noticing yellowing of her skin and eyes, which started about two weeks ago. Fatigue began after starting a new medication about a month ago, with symptoms becoming noticeable after about a week on the medication. She denies fevers, cough, recent infections, rashes, or itching. She notes her urine is darker than usual.",
+    "previous_history": {
+      "past_medical_history": "Hypertension",
+      "past_surgical_history": "Appendectomy in 2008",
+      "family_history": "Mother with rheumatoid arthritis; denies family history of blood disorders",
+      "social_history": "null"
+    },
+    "review_of_systems": "Positive for fatigue, yellowing of the eyes and skin, and dark urine. Negative for recent infections, fever, rashes, or itching.",
+    "physical_exam": "",
+    "vital_signs": {
+      "temperature": "null",
+      "blood_pressure": "Mother with rheumatoid arthritis; denies family history of blood disorders",
+      "heart_rate": "Patient appears fatigued.",
+      "respiratory_rate": "Cephalosporins",
+      "oxygen_saturation": "Patient appears fatigued."
+    },
+    "assessment": {
+      "summary": "",
+      "icd10_code": ""
+    },
+    "plan": "",
+    "medical_decision_making": "null"
+  }
+}

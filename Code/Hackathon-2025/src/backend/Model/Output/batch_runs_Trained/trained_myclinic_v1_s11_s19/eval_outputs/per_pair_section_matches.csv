@@ -1,0 +1,37 @@
+stem,gt_section,matched_model_section,ROUGE_L_R,ROUGE_L_P,ROUGE_L_F1
+11,clinical note,medications,0.052632,0.75,0.098361
+11,previous history,physical exam,0.037037,0.058824,0.045455
+11,review of systems,,0.0,0.0,0.0
+11,physical exam,,0.0,0.0,0.0
+11,vital signs,physical exam,0.125,0.588235,0.206186
+11,assessment,assessment,0.077922,0.75,0.141176
+12,clinical note,physical exam,0.084112,0.409091,0.139535
+12,previous history,physical exam,0.151899,0.545455,0.237624
+12,assessment,assessment,0.128205,0.454545,0.2
+12,plan,plan,0.114583,0.52381,0.188034
+13,clinical note,physical exam,0.067227,0.444444,0.116788
+13,previous history,physical exam,0.119403,0.888889,0.210526
+13,plan,plan,0.0625,0.5,0.111111
+14,clinical note,physical exam,0.056604,0.25,0.092308
+14,previous history,physical exam,0.056604,0.125,0.077922
+14,physical exam,physical exam,0.244444,0.458333,0.318841
+14,assessment,assessment,0.5,0.857143,0.631579
+14,plan,plan,0.311475,0.655172,0.422222
+15,clinical note,plan,0.09375,0.157895,0.117647
+15,previous history,physical exam,0.035714,0.047619,0.040816
+15,review of systems,physical exam,0.166667,0.190476,0.177778
+15,physical exam,physical exam,0.191176,0.619048,0.292135
+15,plan,plan,0.318841,0.77193,0.451282
+16,clinical note,physical exam,0.037037,0.571429,0.069565
+16,assessment,assessment,0.214286,0.5,0.3
+16,plan,plan,0.141026,0.6875,0.234043
+17,clinical note,physical exam,0.072727,0.275862,0.115108
+17,previous history,physical exam,0.102564,0.137931,0.117647
+17,physical exam,physical exam,0.191667,0.793103,0.308725
+17,plan,plan,0.21875,0.717949,0.335329
+18,clinical note,plan,0.03876,0.192308,0.064516
+18,previous history,plan,0.051724,0.115385,0.071429
+18,physical exam,physical exam,0.108911,0.733333,0.189655
+18,plan,plan,0.18,0.692308,0.285714
+19,clinical note,assessment,0.048246,0.846154,0.091286
+19,plan,plan,0.46875,0.517241,0.491803

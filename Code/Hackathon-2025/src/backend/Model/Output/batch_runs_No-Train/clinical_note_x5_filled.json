@@ -1,0 +1,235 @@
+{
+  "filled": {
+    "patient": {
+      "name": "Emma Thompson",
+      "date_of_birth": "1985-07-12",
+      "age": 38,
+      "sex": null,
+      "medical_record_number": null
+    },
+    "encounter": {
+      "date_of_visit": null,
+      "primary_care_provider": "Dr. Adler",
+      "personal_note": null
+    },
+    "clinical_note": {
+      "history_of_present_illness": "Weight gain of approximately 1 pound per month over the past 7 months, increased fatigue, no changes in appetite or digestion.",
+      "allergies": [],
+      "medications": [
+        {
+          "name": "Triptonol",
+          "dosage": "50 mg",
+          "route": "oral",
+          "frequency": "daily"
+        },
+        {
+          "name": "Multivitamins",
+          "dosage": null,
+          "route": null,
+          "frequency": null
+        }
+      ],
+      "previous_history": {
+        "past_medical_history": "Depression",
+        "past_surgical_history": "Appendix removal",
+        "family_history": "Mother has thyroid problems",
+        "social_history": "Non-smoker, occasional alcohol use (wine on weekends)"
+      },
+      "review_of_systems": "No increased thirst, urination, or temperature sensitivity. Mood generally stable.",
+      "physical_exam": "BMI 32, no leg swelling, normal thyroid size, healthy blood pressure and heart rate.",
+      "vital_signs": {
+        "temperature": null,
+        "blood_pressure": null,
+        "heart_rate": null,
+        "respiratory_rate": null,
+        "oxygen_saturation": null
+      },
+      "assessment": {
+        "summary": "Weight gain likely secondary to triptonol use.",
+        "icd10_code": null
+      },
+      "plan": "Refer to psychiatrist for medication review, continue current medications, track weight weekly, follow up after psychiatric consult.",
+      "medical_decision_making": "Monitor for sudden weight increase or new symptoms."
+    }
+  },
+  "evidence": {
+    "patient.name": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.date_of_birth": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.age": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.sex": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.medical_record_number": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.date_of_visit": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.primary_care_provider": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.personal_note": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.history_of_present_illness": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_medical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_surgical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.family_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.social_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.review_of_systems": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.physical_exam": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.temperature": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.blood_pressure": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.heart_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.respiratory_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.oxygen_saturation": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.summary": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.icd10_code": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.plan": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.medical_decision_making": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    }
+  },
+  "meta": {
+    "audio_path": "resources\\audio\\consultation_x5_combined_dialogue.mp3",
+    "template_path": "src\\backend\\Model\\Templates\\clinical_note_template.json",
+    "transcript_path": "src\\backend\\Model\\Output\\batch_runs\\clinical_note_x5_filled_transcript.txt",
+    "generated_at": "2025-08-16T15:05:36.794852Z",
+    "whisper_model": "base",
+    "diarization_enabled": false,
+    "roles": {
+      "SPEAKER_00": "Doctor"
+    },
+    "llm": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "brain": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "persona": "doctor"
+    },
+    "style_profile": {
+      "mode": 1,
+      "used": false,
+      "name": null,
+      "store": null
+    },
+    "bootstrap": {
+      "enabled": false,
+      "saved_labels": false,
+      "provider": null,
+      "model": null
+    }
+  }
+}

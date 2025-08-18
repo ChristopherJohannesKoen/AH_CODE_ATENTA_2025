@@ -1,0 +1,226 @@
+{
+  "filled": {
+    "patient": {
+      "name": "Jack Thompson",
+      "date_of_birth": "1968-03-14",
+      "age": 55,
+      "sex": null,
+      "medical_record_number": null
+    },
+    "encounter": {
+      "date_of_visit": null,
+      "primary_care_provider": null,
+      "personal_note": null
+    },
+    "clinical_note": {
+      "history_of_present_illness": "Sudden chest pain, shortness of breath, and lightheadedness while playing basketball. Increased sweating, no nausea.",
+      "allergies": [
+        "Aspirin (hives)"
+      ],
+      "medications": [
+        "Lisinopril 10 mg daily"
+      ],
+      "previous_history": {
+        "past_medical_history": "Hypertension",
+        "past_surgical_history": "Appendectomy in 1995",
+        "family_history": "Father had a heart attack at age 60",
+        "social_history": "Non-smoker, occasional alcohol use"
+      },
+      "review_of_systems": null,
+      "physical_exam": "Heart rate 95 bpm, regular rhythm, no murmurs. Lungs clear bilaterally, oxygen saturation 96% on room air.",
+      "vital_signs": {
+        "temperature": null,
+        "blood_pressure": null,
+        "heart_rate": 95,
+        "respiratory_rate": null,
+        "oxygen_saturation": 96
+      },
+      "assessment": {
+        "summary": "Acute non-ST elevation anterior wall myocardial infarction (NSTEMI).",
+        "icd10_code": null
+      },
+      "plan": "Stabilization with oxygen and nitroglycerin. Monitor closely, adjust medications, and plan angiography.",
+      "medical_decision_making": "Immediate treatment necessary due to elevated troponin levels and EKG changes indicating myocardial stress."
+    }
+  },
+  "evidence": {
+    "patient.name": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.date_of_birth": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.age": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.sex": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.medical_record_number": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.date_of_visit": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.primary_care_provider": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.personal_note": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.history_of_present_illness": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_medical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_surgical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.family_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.social_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.review_of_systems": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.physical_exam": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.temperature": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.blood_pressure": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.heart_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.respiratory_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.oxygen_saturation": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.summary": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.icd10_code": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.plan": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.medical_decision_making": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    }
+  },
+  "meta": {
+    "audio_path": "resources\\audio\\consultation_x11_combined_dialogue.mp3",
+    "template_path": "src\\backend\\Model\\Templates\\clinical_note_template.json",
+    "transcript_path": "src\\backend\\Model\\Output\\batch_runs\\trained_myclinic_v1_s11_s19\\clinical_note_x11_filled_transcript.txt",
+    "generated_at": "2025-08-16T15:56:06.283286Z",
+    "whisper_model": "base",
+    "diarization_enabled": false,
+    "roles": {
+      "SPEAKER_00": "Doctor"
+    },
+    "llm": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "brain": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "persona": "doctor"
+    },
+    "style_profile": {
+      "mode": 3,
+      "used": true,
+      "name": "myclinic_v1",
+      "store": "src/backend/Model/Trained/style_profiles"
+    },
+    "bootstrap": {
+      "enabled": false,
+      "saved_labels": false,
+      "provider": null,
+      "model": null
+    }
+  }
+}
