@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #2f2f2f;
 }
 
@@ -71,7 +71,7 @@ body {
   color: #2f2f2f;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .patient-info {
@@ -132,7 +132,7 @@ body {
   color: #2f2f2f;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   overflow-y: auto;
   max-height: 70vh;
   width: 70vw;
@@ -145,7 +145,7 @@ body {
 
 .scrollable-content pre {
   white-space: pre-wrap;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   line-height: 1.5;
   background: #f8f9fa;
   padding: 15px;
@@ -160,7 +160,8 @@ body {
   justify-content: flex-end;
 }
 
-.approve-button, .edit-button {
+.approve-button,
+.edit-button {
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -203,7 +204,7 @@ body {
   .main-content {
     flex-direction: column;
   }
-  
+
   .patient-sidebar {
     width: auto;
     height: min-content;
@@ -220,7 +221,7 @@ body {
 
 .json-textarea {
   flex-grow: 1;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 14px;
   padding: 15px;
   border: 1px solid #ddd;
@@ -234,7 +235,7 @@ body {
 
 .json-textarea:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #4caf50;
   box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
 }
 
@@ -245,7 +246,7 @@ body {
 }
 
 .save-button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -276,7 +277,6 @@ body {
   position: relative;
 }
 
-
 .json-viewer pre {
   background-color: #f8f8f8;
   padding: 15px;
@@ -291,7 +291,8 @@ body {
 }
 
 /* Loading and Error States */
-.loading-screen, .error-screen {
+.loading-screen,
+.error-screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -302,7 +303,7 @@ body {
 
 .loader {
   border: 5px solid #f3f3f3;
-  border-top: 5px solid #4CAF50;
+  border-top: 5px solid #4caf50;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -311,14 +312,18 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .error-screen button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 4px;

@@ -23,19 +23,21 @@ from sklearn.metrics import silhouette_score
 
 # ---------------- Config ----------------
 SAMPLE_RATE = 16000
-WHISPER_MODEL = "small"         # "base" | "small" | "medium" | "large-v3"
+WHISPER_MODEL = "small"  # "base" | "small" | "medium" | "large-v3"
 TARGET_NUM_SPEAKERS: Optional[int] = 2  # set None to auto-select (1..4)
-FRAME_SEC = 0.5                 # analysis window
-HOP_SEC = 0.25                  # hop between windows
-MIN_SPEECH_SEC = 0.8            # drop ultra-short segments
-SILENCE_PAD_SEC = 0.2           # pad around boundaries
+FRAME_SEC = 0.5  # analysis window
+HOP_SEC = 0.25  # hop between windows
+MIN_SPEECH_SEC = 0.8  # drop ultra-short segments
+SILENCE_PAD_SEC = 0.2  # pad around boundaries
 # ----------------------------------------
 
 
 def get_device() -> str:
     if torch.cuda.is_available():
         return "cuda"
-    if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():  # macOS only
+    if (
+        hasattr(torch.backends, "mps") and torch.backends.mps.is_available()
+    ):  # macOS only
         return "mps"
     return "cpu"
 
@@ -44,9 +46,10 @@ def load_audio_ffmpeg(audio_file: Path, sample_rate: int = SAMPLE_RATE) -> np.nd
     """Load audio via ffmpeg -> mono 16 kHz float32 [-1, 1]."""
     try:
         out, err = (
-            ffmpeg
-            .input(str(audio_file), threads=0)
-            .output("pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}")
+            ffmpeg.input(str(audio_file), threads=0)
+            .output(
+                "pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}"
+            )
             .run(capture_stdout=True, capture_stderr=True)
         )
         audio = np.frombuffer(out, np.int16).astype(np.float32) / 32768.0
@@ -66,8 +69,8 @@ def energy_vad(wave: np.ndarray, sr: int, frame_sec: float, hop_sec: float):
 
     energies, starts = [], []
     for start in range(0, max(1, len(wave) - frame_len + 1), hop_len):
-        chunk = wave[start:start + frame_len]
-        energy = float(np.mean(chunk ** 2)) if len(chunk) else 0.0
+        chunk = wave[start : start + frame_len]
+        energy = float(np.mean(chunk**2)) if len(chunk) else 0.0
         energies.append(energy)
         starts.append(start)
 
@@ -77,7 +80,9 @@ def energy_vad(wave: np.ndarray, sr: int, frame_sec: float, hop_sec: float):
     return speech_mask, np.array(starts), frame_len, hop_len
 
 
-def merge_mask_to_segments(speech_mask, starts, frame_len, hop_len, sr, min_speech_sec, pad_sec):
+def merge_mask_to_segments(
+    speech_mask, starts, frame_len, hop_len, sr, min_speech_sec, pad_sec
+):
     """Convert frame-level mask to merged [start,end] segments in seconds."""
     segments = []
     in_speech = False
@@ -122,12 +127,11 @@ def merge_mask_to_segments(speech_mask, starts, frame_len, hop_len, sr, min_spee
 def extract_embeddings(wave: np.ndarray, sr: int, segments, device: str):
     """One ECAPA embedding per segment (avg over subwindows for long segments)."""
     classifier = EncoderClassifier.from_hparams(
-        source="speechbrain/spkrec-ecapa-voxceleb",
-        run_opts={"device": device}
+        source="speechbrain/spkrec-ecapa-voxceleb", run_opts={"device": device}
     )
     embeddings = []
-    for (s, e) in segments:
-        seg = wave[int(s * sr):int(e * sr)]
+    for s, e in segments:
+        seg = wave[int(s * sr) : int(e * sr)]
         if len(seg) == 0:
             embeddings.append(np.zeros((192,), dtype=np.float32))
             continue
@@ -142,25 +146,37 @@ def extract_embeddings(wave: np.ndarray, sr: int, segments, device: str):
             chunk_embs.append(emb_t.detach().cpu().numpy())
         else:
             for st in range(0, len(seg) - win + 1, hop):
-                chunk = seg[st:st + win]
+                chunk = seg[st : st + win]
                 wav_t = torch.from_numpy(chunk).float().unsqueeze(0).to(device)
                 with torch.no_grad():
                     emb_t = classifier.encode_batch(wav_t).squeeze(0).mean(dim=0)
                 chunk_embs.append(emb_t.detach().cpu().numpy())
 
-        emb = np.mean(np.stack(chunk_embs, axis=0), axis=0) if chunk_embs else np.zeros((192,), dtype=np.float32)
+        emb = (
+            np.mean(np.stack(chunk_embs, axis=0), axis=0)
+            if chunk_embs
+            else np.zeros((192,), dtype=np.float32)
+        )
         embeddings.append(emb.astype(np.float32))
-    return np.stack(embeddings, axis=0) if embeddings else np.zeros((0, 192), dtype=np.float32)
+    return (
+        np.stack(embeddings, axis=0)
+        if embeddings
+        else np.zeros((0, 192), dtype=np.float32)
+    )
 
 
 def _cluster_labels(embeddings: np.ndarray, n_clusters: int):
     """Compat for sklearn old/new APIs (metric vs affinity)."""
     try:
         # sklearn >= 1.2
-        model = AgglomerativeClustering(n_clusters=n_clusters, linkage="ward", metric="euclidean")
+        model = AgglomerativeClustering(
+            n_clusters=n_clusters, linkage="ward", metric="euclidean"
+        )
     except TypeError:
         # older sklearn
-        model = AgglomerativeClustering(n_clusters=n_clusters, linkage="ward", affinity="euclidean")
+        model = AgglomerativeClustering(
+            n_clusters=n_clusters, linkage="ward", affinity="euclidean"
+        )
     return model.fit_predict(embeddings)
 
 
@@ -206,9 +222,18 @@ def diarize_local(audio_file: Path, target_speakers: Optional[int], device: str)
     """
     wave = load_audio_ffmpeg(audio_file, sample_rate=SAMPLE_RATE)
 
-    speech_mask, starts, frame_len, hop_len = energy_vad(wave, SAMPLE_RATE, FRAME_SEC, HOP_SEC)
-    segments = merge_mask_to_segments(speech_mask, starts, frame_len, hop_len,
-                                      SAMPLE_RATE, MIN_SPEECH_SEC, SILENCE_PAD_SEC)
+    speech_mask, starts, frame_len, hop_len = energy_vad(
+        wave, SAMPLE_RATE, FRAME_SEC, HOP_SEC
+    )
+    segments = merge_mask_to_segments(
+        speech_mask,
+        starts,
+        frame_len,
+        hop_len,
+        SAMPLE_RATE,
+        MIN_SPEECH_SEC,
+        SILENCE_PAD_SEC,
+    )
     if not segments:
         segments = [(0.0, len(wave) / SAMPLE_RATE)]
 
@@ -228,7 +253,9 @@ def diarize_local(audio_file: Path, target_speakers: Optional[int], device: str)
         if lab == last_lab and (s - cur_e) < 0.3:
             cur_e = e
         else:
-            diar.append({"start": cur_s, "end": cur_e, "label": f"SPEAKER_{last_lab:02d}"})
+            diar.append(
+                {"start": cur_s, "end": cur_e, "label": f"SPEAKER_{last_lab:02d}"}
+            )
             last_lab = lab
             cur_s, cur_e = s, e
     if cur_s is not None:
@@ -258,7 +285,7 @@ def transcribe_audio_with_diarization(audio_file: Path, output_file: Path):
         chunk = whisper.pad_or_trim(np.array(chunk))
         mel = whisper.log_mel_spectrogram(chunk).to(device, non_blocking=True)
 
-        use_fp16 = (device == "cuda")
+        use_fp16 = device == "cuda"
         options = whisper.DecodingOptions(fp16=use_fp16)
         result = whisper.decode(model, mel, options)
 
@@ -279,8 +306,7 @@ def convert_mp3_to_wav(input_file: Path, output_file: Path):
     """Convert mp3 -> wav (mono, 16k) to be consistent with processing."""
     try:
         (
-            ffmpeg
-            .input(str(input_file))
+            ffmpeg.input(str(input_file))
             .output(str(output_file), ac=1, ar=SAMPLE_RATE)
             .overwrite_output()
             .run()
@@ -311,5 +337,5 @@ def main(audio_path: str, output_path: str):
 if __name__ == "__main__":
     main(
         r"resources\audio\consultation_x1_combined_dialogue.mp3",
-        r"src\Model\AudToSpeach\V1\transcription_output-M1.txt"
+        r"src\Model\AudToSpeach\V1\transcription_output-M1.txt",
     )
