@@ -1,0 +1,1 @@
+$env:OPENAI_API_KEY = "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"
