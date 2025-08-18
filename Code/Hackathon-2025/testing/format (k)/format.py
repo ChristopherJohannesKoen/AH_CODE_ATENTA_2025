@@ -2,7 +2,7 @@ import re
 import spacy
 
 try:
-    nlp = spacy.load("en_core_sci_sm")  #get scispacy
+    nlp = spacy.load("en_core_sci_sm")  # get scispacy
 except:
     nlp = spacy.load("en_core_web_sm")
 
@@ -11,18 +11,28 @@ raw_patterns = {
     "Age": r"Age[:\-]?\s*(\d+)",
     "Gender": r"(?:Gender|Sex)[:\-]?\s*(Male|Female|Other)",
     "Medications": r"Medications[:\-]?\s*(.*)",
-    "Allergies": r"Allergies[:\-]?\s*(.*)"
+    "Allergies": r"Allergies[:\-]?\s*(.*)",
 }
 
 compiled_patterns = {k: re.compile(v, re.IGNORECASE) for k, v in raw_patterns.items()}
 
+
 def parse_clinical_text(text):
-    structured_data = {k: None for k in [
-        "Patient Name", "Age", "Gender",
-        "Chief Complaint", "History of Present Illness",
-        "Past Medical History", "Medications", "Allergies",
-        "Assessment", "Plan"
-    ]}
+    structured_data = {
+        k: None
+        for k in [
+            "Patient Name",
+            "Age",
+            "Gender",
+            "Chief Complaint",
+            "History of Present Illness",
+            "Past Medical History",
+            "Medications",
+            "Allergies",
+            "Assessment",
+            "Plan",
+        ]
+    }
 
     for key, pattern in compiled_patterns.items():
         match = pattern.search(text)
