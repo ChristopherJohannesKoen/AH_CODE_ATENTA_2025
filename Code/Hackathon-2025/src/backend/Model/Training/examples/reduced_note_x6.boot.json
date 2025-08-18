@@ -1,0 +1,40 @@
+{
+  "patient": {
+    "name": "Helen Carter",
+    "date_of_birth": "1982-03-12",
+    "age": null,
+    "sex": null,
+    "medical_record_number": null
+  },
+  "encounter": {
+    "date_of_visit": null,
+    "primary_care_provider": "Dr. Amanda Lin",
+    "personal_note": "Patient enjoys attending local art classes during the weekends."
+  },
+  "clinical_note": {
+    "history_of_present_illness": "Helen Carter presents as a new patient with concerns about her weight and its impact on her health. She reports increased joint pain and fatigue attributed to weight gain, with discomfort in knees and back. Occasional shortness of breath noted, especially when climbing stairs or carrying groceries. Denies chest pain or palpitations. Joint pain started after stopping lunchtime walks; worsens with sitting, improves with standing/moving, but walking can worsen knee pain. Pain is mostly dull, sometimes sharp with quick movements. Fatigue worsens by end of workday. No swelling in legs or feet.",
+    "allergies": [],
+    "medications": [],
+    "previous_history": {
+      "past_medical_history": "Hypertension",
+      "past_surgical_history": "Appendectomy at age 23",
+      "family_history": "Mother had type 2 diabetes, Father has heart disease",
+      "social_history": "Non-smoker, occasionally drinks wine on weekends, lives with her partner"
+    },
+    "review_of_systems": "Reports joint pain, fatigue, and occasional shortness of breath. Denies chest pain, palpitations, swelling in legs or feet, numbness, tingling, or weakness.",
+    "physical_exam": "Physical exam findings include a calculated BMI of 42, classifying the patient as morbidly obese. Both knees tender at medial joint line, with mild crepitus and decreased movement. Clicking in right knee with bending. Pulses at feet strong and equal, no swelling. Neurological exam normal (no numbness, tingling, or weakness).",
+    "vital_signs": {
+      "temperature": null,
+      "blood_pressure": "145/90 mmHg",
+      "heart_rate": null,
+      "respiratory_rate": null,
+      "oxygen_saturation": null
+    },
+    "assessment": {
+      "summary": "Morbid obesity (BMI 42), hypertension, early degenerative changes in knees consistent with osteoarthritis. Family history notable for type 2 diabetes (mother) and heart disease (father).",
+      "icd10_code": null
+    },
+    "plan": "Initiate antihypertensive therapy with Lisinopril 10 mg daily. Referral to dietitian for nutritional counseling for weight management. Order baseline metabolic panel. Encourage regular physical activity tailored to tolerance (e.g., walking, swimming, chair exercises). Schedule follow-up in 1 month to monitor blood pressure and discuss weight management progress.",
+    "medical_decision_making": null
+  }
+}

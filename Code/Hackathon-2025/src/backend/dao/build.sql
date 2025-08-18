@@ -1,0 +1,32 @@
+## Deprecated, moved to non-relational schema
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS session;
+CREATE TABLE session (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	title TEXT NOT NULL UNIQUE,
+	type_id INTEGER NOT NULL,
+	date_time TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+DROP TABLE IF EXISTS session_items;
+CREATE TABLE session_items (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	session_id INTEGER NOT NULL,
+	user_id INTEGER NOT NULL,
+	subtype_id INTEGER NOT NULL,
+	description TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS session_xref;
+CREATE TABLE session_xref (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	session_id INTEGER NOT NULL,
+	user_id INTEGER NOT NULL,
+	role TEXT NOT NULL
+);

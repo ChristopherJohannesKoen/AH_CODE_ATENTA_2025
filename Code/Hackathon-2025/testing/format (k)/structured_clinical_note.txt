@@ -1,0 +1,11 @@
+--- Structured Clinical Note ---
+Patient Name: Not specified
+Age: Not specified
+Gender: Not specified
+Chief Complaint: severe chest pain radiating to the left arm, associated with sweating and nausea
+History of Present Illness: Not specified
+Past Medical History: hypertension and type 2 diabetes
+Medications: Not specified
+Allergies: Not specified
+Assessment: Not specified
+Plan: Not specified

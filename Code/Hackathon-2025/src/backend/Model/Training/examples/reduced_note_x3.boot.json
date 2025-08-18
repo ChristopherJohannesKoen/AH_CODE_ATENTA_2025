@@ -1,0 +1,38 @@
+{
+  "patient": {
+    "name": "",
+    "date_of_birth": "null",
+    "age": "three weeks",
+    "sex": "null",
+    "medical_record_number": "null"
+  },
+  "encounter": {
+    "date_of_visit": "null",
+    "primary_care_provider": "null",
+    "personal_note": "null"
+  },
+  "clinical_note": {
+    "history_of_present_illness": "Eli Thompson is a three-week-old male presented by his parents, who are concerned about visual abnormalities and the unusual appearance of his eyes. The parents observed that Eli's right eye appears larger than the left, and there is excessive tearing from both eyes. He was born full-term via vaginal delivery. null",
+    "previous_history": {
+      "past_medical_history": "None",
+      "past_surgical_history": "None",
+      "family_history": "No known family history of eye diseases.",
+      "social_history": "null"
+    },
+    "review_of_systems": "Positive for excessive tearing and eye enlargement. No respiratory distress, feeding issues, or fever noted. null",
+    "physical_exam": "Physical exam highlights include corneal enlargement in both eyes with buphthalmos more pronounced on the right side, and elevated intraocular pressure upon palpation. An optic nerve abnormality (cupping) was noted on fundoscopic examination.",
+    "vital_signs": {
+      "temperature": "null",
+      "blood_pressure": "Physical exam highlights include corneal enlargement in both eyes with buphthalmos more pronounced on the right side, and elevated intraocular pressure upon palpation. An optic nerve abnormality (cupping) was noted on fundoscopic examination.",
+      "heart_rate": "null",
+      "respiratory_rate": "Positive for excessive tearing and eye enlargement. No respiratory distress, feeding issues, or fever noted. null",
+      "oxygen_saturation": "None"
+    },
+    "assessment": {
+      "summary": "null",
+      "icd10_code": ""
+    },
+    "plan": "",
+    "medical_decision_making": "null"
+  }
+}

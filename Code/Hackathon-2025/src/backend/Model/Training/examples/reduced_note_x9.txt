@@ -1,0 +1,52 @@
+Clinical Note:
+
+Patient Name: Susie Thompson
+
+Date of Birth: 1983-11-15
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: Training for a marathon and enjoys photography.
+
+History of Present Illness: Susie Thompson reports waking up on her birthday with an unexpected increase in acne on her face, which she associates with feelings from her teenage years. Additionally, she has a lifelong self-consciousness about an unchanged birthmark on her left cheek.
+
+Allergies: No known allergies.
+
+Medications: None
+
+Previous History: 
+Past Medical History: Mild allergies sometimes.
+Past Surgical History: Appendectomy a while back.
+Family History: No known history of skin conditions in family.
+Social History: null
+
+Review of Systems: No fever or other systemic symptoms. Skin: Positive for new-onset acne and a birthmark on the left cheek.
+
+Physical Exam: 
+General: null
+Vital Signs: null
+
+Physical Exam Findings:
+
+Presence of multiple closed comedones and a few red, inflamed papules on the forehead and cheeks. On the left cheek, the birthmark is well-demarcated, not raised, and has not changed in size or color. No cystic nodules or signs of infection. No lesions elsewhere on the face or neck. The birthmark appears consistent with a congenital nevus, stable and benign in appearance, with no irregular borders, color changes, or concerning features.
+
+Assessment:
+
+Facial birthmark, likely nevus (ICD-10: null).
+Adult-onset acne (ICD-10: null).
+
+Plan:
+
+Prescribe topical retinoid treatment for acne management; instruct patient to apply every night.
+Reassure the patient about the benign nature of the birthmark.
+Schedule follow-up to monitor the response to acne treatment.
+
+Medical Decision Making: null

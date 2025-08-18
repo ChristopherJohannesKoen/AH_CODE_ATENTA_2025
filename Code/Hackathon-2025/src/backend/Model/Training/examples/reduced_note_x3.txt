@@ -1,0 +1,45 @@
+Clinical Note:
+
+Patient Name: Eli Thompson
+
+Date of Birth: null
+
+Age: three weeks
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness: Eli Thompson is a three-week-old male presented by his parents, who are concerned about visual abnormalities and the unusual appearance of his eyes. The parents observed that Eli's right eye appears larger than the left, and there is excessive tearing from both eyes. He was born full-term via vaginal delivery. null
+
+Allergies: None that we know of—he’s so young.
+
+Medications: None
+
+Previous History: 
+Past Medical History: Born full-term. null
+Past Surgical History: None
+Family History: No known family history of eye diseases.
+Social History: null
+
+Review of Systems: Positive for excessive tearing and eye enlargement. No respiratory distress, feeding issues, or fever noted. null
+
+Physical Exam: 
+Eli appears well. null
+Vital Signs: null
+Physical exam highlights include corneal enlargement in both eyes with buphthalmos more pronounced on the right side, and elevated intraocular pressure upon palpation. An optic nerve abnormality (cupping) was noted on fundoscopic examination.
+
+Assessment: These findings point to congenital glaucoma, likely affecting both eyes. null
+
+Plan: 
+- Initiate Timolol 0.5% eye drops, one drop in each eye twice a day.
+- Ocular ultrasound ordered.
+- Urgent referral to pediatric ophthalmologist.
+
+Medical Decision Making: null

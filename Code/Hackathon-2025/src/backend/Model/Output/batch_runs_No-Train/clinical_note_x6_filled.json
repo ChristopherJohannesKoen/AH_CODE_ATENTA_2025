@@ -1,0 +1,229 @@
+{
+  "filled": {
+    "patient": {
+      "name": "Helen Carter",
+      "date_of_birth": "1982-03-12",
+      "age": 41,
+      "sex": "Female",
+      "medical_record_number": null
+    },
+    "encounter": {
+      "date_of_visit": null,
+      "primary_care_provider": "Dr. Lynn",
+      "personal_note": "Enjoys art classes on weekends."
+    },
+    "clinical_note": {
+      "history_of_present_illness": "Weight gain over several years, joint pain in knees and back, increased fatigue, occasional shortness of breath with exertion.",
+      "allergies": [],
+      "medications": [
+        {
+          "name": "Lisinopril",
+          "dosage": "10 mg",
+          "route": "oral",
+          "frequency": "daily"
+        }
+      ],
+      "previous_history": {
+        "past_medical_history": "Hypertension.",
+        "past_surgical_history": "Appendectomy at age 23.",
+        "family_history": "Mother had type 2 diabetes, father has heart disease.",
+        "social_history": "Lives with partner, drinks wine occasionally, non-smoker."
+      },
+      "review_of_systems": "No chest pain, palpitations, or swelling in legs/feet.",
+      "physical_exam": "BMI 42, blood pressure 145/90 mmHg, tenderness in both knees, mild crepitus, decreased range of motion in knees.",
+      "vital_signs": {
+        "temperature": null,
+        "blood_pressure": "145/90 mmHg",
+        "heart_rate": null,
+        "respiratory_rate": null,
+        "oxygen_saturation": null
+      },
+      "assessment": {
+        "summary": "Morbid obesity contributing to hypertension and osteoarthritis.",
+        "icd10_code": null
+      },
+      "plan": "Start Lisinopril 10 mg daily, refer to dietician, order metabolic panel, follow-up in one month.",
+      "medical_decision_making": "Address weight loss, joint pain management, and monitor blood pressure."
+    }
+  },
+  "evidence": {
+    "patient.name": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.date_of_birth": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.age": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.sex": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.medical_record_number": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.date_of_visit": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.primary_care_provider": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.personal_note": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.history_of_present_illness": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_medical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_surgical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.family_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.social_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.review_of_systems": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.physical_exam": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.temperature": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.blood_pressure": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.heart_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.respiratory_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.oxygen_saturation": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.summary": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.icd10_code": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.plan": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.medical_decision_making": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    }
+  },
+  "meta": {
+    "audio_path": "resources\\audio\\consultation_x6_combined_dialogue.mp3",
+    "template_path": "src\\backend\\Model\\Templates\\clinical_note_template.json",
+    "transcript_path": "src\\backend\\Model\\Output\\batch_runs\\clinical_note_x6_filled_transcript.txt",
+    "generated_at": "2025-08-16T15:06:50.676115Z",
+    "whisper_model": "base",
+    "diarization_enabled": false,
+    "roles": {
+      "SPEAKER_00": "Doctor"
+    },
+    "llm": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "brain": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "persona": "doctor"
+    },
+    "style_profile": {
+      "mode": 1,
+      "used": false,
+      "name": null,
+      "store": null
+    },
+    "bootstrap": {
+      "enabled": false,
+      "saved_labels": false,
+      "provider": null,
+      "model": null
+    }
+  }
+}

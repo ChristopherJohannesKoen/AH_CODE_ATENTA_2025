@@ -1,0 +1,222 @@
+{
+  "filled": {
+    "patient": {
+      "name": "Jane Doe",
+      "date_of_birth": "1996-05-14",
+      "age": 27,
+      "sex": null,
+      "medical_record_number": null
+    },
+    "encounter": {
+      "date_of_visit": null,
+      "primary_care_provider": "Dr. Roberts",
+      "personal_note": "Recently delivered a baby at 30 weeks gestation."
+    },
+    "clinical_note": {
+      "history_of_present_illness": "Jane reports feeling overwhelmed and tired since delivery. No current symptoms of pain or fever.",
+      "allergies": [],
+      "medications": [],
+      "previous_history": {
+        "past_medical_history": "History of alcohol use during pregnancy and one-time drug use before pregnancy.",
+        "past_surgical_history": null,
+        "family_history": null,
+        "social_history": null
+      },
+      "review_of_systems": null,
+      "physical_exam": "Baby appears smaller than expected for age; birth weight 3.5 pounds; features consistent with fetal alcohol syndrome.",
+      "vital_signs": {
+        "temperature": null,
+        "blood_pressure": null,
+        "heart_rate": null,
+        "respiratory_rate": null,
+        "oxygen_saturation": null
+      },
+      "assessment": {
+        "summary": "Diagnosis of fetal alcohol syndrome in the baby with withdrawal symptoms.",
+        "icd10_code": null
+      },
+      "plan": "Monitor baby in NICU; start morphine for withdrawal; involve social services for support.",
+      "medical_decision_making": "Careful monitoring of baby; toxicology screen to check for substance exposure."
+    }
+  },
+  "evidence": {
+    "patient.name": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.date_of_birth": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.age": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.sex": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "patient.medical_record_number": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.date_of_visit": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.primary_care_provider": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "encounter.personal_note": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.history_of_present_illness": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_medical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.past_surgical_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.family_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.previous_history.social_history": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.review_of_systems": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.physical_exam": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.temperature": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.blood_pressure": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.heart_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.respiratory_rate": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.vital_signs.oxygen_saturation": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.summary": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.assessment.icd10_code": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.plan": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    },
+    "clinical_note.medical_decision_making": {
+      "value": null,
+      "confidence": 1.0,
+      "line_index": -1,
+      "line_text": ""
+    }
+  },
+  "meta": {
+    "audio_path": "resources\\audio\\consultation_x12_combined_dialogue.mp3",
+    "template_path": "src\\backend\\Model\\Templates\\clinical_note_template.json",
+    "transcript_path": "src\\backend\\Model\\Output\\batch_runs\\clinical_note_x12_filled_transcript.txt",
+    "generated_at": "2025-08-16T15:13:50.970330Z",
+    "whisper_model": "base",
+    "diarization_enabled": false,
+    "roles": {
+      "SPEAKER_00": "Doctor"
+    },
+    "llm": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "brain": {
+      "used": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "persona": "doctor"
+    },
+    "style_profile": {
+      "mode": 1,
+      "used": false,
+      "name": null,
+      "store": null
+    },
+    "bootstrap": {
+      "enabled": false,
+      "saved_labels": false,
+      "provider": null,
+      "model": null
+    }
+  }
+}

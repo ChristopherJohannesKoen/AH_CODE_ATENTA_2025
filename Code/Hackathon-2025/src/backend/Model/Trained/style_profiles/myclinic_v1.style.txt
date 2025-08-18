@@ -1,0 +1,47 @@
+STYLE_GUIDE
+
+Global Principles:
+1. Tone: Maintain a professional and clinical tone throughout the document. Use clear and concise language.
+2. Brevity: Aim for succinctness while ensuring all necessary information is included. Avoid unnecessary verbosity.
+3. Tense: Use the present tense when describing the patient's condition and history.
+4. Units: Use standard medical units (e.g., mmHg for blood pressure, bpm for heart rate).
+5. Date Formats: Use the format YYYY-MM-DD for dates (e.g., 1985-08-14).
+6. List Formatting: Use bullet points or numbered lists for plans and assessments to enhance readability.
+
+Per-Field Mapping Rules:
+- Patient Name: Extract directly from the transcript. If absent, use an empty string.
+- Date of Birth: Extract directly from the transcript. If absent, set to null.
+- Age: Extract directly from the transcript. If stated in years, retain as is. If absent, set to null.
+- Sex: Extract directly from the transcript. If absent, set to null.
+- Medical Record Number: Extract directly from the transcript. If absent, set to null.
+- Encounter Date of Visit: If provided, use the date format YYYY-MM-DD. If absent, set to null.
+- Primary Care Provider: Extract directly from the transcript. If absent, set to null.
+- Personal Note: Extract directly from the transcript. If absent, set to null.
+- History of Present Illness: Summarize the patient's current complaints and relevant history. If absent, set to null.
+- Allergies: List allergies as an array. If none are provided, use an empty array.
+- Medications: List medications as an array. If none are provided, use an empty array.
+- Previous History: Include past medical, surgical, family, and social history. If absent, set respective fields to null.
+- Review of Systems: Summarize findings. If absent, set to null.
+- Physical Exam: Summarize findings. If absent, set to null.
+- Vital Signs: Include temperature, blood pressure, heart rate, respiratory rate, and oxygen saturation. If absent, set respective fields to null.
+- Assessment: Provide a summary of the diagnosis and any relevant ICD-10 codes. If absent, set summary to null and ICD-10 code to null.
+- Plan: Summarize the treatment plan. If absent, set to null.
+- Medical Decision Making: Summarize the rationale for decisions made. If absent, set to null.
+
+Defaults and Fallbacks:
+- If any field is missing in the transcript, default to null or an empty string/array as specified above.
+- For age, if stated in a non-standard format (e.g., "three weeks"), convert to a standard format (e.g., "3 weeks") if applicable.
+
+Acceptable Synonyms/Aliases:
+- "Patient Name" can also be referred to as "Name" or "Full Name."
+- "Date of Birth" can be referred to as "DOB."
+- "Primary Care Provider" can also be referred to as "Provider" or "Doctor."
+- "Personal Note" can be referred to as "Notes" or "Patient Notes."
+
+Strict Constraints:
+- Avoid any assumptions or hallucinations about missing data. If data is absent, explicitly set the field to null or an empty value as per the guidelines.
+- Do not infer or create values that are not present in the transcript.
+
+Tie-Breakers:
+- If multiple values are provided for a single field (e.g., multiple names), prioritize the first mentioned value in the transcript.
+- For conflicting information (e.g., different ages), use the most specific and recent information provided. If still ambiguous, set to null.
