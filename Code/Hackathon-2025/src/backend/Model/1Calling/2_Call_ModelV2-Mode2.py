@@ -14,17 +14,24 @@ app = FastAPI(title="universal_convo_to_json - Mode 2 Server")
 
 SCRIPT = r"src\backend\Model\AudToSpeach\V2\universal_convo_to_json-1.2.0.py"
 
+
 class RunRequest(BaseModel):
     # training
     train_dir: str = Field(..., description="Directory with training examples")
     model_name: str = Field(..., description="Name to save style profile under")
-    bootstrap: bool = Field(False, description="Allow .txt-only with auto JSON label gen")
-    bootstrap_save: bool = Field(False, description="Save generated labels as *.boot.json")
+    bootstrap: bool = Field(
+        False, description="Allow .txt-only with auto JSON label gen"
+    )
+    bootstrap_save: bool = Field(
+        False, description="Save generated labels as *.boot.json"
+    )
     bootstrap_provider: str = Field("openai")
     bootstrap_model: str = Field("gpt-4o-mini")
 
     # run after training
-    audio: str = Field(..., description="Path to audio file to run immediately after training")
+    audio: str = Field(
+        ..., description="Path to audio file to run immediately after training"
+    )
     template: str = Field(..., description="Path to template JSON")
     output: str = Field(..., description="Path to output JSON")
     whisper_model: str = Field("base")
@@ -47,10 +54,12 @@ class RunRequest(BaseModel):
     max_train_examples: int = Field(12)
     timeout_seconds: int = Field(0)
 
+
 def _ensure_parent_dirs(path_str: str) -> None:
     p = Path(path_str)
     if p.parent and not p.parent.exists():
         p.parent.mkdir(parents=True, exist_ok=True)
+
 
 def _role_map_args(role_map: Optional[Dict[str, str]]) -> List[str]:
     if not role_map:
@@ -58,9 +67,11 @@ def _role_map_args(role_map: Optional[Dict[str, str]]) -> List[str]:
     flat = [f"{k}={v}" for k, v in role_map.items()]
     return ["--role-map", *flat] if flat else []
 
+
 @app.get("/ping")
 def ping():
     return {"status": "ok", "message": "pong (mode 2)"}
+
 
 @app.post("/run")
 def run(req: RunRequest):
@@ -75,16 +86,26 @@ def run(req: RunRequest):
     _ensure_parent_dirs(req.model_store)
 
     cmd = [
-        sys.executable, SCRIPT,
-        "--mode", "2",
-        "--train-dir", req.train_dir,
-        "--model-name", req.model_name,
-        "--audio", req.audio,
-        "--template", req.template,
-        "--output", req.output,
-        "--whisper-model", req.whisper_model,
-        "--model-store", req.model_store,
-        "--max-train-examples", str(req.max_train_examples),
+        sys.executable,
+        SCRIPT,
+        "--mode",
+        "2",
+        "--train-dir",
+        req.train_dir,
+        "--model-name",
+        req.model_name,
+        "--audio",
+        req.audio,
+        "--template",
+        req.template,
+        "--output",
+        req.output,
+        "--whisper-model",
+        req.whisper_model,
+        "--model-store",
+        req.model_store,
+        "--max-train-examples",
+        str(req.max_train_examples),
     ]
 
     if req.language:
@@ -96,15 +117,34 @@ def run(req: RunRequest):
     cmd += _role_map_args(req.role_map)
 
     if req.use_brain:
-        cmd += ["--use-brain", "--brain-provider", req.brain_provider, "--brain-model", req.brain_model, "--brain-persona", req.brain_persona]
+        cmd += [
+            "--use-brain",
+            "--brain-provider",
+            req.brain_provider,
+            "--brain-model",
+            req.brain_model,
+            "--brain-persona",
+            req.brain_persona,
+        ]
     if req.use_llm:
-        cmd += ["--use-llm", "--llm-provider", req.llm_provider, "--llm-model", req.llm_model]
+        cmd += [
+            "--use-llm",
+            "--llm-provider",
+            req.llm_provider,
+            "--llm-model",
+            req.llm_model,
+        ]
 
     if req.bootstrap:
         cmd += ["--bootstrap"]
         if req.bootstrap_save:
             cmd += ["--bootstrap-save"]
-        cmd += ["--bootstrap-provider", req.bootstrap_provider, "--bootstrap-model", req.bootstrap_model]
+        cmd += [
+            "--bootstrap-provider",
+            req.bootstrap_provider,
+            "--bootstrap-model",
+            req.bootstrap_model,
+        ]
 
     try:
         completed = subprocess.run(
@@ -115,7 +155,9 @@ def run(req: RunRequest):
             timeout=None if req.timeout_seconds == 0 else req.timeout_seconds,
         )
     except subprocess.TimeoutExpired as e:
-        raise HTTPException(504, f"process timed out after {req.timeout_seconds}s") from e
+        raise HTTPException(
+            504, f"process timed out after {req.timeout_seconds}s"
+        ) from e
 
     return {
         "executed_cmd": cmd,
@@ -123,11 +165,14 @@ def run(req: RunRequest):
         "stdout": completed.stdout[-10000:],
         "stderr": completed.stderr[-10000:],
         "output_json": req.output,
-        "transcript_txt": str(Path(req.output).with_suffix("").as_posix()) + "_transcript.txt",
+        "transcript_txt": str(Path(req.output).with_suffix("").as_posix())
+        + "_transcript.txt",
         "model_store": req.model_store,
         "model_name": req.model_name,
     }
 
+
 if __name__ == "__main__":
     import uvicorn
+
     uvicorn.run("server_mode2:app", host="0.0.0.0", port=8012, reload=False)

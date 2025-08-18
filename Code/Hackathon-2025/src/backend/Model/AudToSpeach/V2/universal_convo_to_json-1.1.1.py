@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # universal_convo_to_json.py
-"""
+r"""
 Audio + Template -> Filled JSON (industry-agnostic, healthcare-ready).
 
 How to run (Windows example):
@@ -34,6 +34,7 @@ import ffmpeg
 # Optional diarization (requires HF token + model access)
 try:
     from pyannote.audio import Pipeline as PyannotePipeline
+
     _HAS_PYANNOTE = True
 except Exception:
     _HAS_PYANNOTE = False
@@ -42,21 +43,24 @@ from rapidfuzz import fuzz
 
 # ---------- Helpers ----------
 
+
 def load_audio_ffmpeg(audio_file: str, sample_rate: int = 16000) -> np.ndarray:
     """
     Robust loader via ffmpeg. (We call whisper directly, but keep this if you want pre-processing.)
     """
     try:
         out, err = (
-            ffmpeg
-            .input(audio_file, threads=0)
-            .output("pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}")
+            ffmpeg.input(audio_file, threads=0)
+            .output(
+                "pipe:", format="wav", acodec="pcm_s16le", ac=1, ar=f"{sample_rate}"
+            )
             .run(capture_stdout=True, capture_stderr=True)
         )
         return np.frombuffer(out, np.int16).astype(np.float32) / 32768.0
     except ffmpeg.Error as e:
         msg = e.stderr.decode() if e.stderr else "Unknown error"
         raise RuntimeError(f"FFmpeg error loading audio: {msg}") from e
+
 
 @dataclass
 class Utterance:
@@ -66,23 +70,29 @@ class Utterance:
     end: float
     text: str
 
+
 # ---------- Transcription ----------
+
 
 class WhisperTranscriber:
     def __init__(self, model_name: str = "base", device: Optional[str] = None):
         self.model = whisper.load_model(model_name, device=device)
 
-    def transcribe(self, audio_path: str, language: Optional[str] = None) -> Dict[str, Any]:
+    def transcribe(
+        self, audio_path: str, language: Optional[str] = None
+    ) -> Dict[str, Any]:
         result = self.model.transcribe(
             audio_path,
             language=language,
             verbose=False,
             condition_on_previous_text=True,
-            beam_size=5
+            beam_size=5,
         )
         return result
 
+
 # ---------- Diarization ----------
+
 
 class Diarizer:
     def __init__(self, enable: bool = True, hf_token: Optional[str] = None):
@@ -94,8 +104,7 @@ class Diarizer:
                 self.enable = False
             else:
                 self.pipeline = PyannotePipeline.from_pretrained(
-                    "pyannote/speaker-diarization-3.1",
-                    use_auth_token=token
+                    "pyannote/speaker-diarization-3.1", use_auth_token=token
                 )
 
     def diarize(self, audio_path: str):
@@ -103,11 +112,18 @@ class Diarizer:
             return None
         return self.pipeline(audio_path)
 
+
 # ---------- Assign speakers to ASR segments ----------
 
-def assign_speakers(asr_segments: List[Dict[str, Any]], diarization_obj) -> List[Tuple[str, float, float, str]]:
+
+def assign_speakers(
+    asr_segments: List[Dict[str, Any]], diarization_obj
+) -> List[Tuple[str, float, float, str]]:
     if diarization_obj is None:
-        return [("SPEAKER_00", seg["start"], seg["end"], seg["text"].strip()) for seg in asr_segments]
+        return [
+            ("SPEAKER_00", seg["start"], seg["end"], seg["text"].strip())
+            for seg in asr_segments
+        ]
 
     turns = []
     for turn, _, speaker in diarization_obj.itertracks(yield_label=True):
@@ -125,9 +141,13 @@ def assign_speakers(asr_segments: List[Dict[str, Any]], diarization_obj) -> List
         assigned.append((best_label, s, e, seg["text"].strip()))
     return assigned
 
+
 # ---------- Role mapping & transcript formatting ----------
 
-def build_role_map(speaker_labels: List[str], user_map: Optional[Dict[str, str]] = None) -> Dict[str, str]:
+
+def build_role_map(
+    speaker_labels: List[str], user_map: Optional[Dict[str, str]] = None
+) -> Dict[str, str]:
     role_map = {}
     for i, spk in enumerate(sorted(set(speaker_labels))):
         if user_map and spk in user_map:
@@ -136,7 +156,9 @@ def build_role_map(speaker_labels: List[str], user_map: Optional[Dict[str, str]]
             role_map[spk] = f"Speaker {i+1}"
     return role_map
 
+
 # ---------- Template flatten/set ----------
+
 
 def flatten_template(template: Any, prefix: str = "") -> List[Tuple[str, Any]]:
     items = []
@@ -151,6 +173,7 @@ def flatten_template(template: Any, prefix: str = "") -> List[Tuple[str, Any]]:
     else:
         items.append((prefix, template))
     return items
+
 
 def set_deep(d: Dict[str, Any], path: str, value: Any) -> None:
     parts = re.split(r"(\[\d+\]|\.)", path)
@@ -183,19 +206,32 @@ def set_deep(d: Dict[str, Any], path: str, value: Any) -> None:
                     cur[p] = {}
                 cur = cur[p]
 
+
 # ---------- Simple rule-based cues ----------
 
 DATE_PAT = re.compile(
     r"\b(?:(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4})|(?:\d{4}[/-]\d{1,2}[/-]\d{1,2})|(?:\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}(?:,\s*\d{2,4})?))\b",
-    flags=re.IGNORECASE
+    flags=re.IGNORECASE,
 )
-EMAIL_PAT = re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", flags=re.IGNORECASE)
+EMAIL_PAT = re.compile(
+    r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", flags=re.IGNORECASE
+)
 PHONE_PAT = re.compile(r"\b(?:\+?\d{1,3}[-.\s]?)?(?:\(?\d{2,4}\)?[-.\s]?){2,4}\d\b")
 AGE_PAT = re.compile(r"\b(\d{1,3})\s*(?:years? old|yo|yrs?)\b", flags=re.IGNORECASE)
-NAME_ANCHOR_PAT = re.compile(r"\b(my name is|i am|this is|full name|name and(?:\s+date of birth)?|confirm your name)\b", flags=re.IGNORECASE)
+NAME_ANCHOR_PAT = re.compile(
+    r"\b(my name is|i am|this is|full name|name and(?:\s+date of birth)?|confirm your name)\b",
+    flags=re.IGNORECASE,
+)
+
 
 def extract_by_rules(text_lines: List[str]) -> Dict[str, List[Tuple[str, float, int]]]:
-    out: Dict[str, List[Tuple[str, float, int]]] = {"date": [], "email": [], "phone": [], "age": [], "name": []}
+    out: Dict[str, List[Tuple[str, float, int]]] = {
+        "date": [],
+        "email": [],
+        "phone": [],
+        "age": [],
+        "name": [],
+    }
     for i, line in enumerate(text_lines):
         for m in DATE_PAT.finditer(line):
             out["date"].append((m.group(0), 0.7, i))
@@ -211,7 +247,10 @@ def extract_by_rules(text_lines: List[str]) -> Dict[str, List[Tuple[str, float, 
                 out["name"].append((name_match.group(1), 0.6, i))
     return out
 
-def best_span_for_field(field_name: str, text_lines: List[str]) -> Optional[Tuple[str, float, int]]:
+
+def best_span_for_field(
+    field_name: str, text_lines: List[str]
+) -> Optional[Tuple[str, float, int]]:
     tokens = re.findall(r"[A-Za-z]+", field_name)
     key = " ".join(tokens).lower().strip()
     if not key:
@@ -230,7 +269,10 @@ def best_span_for_field(field_name: str, text_lines: List[str]) -> Optional[Tupl
     val = line.split(":", 1)[-1].strip() if ":" in line else line.strip()
     return (val, conf, idx)
 
-def fill_from_conversation(template: Dict[str, Any], convo_lines: List[str]) -> Tuple[Dict[str, Any], Dict[str, Dict[str, Any]]]:
+
+def fill_from_conversation(
+    template: Dict[str, Any], convo_lines: List[str]
+) -> Tuple[Dict[str, Any], Dict[str, Dict[str, Any]]]:
     filled = {}
     evidence: Dict[str, Dict[str, Any]] = {}
     candidates = extract_by_rules(convo_lines)
@@ -240,7 +282,9 @@ def fill_from_conversation(template: Dict[str, Any], convo_lines: List[str]) -> 
         key_tail = path.split(".")[-1].lower()
 
         val_conf_idx = None
-        if any(k in key_tail for k in ["dob", "dateofbirth", "birthdate", "date_of_birth"]):
+        if any(
+            k in key_tail for k in ["dob", "dateofbirth", "birthdate", "date_of_birth"]
+        ):
             if candidates["date"]:
                 val_conf_idx = max(candidates["date"], key=lambda x: x[1])
         elif "email" in key_tail:
@@ -273,10 +317,11 @@ def fill_from_conversation(template: Dict[str, Any], convo_lines: List[str]) -> 
             "value": value,
             "confidence": round(conf, 3),
             "line_index": idx,
-            "line_text": line_text
+            "line_text": line_text,
         }
 
     return filled, evidence
+
 
 def _set_path(root: Dict[str, Any], path: str, value: Any) -> None:
     """
@@ -286,7 +331,7 @@ def _set_path(root: Dict[str, Any], path: str, value: Any) -> None:
     parts = path.split(".")
     cur = root
     for i, p in enumerate(parts):
-        last = (i == len(parts) - 1)
+        last = i == len(parts) - 1
         if last:
             cur[p] = value
         else:
@@ -294,7 +339,9 @@ def _set_path(root: Dict[str, Any], path: str, value: Any) -> None:
                 cur[p] = {}
             cur = cur[p]
 
+
 # ---------- Main pipeline ----------
+
 
 def parse_role_map(kvs: List[str]) -> Dict[str, str]:
     out = {}
@@ -304,11 +351,18 @@ def parse_role_map(kvs: List[str]) -> Dict[str, str]:
             out[k.strip()] = v.strip()
     return out
 
-def build_transcript_lines(assigned: List[Tuple[str, float, float, str]], role_map: Dict[str, str]) -> List[str]:
+
+def build_transcript_lines(
+    assigned: List[Tuple[str, float, float, str]], role_map: Dict[str, str]
+) -> List[str]:
     # Merge adjacent same-role lines with <1s gap for readability
     utterances: List[Utterance] = []
     for spk, s, e, txt in assigned:
-        utterances.append(Utterance(speaker=spk, role=role_map.get(spk, spk), start=s, end=e, text=txt))
+        utterances.append(
+            Utterance(
+                speaker=spk, role=role_map.get(spk, spk), start=s, end=e, text=txt
+            )
+        )
 
     merged: List[Utterance] = []
     for u in utterances:
@@ -319,6 +373,7 @@ def build_transcript_lines(assigned: List[Tuple[str, float, float, str]], role_m
             merged.append(u)
 
     return [f"{u.role}: {u.text}" for u in merged]
+
 
 def process_audio_to_template(
     audio_path: str,
@@ -373,8 +428,8 @@ def process_audio_to_template(
             "generated_at": dt.datetime.utcnow().isoformat() + "Z",
             "whisper_model": whisper_model,
             "diarization_enabled": bool(diarization_obj is not None),
-            "roles": role_map
-        }
+            "roles": role_map,
+        },
     }
 
     os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
@@ -384,18 +439,37 @@ def process_audio_to_template(
     print(f"[OK] Wrote filled JSON -> {output_json_path}")
     print(f"[OK] Wrote transcript -> {output_transcript_path}")
 
+
 # ---------- CLI ----------
+
 
 def main():
     ap = argparse.ArgumentParser(description="Audio + Template -> Filled JSON")
     ap.add_argument("--audio", required=True, help="Path to audio file")
     ap.add_argument("--template", required=True, help="Path to template JSON")
     ap.add_argument("--output", required=True, help="Path to output filled JSON")
-    ap.add_argument("--whisper-model", default="base", help="Whisper model name (tiny/base/small/medium/large-v3)")
+    ap.add_argument(
+        "--whisper-model",
+        default="base",
+        help="Whisper model name (tiny/base/small/medium/large-v3)",
+    )
     ap.add_argument("--language", default=None, help="Force language code (e.g., 'en')")
-    ap.add_argument("--diarize", action="store_true", help="Enable pyannote diarization (requires HF token)")
-    ap.add_argument("--hf-token", default=None, help="HuggingFace token (or set env HUGGINGFACE_TOKEN)")
-    ap.add_argument("--role-map", nargs="*", default=[], help='Override mapping, e.g. SPEAKER_00=Doctor SPEAKER_01=Patient')
+    ap.add_argument(
+        "--diarize",
+        action="store_true",
+        help="Enable pyannote diarization (requires HF token)",
+    )
+    ap.add_argument(
+        "--hf-token",
+        default=None,
+        help="HuggingFace token (or set env HUGGINGFACE_TOKEN)",
+    )
+    ap.add_argument(
+        "--role-map",
+        nargs="*",
+        default=[],
+        help="Override mapping, e.g. SPEAKER_00=Doctor SPEAKER_01=Patient",
+    )
     args = ap.parse_args()
 
     role_map = parse_role_map(args.role_map) if args.role_map else None
@@ -410,6 +484,7 @@ def main():
         role_map_overrides=role_map,
         hf_token=args.hf_token,
     )
+
 
 if __name__ == "__main__":
     main()
