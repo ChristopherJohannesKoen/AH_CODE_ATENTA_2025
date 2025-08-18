@@ -1,0 +1,44 @@
+Clinical Note:
+
+Patient Name: Susie Thompson
+
+Date of Birth: 1983-11-15
+
+Age: 40 years
+
+Sex: Female
+
+Medical Record #: MRN12345678
+
+Date of clinic visit: 2023-11-16
+
+Primary care provider: Dr. Rachel Lewis
+
+Personal note: Susie is training for a marathon and enjoys photography.
+
+History of Present Illness: Susie Thompson is a 40-year-old right-hand dominant female who works as a marketing director. She reports waking up on her 40th birthday with an unexpected increase in acne on her face, which she associates with feelings from her teenage years. Additionally, she has a lifelong self-consciousness about an unchanged congenital birthmark on her left cheek.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: Mild seasonal allergies Past Surgical History: Appendectomy in 2002 Family History: No known history of skin conditions in family Social History: Non-smoker, occasional wine drinker on weekends, married with two children
+
+Review of Systems: Denies any current systemic symptoms such as fever, fatigue, or weight loss. Skin: Positive for new-onset acne and a birthmark on the left cheek.
+
+Physical Exam: General: Patient appears her stated age and is in no acute distress. Vital Signs: Temperature: 98.6 F Blood Pressure: 118/79 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air
+
+Physical Exam Findings:
+
+Presence of multiple closed comedones and inflammatory papules on the forehead and cheeks.
+Congenital birthmark on the left cheek, unchanged in size.
+Assessment:
+
+Facial birthmark, likely nevus (ICD-10: Q82.5).
+Adult-onset acne (ICD-10: L70.9).
+Plan:
+
+Prescribe topical retinoid treatment for acne management; instruct patient to apply every night.
+Reassure the patient about the benign nature of the birthmark.
+Schedule follow-up to monitor the response to acne treatment.
+Medical Decision Making: The medical decision-making for this visit is characterized by moderate complexity, given the psychosocial impact of the patient's acne and the recent exacerbation of skin changes. Differential diagnoses for the skin manifestations were considered, leading to the initiation of symptomatic treatment with topical retinoids. The benign nature of the birthmark was confirmed, and the patient was reassured accordingly. Regular monitoring of both the acne and birthmark through scheduled follow-ups was advised to ensure effective management and address potential concerns.

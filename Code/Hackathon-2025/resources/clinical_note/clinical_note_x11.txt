@@ -1,0 +1,39 @@
+Clinical Note:
+
+Patient Name: Jack Thompson
+
+Date of Birth: 1968-03-14
+
+Age: 55 years
+
+Sex: Male
+
+Medical Record #: MRN123456789
+
+Date of clinic visit: 2023-10-10
+
+Primary care provider: Dr. Sarah Collins
+
+Personal note: Patient is a passionate basketball enthusiast and enjoys playing with his sons every weekend.
+
+History of Present Illness: Jack Thompson, a 55-year-old male accountant, began experiencing chest pain, shortness of breath, and light-headedness while playing basketball with his sons. Recognizing the severity of his symptoms, his family immediately brought him to the hospital. He was assessed in the emergency department where it was confirmed that he had an acute non-ST anterior wall myocardial infarction.
+
+Allergies: Aspirin
+
+Medications: Lisinopril 10 mg daily
+
+Previous History: Past Medical History: Hypertension Past Surgical History: Appendectomy in 1995 Family History: Father had a myocardial infarction at age 60 Social History: Non-smoker, occasional alcohol use, lives with his wife and two sons
+
+Review of Systems: Cardiovascular: Positive for chest pain. Respiratory: Positive for shortness of breath. Neurological: Positive for light-headedness. All other systems negative.
+
+Physical Exam: The patient appeared diaphoretic during examination. Vital Signs: Temperature: 98.7 F, Blood Pressure: 145/90 mmHg, Heart Rate: 95 bpm, Respiratory Rate: 20 breaths/min, Oxygen Saturation: 96% on room air. Diaphoresis noted.
+
+Assessment:
+
+Acute non-ST anterior wall myocardial infarction (ICD-10 I21.4)
+Chest pain (ICD-10 R07.9)
+Shortness of breath (ICD-10 R06.02)
+Light-headedness (ICD-10 R42)
+Plan: Immediate management includes stabilization with oxygen and administration of Nitroglycerin 0.4 mg sublingually for chest pain relief. Preparation for further cardiac intervention is underway, including a planned coronary angiography to assess the extent of coronary artery blockage. Cardiology consultation is required for ongoing management and intervention planning.
+
+Medical Decision Making: This case is of high complexity due to the acute myocardial infarction. Immediate steps are focused on ensuring hemodynamic stability and preventing further cardiac injury through both pharmacological measures and preparation for potential interventional procedures. Initial differentials included unstable angina and pulmonary embolism; however, EKG findings and elevated troponin levels confirmed the diagnosis of myocardial infarction. Rapid initiation of treatment and further diagnostic assessment is crucial for optimal outcomes.

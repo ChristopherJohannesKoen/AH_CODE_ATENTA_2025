@@ -1,0 +1,39 @@
+Clinical Note:
+
+Patient Name: Sarah Anderson
+
+Date of Birth: 1985-08-14
+
+Age: 38 years
+
+Sex: Female
+
+Medical Record #: MRN1234567
+
+Date of clinic visit: 2023-10-20
+
+Primary care provider: Dr. Emily Thompson
+
+Personal note: Patient enjoys hiking with her family on weekends.
+
+History of Present Illness: Sarah Anderson is a 38-year-old right-hand dominant female who works as a high school teacher. She presents to the clinic with complaints of fatigue and jaundice over the past two weeks. These symptoms became particularly noticeable after she started a new medication for an unspecified condition one month ago.
+
+Allergies: Cephalosporins
+
+Medications: Hydrochlorothiazide 25 mg daily
+
+Previous History: Past Medical History: Hypertension Past Surgical History: Appendectomy in 2008 Family History: Mother with rheumatoid arthritis Social History: Non-smoker, occasional alcohol use, married with two children
+
+Review of Systems: Positive for generalized fatigue, yellowing of the eyes and skin, and dark urine. Negative for recent infections, fever, or new rashes.
+
+Physical Exam: General: Patient appears mildly fatigued with notable pallor and scleral icterus.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 120/78 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 99% on room air
+
+Physical examination revealed scleral icterus and generalized jaundice, alongside pale conjunctivae. No acute distress was noted.
+
+Assessment: The patient has been diagnosed with drug-induced autoimmune hemolytic anemia, which is potentially linked to a recent change in medication. This is reflected in the ICD-10 code D59.0.
+
+Plan: Initiate treatment with prednisone 40 mg daily to manage the hemolysis. The patient will be referred to a hematologist for comprehensive long-term management and follow-up monitoring of her condition.
+
+Medical Decision Making: The patient presents with moderate complexity concerns, primarily due to the need to manage autoimmune hemolytic anemia likely induced by a recent medication. The complexity also arises from balancing the efficacy of corticosteroid therapy against its potential side effects. Prednisone was prescribed to mitigate hemolysis and alleviate symptoms of anemia. Ongoing evaluation and follow-up with hematology are necessary to ensure patient stability and optimize treatment outcomes.

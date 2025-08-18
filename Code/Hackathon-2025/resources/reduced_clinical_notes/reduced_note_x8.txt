@@ -1,0 +1,47 @@
+Clinical Note:
+
+Patient Name: Emily Jackson
+
+Date of Birth: null
+
+Age: 40 years
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness: Emily Jackson is a 40-year-old female presenting with persistent dryness and irritation in her right eye over the past three months. The symptoms have not improved with the use of over-the-counter artificial tears (used 2-4 times daily). She reports intermittent mild blurred vision (once or twice a week, resolves with blinking or drops), no pain but some discomfort and occasional morning stinging, no itching, no significant light sensitivity, and a gritty sensation. No history of injury, surgery, or infection to the eyes. No symptoms in the left eye.
+
+Allergies: Penicillin
+
+Medications: Artificial tears (as needed)
+
+Previous History: 
+Past Medical History: Seasonal allergies
+Past Surgical History: Appendectomy in 2002
+Family History: Mother has glaucoma
+Social History: Non-smoker, occasional alcohol use, lives with husband and kids
+
+Review of Systems: null
+
+Physical Exam: 
+Right eye examination reveals conjunctival injection and reduced tear meniscus height. Fluorescein staining shows mild punctate epithelial erosions in the right eye. Tear break-up time is less than 5 seconds on the right eye. Left eye exam normal. 
+General appearance: null
+Vital Signs: null
+
+Assessment: The patient is diagnosed with dry eye syndrome of the right lacrimal gland. 
+
+Plan:
+
+Prescribe cyclosporine ophthalmic emulsion 0.05% for the right eye, one drop twice daily.
+Recommend the application of warm compresses.
+Encourage frequent use of artificial tears to maintain eye moisture.
+Follow up in six weeks or sooner if symptoms worsen.
+
+Medical Decision Making: null

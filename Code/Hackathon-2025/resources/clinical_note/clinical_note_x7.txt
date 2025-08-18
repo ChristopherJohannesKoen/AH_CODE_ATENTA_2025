@@ -1,0 +1,35 @@
+Clinical Note:
+
+Patient Name: Evelyn Barnes
+
+Date of Birth: 1965-07-19
+
+Age: 58 years
+
+Sex: Female
+
+Medical Record #: MRN1234567
+
+Date of clinic visit: 2023-11-05
+
+Primary care provider: Dr. Alan Grant
+
+Personal note: Patient enjoys traveling and recently visited Europe.
+
+History of Present Illness: Evelyn Barnes is a 58-year-old female who presents for a new patient visit with complaints of dizziness and lightheadedness. The symptoms commenced after she started a new diuretic medication, Hydrochlorothiazide 25mg daily, prescribed for hypertension. She reports that the dizziness and lightheadedness became noticeable shortly after initiating the treatment, which suggests a possible link between the medication and her symptoms.
+
+Allergies: NKDA
+
+Medications: Hydrochlorothiazide 25mg daily
+
+Previous History: Past Medical History: Hypertension Past Surgical History: Appendectomy in 1987 Family History: Mother had hypertension and heart disease Social History: Non-smoker, drinks wine occasionally, lives with her spouse
+
+Review of Systems: Cardiovascular: Positive for lightheadedness, negative for chest pain. Neurological: Negative for headaches or visual disturbances. General: Negative for fever or malaise.
+
+Physical Exam: The patient appears alert and oriented, in no acute distress. Blood pressure measurements revealed hypotensive readings: Sitting - 98/60 mmHg, Standing - 90/58 mmHg. ECG shows normal sinus rhythm without significant changes. Vital Signs: Temperature: 98.6 F Blood Pressure: Sitting - 98/60 mmHg, Standing - 90/58 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air
+
+Assessment: The patient is experiencing hypotension due to drug intake, specifically diuretics, which is consistent with the ICD-10 code I95.2. This is recognized as a drug-induced hypotension, initial encounter, and is also coded as T50.2x5A.
+
+Plan: The plan involves reducing the dose of Hydrochlorothiazide to 12.5mg daily and closely monitoring the patient's blood pressure at home. Patient education will be provided regarding the importance of monitoring and recognizing symptoms of hypotension. Follow-up has been scheduled in one week to reassess symptoms and adjust treatment as necessary.
+
+Medical Decision Making: The medical decision-making process involved identifying the causal relationship between the initiation of the diuretic and the onset of hypotension. This temporal connection suggested that a reduction in the medication dosage would likely alleviate the symptoms. The decision to reduce Hydrochlorothiazide to 12.5mg was made to balance the management of hypertension while minimizing the risk of hypotension. Initiating home blood pressure monitoring is crucial for tracking the patient's progress and ensuring stabilization. Follow-up is planned to re-evaluate the effectiveness of these adjustments and to ensure that the patient's symptoms are resolving.

@@ -1,0 +1,35 @@
+Clinical Note:
+
+Patient Name: Eli Thompson
+
+Date of Birth: 2023-10-01
+
+Age: 3 weeks
+
+Sex: Male
+
+Medical Record #: MRN12345678
+
+Date of clinic visit: 2023-10-22
+
+Primary care provider: Dr. Sarah Munroe
+
+Personal note: Patient's family owns a small bakery and he enjoys baking cookies with his older sister.
+
+History of Present Illness: Eli Thompson is a 3-week-old male presented by his parents, who are concerned about visual abnormalities and the unusual appearance of his eyes noted shortly after birth. The parents observed that Eli's right eye appears larger than the left, and there is excessive tearing from both eyes. He was born full-term via vaginal delivery and has otherwise been healthy.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: Born full-term, otherwise healthy Past Surgical History: None Family History: No known family history of eye diseases Social History: Lives with parents and older sister; parents run a home-based bakery
+
+Review of Systems: Positive for excessive tearing and eye enlargement. Remainder of systems negative including no respiratory distress, feeding issues, or fever noted.
+
+Physical Exam: Eli appears well but with notable ocular abnormalities. Vital Signs: Temperature: 98.6 F, Blood Pressure: Not Applicable for this age, Heart Rate: 140 bpm, Respiratory Rate: 40 breaths/min, Oxygen Saturation: 100% on room air. Physical exam highlights include corneal enlargement in both eyes with buphthalmos more pronounced on the right side, and elevated intraocular pressure upon palpation. An optic nerve abnormality was noted on fundoscopic examination.
+
+Assessment: Eli has been diagnosed with congenital glaucoma, suspected to have been caused by trauma at birth, specifically traumatic glaucoma due to birth injury (ICD-10: Q15.0, H44.513, P15.3). There is also documented optic nerve abnormality, with congenital glaucoma being heavily considered (ICD-10: H40.009).
+
+Plan: The plan of care involves urgent initiation of pressure-lowering therapy with Timolol 0.5% eye drops. An ocular ultrasound is ordered to assess anatomical abnormalities for structural changes and confirm the diagnosis. An urgent referral to a pediatric ophthalmologist for comprehensive evaluation and management is also arranged.
+
+Medical Decision Making: This case is marked by complex decision-making due to the combination of congenital factors and presumed traumatic etiology of glaucoma. The differential diagnosis considered various causes of glaucoma, but congenital glaucoma remains favored due to the clinical presentation and history. Given the urgency and complexity, a specialist evaluation is critical to accurately confirm the diagnosis and to devise a tailored treatment plan, including potential surgical intervention.

@@ -1,0 +1,45 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-08-15
+
+Age: 38 years
+
+Sex: Male
+
+Medical Record #: MRN56789123
+
+Date of clinic visit: 2023-11-05
+
+Primary care provider: Dr. Emily Carter
+
+Personal note: Patient enjoys hiking and recently adopted a puppy.
+
+History of Present Illness: John Doe is a 38-year-old male who presents with headache and neck pain following a fall while hiking. The incident occurred two days ago when he landed on his backside during the fall. He reports no loss of consciousness witnessed or otherwise. The headache and neck pain have persisted since the fall, with mild tenderness over the cervical paraspinal muscles noted. He denies any associated nausea, vomiting, visual changes, or other neurological symptoms.
+
+Allergies: NKDA
+
+Medications: Ibuprofen 400 mg as needed for pain
+
+Previous History: Past Medical History: Seasonal allergies Past Surgical History: Appendectomy in 2015 Family History: Father has hypertension Social History: Non-smoker, social alcohol use, lives with partner and new puppy
+
+Review of Systems: Reports headache and neck pain. Denies nausea, vomiting, visual changes, or loss of consciousness. The neurological and cardiovascular reviews are otherwise negative.
+
+Physical Exam: Vital Signs: Temperature: 98.6 F Blood Pressure: 120/80 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 99% on room air
+
+General: Alert, well-appearing male in no acute distress. Head: No lacerations or bruising. Neck: Mild tenderness in cervical paraspinal muscles. No deformity or swelling. Range of motion somewhat limited due to discomfort, but no signs of instability. Neurological: No focal neurological deficits.
+
+Assessment:
+
+Concussion without loss of consciousness (ICD-10: S06.0x0A)
+Neck pain, likely muscular strain (ICD-10: M54.2)
+Plan:
+
+Prescribe Cyclobenzaprine 5 mg every 8 hours as needed for muscle relaxation.
+Recommend rest and gradual return to activities as tolerated.
+Continue Ibuprofen 400 mg as needed for pain.
+Educate patient on warning signs that would necessitate immediate return, such as worsening pain, new neurological symptoms, or other concerning developments.
+Advise follow-up if symptoms do not improve within a week or worsen.
+Reassurance provided regarding the normal CT findings.
+Medical Decision Making: This new patient visit involved moderate complexity decision making. The differential diagnosis included concussive syndrome without loss of consciousness and potential cervical strain. The decision to avoid further imaging was supported by the recent normal CT scan of the head indicating no acute pathology and stable vital signs. The clinical assessment supports a management plan focused on symptomatic relief and observation. Given the patient’s stable condition and lack of neurological deficits, primary modalities of care involve symptomatic treatment with NSAIDs and muscle relaxants, with an emphasis on patient education and follow-up conditions.

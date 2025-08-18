@@ -1,0 +1,42 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-09-12
+
+Age: 38 years
+
+Sex: Male
+
+Medical Record #: MRN123456789
+
+Date of clinic visit: 2023-11-24
+
+Primary care provider: Dr. Emily Hawkins
+
+Personal note: Bring John a small puzzle or brain teaser at the next appointment; he enjoys solving them in his spare time.
+
+History of Present Illness: John Doe is a 38-year-old right-hand dominant male who works as an IT consultant. He presented with a complaint of a scrape on his right elbow. The injury occurred when he tripped while rushing down stairs at the mall and sustained a superficial abrasion. There are no other associated symptoms mentioned.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: No significant past medical history Past Surgical History: Appendectomy in 2010 Family History: Father has hypertension Social History: Non-smoker, drinks alcohol occasionally, lives with wife Jane
+
+Review of Systems: Denies headache, loss of consciousness, dizziness, and visual disturbances. Positive for minor right elbow pain.
+
+Physical Exam: The patient appears well-nourished and in no acute distress.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 118/76 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air
+
+Examination of the right elbow reveals a superficial abrasion, with no signs of infection. The elbow exhibits a full range of motion with minimal discomfort.
+
+Assessment: Right elbow abrasion due to fall at the mall. (ICD-10: S50.311A) Fall on same level resulting from slipping, tripping, or stumbling (ICD-10: W10.9xxA) Activity, other involving interior of mall as place of occurrence (ICD-10: Y92.59)
+
+Plan:
+
+Clean and protect the area to prevent infection.
+Prescribe Neosporin ointment. Instruct the patient to apply twice daily to the affected area.
+Educate the patient on proper wound care to prevent infection.
+Medical Decision Making: This encounter involved the assessment of a minor superficial abrasion on the patient's right elbow. Given the absence of complications and the simplicity of the injury, a straightforward management plan was determined. An appropriate level of education was provided to the patient on wound care, fitting the complexity of a level 3 E/M visit for a new patient. The patient understood the instructions and will follow up as needed if symptoms change.

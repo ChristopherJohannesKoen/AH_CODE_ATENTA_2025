@@ -1,0 +1,85 @@
+Doctor: Hi John, it's nice to see you again. How are you? And how’s life going with the new puppy—is he still chewing up your hiking boots?
+
+Patient: Oh, hey, Dr. Carter. Yeah, the puppy’s, uh, definitely keeping me on my toes... He tried to drag one of my hiking boots out to the yard this morning, actually.
+
+Doctor: That sounds like a handful. So, let me just double-check—you're John Doe, born August 15th, 1985, is that right?
+
+Patient: Yep, that's me.
+
+Doctor: Great. So, I see you’re here because of a headache and neck pain after your recent hiking fall. Can you tell me a little more about exactly what happened during your hike?
+
+Patient: Sure, yeah. Uh, so I was coming down this trail, and I slipped—I landed right on my backside. It knocked the wind out of me, but I don't remember blacking out or anything. At first, my neck was just a little sore, but then the headache started...uhm, I think maybe it started later that night? Wait, actually, it started in the afternoon, just a few hours after the fall.
+
+Doctor: Okay, thanks for clarifying. Since it happened, has the headache or neck pain gotten better or worse?
+
+Patient: Uh, the headache is... kind of the same? The neck pain is still there, mostly when I turn my head or look down, but it's not, like, unbearable.
+
+Doctor: Any dizziness, nausea, vomiting, or any vision changes?
+
+Patient: No, none of that. Just the headache and, uh, my neck is stiff.
+
+Doctor: Have you noticed any numbness, weakness, or tingling in your arms or legs?
+
+Patient: Umm, no, nothing like that.
+
+Doctor: Could you remind me what you're taking for the pain right now?
+
+Patient: Just, uh, ibuprofen—400 milligrams whenever it really bothers me.
+
+Doctor: Any problems with allergies to medicines? Or have you ever had a reaction to something like muscle relaxants before?
+
+Patient: No, I've—oh, wait, no, I don't have any allergies. No issues with muscle relaxers; not that I've ever taken them, I think.
+
+Doctor: Got it, and besides your seasonal allergies and past appendectomy, any other medical history I should know about?
+
+Patient: No, that's it. Never broke a bone or anything. Oh, my dad has high blood pressure, but that’s about it.
+
+Doctor: And you don’t smoke, but you have a social drink now and then—still accurate?
+
+Patient: Yeah, that’s right.
+
+Doctor: Thanks. I’m going to do a focused exam now, especially of your neck and neurological function. First, I’ll gently palpate along the cervical paraspinal muscles just to each side of your spine... Does it feel tender here?
+
+Patient: Yeah, right there... that's pretty sore.
+
+Doctor: Okay, that’s mild tenderness over the cervical paraspinals. Now, I’m going to check your neck’s range of motion. Try slowly turning your head left and right... Now look down, then up for me. Does anything besides discomfort limit your motion—any sharp pain, catching, or a sense of instability?
+
+Patient: No instability, just that, like, pulling discomfort when I turn all the way.
+
+Doctor: Understood. No visible swelling or deformity here. Next, I’ll quickly check your strength—can you shrug your shoulders for me? Good. Push against my hands... perfect. Now, let’s check sensation: can you feel this touch on both arms and hands?
+
+Patient: Yeah, I feel it on both sides.
+
+Doctor: Excellent. Reflexes are normal, too. Finally, just confirming: CT scan of your head from the other day was normal—no signs of bleeding or other acute problems.
+
+Patient: Yeah, they said it looked fine.
+
+Doctor: Based on everything, your exam fits with a mild concussion—with no loss of consciousness—and neck pain from muscle strain. The CT confirmed there’s no serious head injury, and your neurological exam looks great.
+
+Patient: So, uh, what does that mean for recovery? Do I just wait it out?
+
+Doctor: That's a good question. For a mild concussion, especially without losing consciousness or other neurological symptoms, the mainstay is rest—both mental and physical—and a gradual return to activity as you feel up to it. The neck pain is likely from muscle strain during the fall, so using ibuprofen for pain and inflammation is fine. I’m adding a muscle relaxant called cyclobenzaprine, 5 mg every 8 hours as needed—not more than three times a day—for a few days if the neck is especially tight or uncomfortable.
+
+Patient: And I can take both, like, ibuprofen and that together?
+
+Doctor: Yes, you can use them together as needed, but don’t overdo either. Stay well-hydrated and try to limit any strenuous activities or heavy lifting for now. Also, no driving if you feel groggy from the medication.
+
+Patient: Okay, uh, is there anything I should look out for that means I need to come back sooner?
+
+Doctor: Absolutely—if you develop worsening headaches, any confusion, vomiting, vision changes, numbness or weakness, or neck pain that suddenly spikes, come in right away. Also, if symptoms aren’t clearly improving in a week, I want to see you back.
+
+Patient: That makes sense. Oh, what about, like, hiking or running with my puppy? Or—should I just, you know—?
+
+Doctor: That’s a good question, and sorry to cut you off there—yes, I'd suggest waiting until your symptoms are nearly gone before you get back to hiking or running. Start slowly, see how your head and neck feel, and stop if things worsen.
+
+Patient: Got it, yeah. Uh, do I need any more scans or anything?
+
+Doctor: Good question—based on your exam and the normal CT, no further imaging is needed unless new symptoms develop.
+
+Patient: Okay, thanks. I think that covers it.
+
+Doctor: Great. So just to summarize: rest, gradual return to activity, ibuprofen and the cyclobenzaprine as needed, and watch for any warning signs. If things worsen or aren’t better within a week, let me know. Otherwise, give yourself some time to heal—and try to keep the puppy from launching any more hiking boot attacks.
+
+Patient: I'll try, though he’s pretty determined. Thanks, Dr. Carter.
+
+Doctor: You're welcome, John. Take care, and don't hesitate to call if anything changes.

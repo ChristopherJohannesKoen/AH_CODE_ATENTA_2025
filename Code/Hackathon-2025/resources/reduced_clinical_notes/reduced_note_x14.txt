@@ -1,0 +1,51 @@
+Clinical Note:
+
+Patient Name: Frank Thompson
+
+Date of Birth: 1946-06-15
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Sarah Collins
+
+Personal note: null
+
+History of Present Illness: Frank Thompson presents with progressively worsening blurry vision, particularly in the right eye, over the last few months. He reports difficulty distinguishing colors, especially red from pink. The vision changes began around August and have worsened each month. No pain, redness, flashes of light, or sudden loss of vision. No headaches. Blood sugar is mostly stable. No significant weight changes.
+
+Allergies: No known drug allergies.
+
+Medications: Insulin 15 units before meals, daily multivitamin.
+
+Previous History: 
+Past Medical History: Type 2 diabetes mellitus for about ten years, hypertension.
+Past Surgical History: Appendectomy in 1975.
+Family History: null
+Social History: null
+
+Review of Systems: Positive for blurred vision and difficulty distinguishing colors. Negative for eye pain, headache, or sudden vision loss. No recent changes in blood sugar levels or weight.
+
+Physical Exam: 
+General appearance: null
+Vital Signs: null
+Physical exam findings: Cloudy lens (cataract) in right eye. Retina of right eye shows mild nonproliferative diabetic retinopathy (microaneurysms and small hemorrhages). Left eye: less clouding, a few early diabetic changes. OCT scan of right eye shows macular edema.
+
+Assessment:
+
+Mild nonproliferative diabetic retinopathy with macular edema (right eye).
+Diabetic cataract in the right eye.
+Long-term use of insulin for type 2 diabetes mellitus.
+
+Plan:
+
+Continue current insulin regimen (15 units before meals) and monitor blood sugar more closely.
+Referral to ophthalmology for evaluation of cataract surgery and further management of diabetic retinopathy.
+Schedule regular ophthalmologic evaluations every 3 to 6 months or as recommended.
+Educate patient and family to maintain tight glycemic control and monitor for new vision changes or symptoms.
+
+Medical Decision Making: null

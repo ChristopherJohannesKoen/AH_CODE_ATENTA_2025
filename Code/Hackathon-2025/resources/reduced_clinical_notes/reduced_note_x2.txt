@@ -1,0 +1,52 @@
+Clinical Note:
+
+Patient Name: null
+
+Date of Birth: null
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness: Angela is a newborn female, presented with yellowing of the skin, born at 38 weeks gestation to a mother with blood type O while Angela has blood type A. She was admitted to the Neonatal Intensive Care Unit for the management of hemolytic disease due to ABO incompatibility. Her condition was marked by jaundice that was primarily observed on her face and chest on physical examination. Feeding has been not as smooth, with some irritability and decreased interest in feeding. No fever or respiratory distress reported.
+
+Allergies: No known allergies.
+
+Medications: None.
+
+Previous History: 
+Past Medical History: null
+Past Surgical History: null
+Family History: No known family history of blood or genetic problems.
+Social History: null
+
+Review of Systems: Positive for jaundice, irritability, and poor feeding. Negative for fever or respiratory distress.
+
+Physical Exam: 
+General appearance: null
+Vital Signs: Heart Rate: 130 bpm
+Temperature: null
+Blood Pressure: null
+Respiratory Rate: null
+Oxygen Saturation: null
+
+Physical Exam findings include yellow skin, particularly over the face and chest. Sclerae are somewhat yellowish. Slightly enlarged liver edge on palpation. Heart and lung exams normal. Neurological exam appropriate for age.
+
+Assessment: Angela is diagnosed with hemolytic disease due to ABO incompatibility.
+
+Plan:
+
+- Continue phototherapy to manage elevated bilirubin levels.
+- Monitor bilirubin levels daily.
+- Maintain NICU care with ongoing observation for any signs of anemia or other concerns.
+- Arrange close follow-up with pediatrician after discharge.
+
+Medical Decision Making: The decision for Angela's NICU admission was based on significant hyperbilirubinemia necessitating phototherapy. Regular monitoring is critical to prevent potential complications. Angela's current stability, along with the absence of other complications, supports continued NICU management to ensure safe progress and eventual improvement.

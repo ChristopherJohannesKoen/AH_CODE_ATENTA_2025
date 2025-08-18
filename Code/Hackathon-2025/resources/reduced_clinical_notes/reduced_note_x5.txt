@@ -1,0 +1,43 @@
+Clinical Note:
+
+Patient Name: Emma Thompson
+
+Date of Birth: 1985-07-12
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. James Adler
+
+Personal note: null
+
+History of Present Illness: Emma Thompson presents with a chief complaint of weight gain over the past seven months. She attributes this weight gain to her current medication, Tryptanol, which she has been prescribed for depression. The patient does not report changes in appetite or gastrointestinal discomfort. She feels a bit tired more often but denies experiencing endocrine symptoms such as increased thirst, urination, or temperature intolerance.
+
+Allergies: No allergies that I know of.
+
+Medications: Tryptanol 50 mg daily. Multivitamins (taken for years).
+
+Previous History: 
+Past Medical History: Depression
+Past Surgical History: Appendix was removed back in college.
+Family History: Mother has thyroid problems.
+Social History: Does not smoke, drinks only occasionally.
+
+Review of Systems: Positive for weight gain and feeling a bit tired more often. Negative for changes in appetite, bloating, nausea, gastrointestinal discomfort, increased thirst, urination, or temperature intolerance.
+
+Physical Exam: BMI is 32. No signs of swelling in legs or feet. Thyroid gland normal in size and not enlarged. Blood pressure and heart rate both in a healthy range.
+
+Vital Signs: null
+
+Assessment: Weight gain most likely a side effect from Tryptanol (amitriptyline).
+
+ICD-10 Codes: null
+
+Plan: Refer to psychiatry to review antidepressant and discuss possible switches. Keep a log of weight (check about once a week at the same time of day). Continue current routines (gardening, healthy habits). Follow up after psychiatry consult to review next steps. Continue Tryptanol as prescribed for now. Watch for sudden increase in weight, swelling in legs, trouble breathing, or mood changes and report if they occur.
+
+Medical Decision Making: null

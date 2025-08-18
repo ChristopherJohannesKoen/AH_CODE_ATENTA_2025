@@ -1,0 +1,91 @@
+Doctor: Hello Evelyn, it's nice to meet you. I saw in your chart that you love traveling—and recently went to Europe. Did you get to visit any favorite places?
+
+Patient: Oh, hi, Dr. Grant. Yes, I had the best time! We spent a week in France and then a few days in Italy. I've always wanted to see Venice.
+
+Doctor: That sounds wonderful. I hope you didn’t have to deal with too much jet lag. So, I want to make sure—you're Evelyn Barnes, correct? Date of birth July nineteenth, 1965?
+
+Patient: Yes, that's right. That's me.
+
+Doctor: Great, thank you. Now, from what you've told my staff, you’re here today because you've been feeling dizzy and lightheaded. Can you tell me more about when those symptoms started, and how they've been affecting you?
+
+Patient: Yeah, so, um... I started noticing it maybe—oh, actually, it was right after I started that new water pill, hydrochlorothiazide. My, uh, blood pressure medicine. I just felt... sort of woozy? Like the room would spin a little bit when I stood up.
+
+Doctor: I see. Just to clarify, did the dizziness start the same day you took your first dose, or was there a delay?
+
+Patient: Uhm... Let me think. At first I thought it was just travel fatigue, but no, I guess the dizziness started maybe the second day after I began the medicine. Sorry, I said immediately, but—it was definitely a day or two later.
+
+Doctor: That's helpful to know, thank you. Is the lightheadedness worse at any particular time, like when you stand up or after you take the medication?
+
+Patient: Oh, yeah, it's definitely worse when I stand up. If I'm sitting or lying down, it’s not so bad, but as soon as I get up, I just feel off balance.
+
+Doctor: Any fainting, chest pain, or palpitations?
+
+Patient: No, none of that. Just the dizziness.
+
+Doctor: And have you had any headaches, blurry vision, or trouble speaking?
+
+Patient: No, no headaches or vision changes or anything like that.
+
+Doctor: Thanks. Now, let’s just go over your medical history quickly. I know you have hypertension—any other chronic conditions or major surgeries besides your appendectomy back in 1987?
+
+Patient: No, that’s it for surgeries. Just the high blood pressure.
+
+Doctor: Any family history of similar symptoms, or other heart problems?
+
+Patient: Well, my mom had hypertension and some heart trouble—she had a heart attack when she was in her seventies.
+
+Doctor: Thank you. Are you on any medications besides the hydrochlorothiazide?
+
+Patient: No, just that one.
+
+Doctor: Do you have any medication allergies?
+
+Patient: No, none that I know of.
+
+Doctor: Let’s check a few things together. First, I’m going to measure your blood pressure, both sitting and standing. While sitting, your BP is 98 over 60... Now let’s have you stand up carefully—let me know if you feel dizzy.
+
+Patient: A little dizzy, yeah.
+
+Doctor: Standing blood pressure is 90 over 58. That confirms that your blood pressure is dropping when you stand. Your heart rate is 72, and you’re breathing comfortably. Let’s listen to your heart... Normal rhythm, no murmurs. Lungs are clear. And you’re alert and oriented, no trouble answering questions.
+
+Doctor: I also reviewed your ECG, and it’s showing a normal sinus rhythm. There are no significant changes—nothing to suggest a heart attack or abnormal rhythm.
+
+Patient: That’s a relief. I was a little worried about that.
+
+Doctor: Sure, it’s always a good thing to check. So, Evelyn, what you’re experiencing is called hypotension, which means low blood pressure. In your case, it’s very likely caused by the new diuretic—hydrochlorothiazide—that you started for your high blood pressure.
+
+Patient: So—it’s the water pill doing this?
+
+Doctor: Yes, exactly. Sometimes these medications can lower your blood pressure a bit too much, especially when you first start them, which can cause dizziness and lightheadedness, particularly when you stand up. Because your symptoms started just after you began the medication, and considering your exam and test results, this fits with drug-induced hypotension.
+
+Patient: I see... so, does that mean I need to stop taking it?
+
+Doctor: Good question. I don’t think you need to stop entirely, but I do want to adjust the dose. I’m going to reduce your dosage from 25 milligrams down to 12.5 milligrams once a day. That should help ease your symptoms, but still help lower your blood pressure.
+
+Patient: Okay, and should I, um, take it at a certain time of day or--
+
+Doctor: Sorry to interrupt—yes, please keep taking it in the morning, as you’ve been doing. That helps avoid nighttime trips to the bathroom.
+
+Patient: That makes sense.
+
+Doctor: I also want you to start monitoring your blood pressure at home, if you have a home monitor. Check it once in the morning before you take the pill, and once in the evening for the next week. Write down your readings, and if you notice your blood pressure is below, say, 90 over 60, or you feel dizzy or faint, let me know right away.
+
+Patient: I think I have a monitor at home—but if not, should I pick one up?
+
+Doctor: Yes, that’s a good idea. They’re widely available, and I can recommend a reliable brand if that would help.
+
+Patient: Thanks. And just to be clear, if I’m still feeling dizzy after you change the dose, what should I do?
+
+Doctor: Good question—if your symptoms don’t improve in a few days, or if they get worse—like if you faint or you develop chest pain—please call our office immediately. We’ll talk further at your follow-up next week, but don’t hesitate to reach out before then if you need to.
+
+Patient: Okay, I will. I, um, was worried because at first I thought the medicine was supposed to help, not make me feel worse. Sorry if that’s a silly question.
+
+Doctor: No, not silly at all. Your concerns are completely understandable, and you did the right thing by coming in. Balancing blood pressure control with side effects can be tricky, but we’ll get this sorted together.
+
+Patient: Thanks, Dr. Grant.
+
+Doctor: You’re welcome, Evelyn. So, to summarize: we’re lowering your hydrochlorothiazide dose to 12.5 milligrams daily, you’ll monitor your blood pressure at home twice a day, and follow up here in one week. Bring your readings with you, and we’ll decide together if any further changes are needed. Any more questions for me today?
+
+Patient: No, I think that covers everything. Thank you again.
+
+Doctor: My pleasure. Safe travels between now and your next trip, and I’ll see you in a week.

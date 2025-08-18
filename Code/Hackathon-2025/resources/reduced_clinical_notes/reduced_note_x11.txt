@@ -1,0 +1,63 @@
+Clinical Note:
+
+Patient Name: Jack Thompson
+
+Date of Birth: 1968-03-14
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness: Jack Thompson began experiencing chest pain, shortness of breath, and light-headedness while playing basketball with his sons. null
+
+Allergies: Aspirin
+
+Medications: Lisinopril 10 mg every morning
+
+Previous History: 
+Past Medical History: Hypertension
+Past Surgical History: Appendectomy in 1995
+Family History: Father had a heart attack at age 60
+Social History: Non-smoker, occasional alcohol use, null
+
+Review of Systems: 
+Cardiovascular: Positive for chest pain.
+Respiratory: Positive for shortness of breath.
+Neurological: Positive for light-headedness.
+All other systems: null
+
+Physical Exam: 
+The patient appeared diaphoretic during examination.
+Vital Signs: 
+Temperature: null
+Blood Pressure: 145/90 mmHg
+Heart Rate: 95 bpm
+Respiratory Rate: null
+Oxygen Saturation: 96% on room air.
+Diaphoresis noted.
+Heart: Regular rate, no murmurs, rubs, or gallops.
+Lungs: Equal air entry bilaterally, no crackles or wheezing.
+Extremities: No edema.
+Neck: No jugular venous distention.
+Abdomen: No tenderness.
+Peripheral pulses: Radial and dorsalis pedis pulses present and strong, capillary refill less than two seconds.
+Neurologic: Alert and oriented, extraocular movements intact, no facial droop or arm weakness, sensation intact.
+
+Assessment:
+
+Acute non-ST anterior wall myocardial infarction
+Chest pain
+Shortness of breath
+Light-headedness
+
+Plan: Immediate management includes stabilization with oxygen and administration of nitroglycerin for chest pain relief. Preparation for coronary angiography to assess the extent of coronary artery blockage. Cardiology consultation for ongoing management and intervention planning.
+
+Medical Decision Making: EKG showed ST-segment changes in the anterior leads and troponin levels were elevated to 1.23 ng/mL. Diagnosis of acute non-ST anterior wall myocardial infarction confirmed. null

@@ -1,0 +1,43 @@
+Clinical Note:
+
+Patient Name: Laura Thompson
+
+Date of Birth: 1978-06-23
+
+Age: 45 years
+
+Sex: Female
+
+Medical Record #: MRN9837456
+
+Date of clinic visit: 2023-10-15
+
+Primary care provider: Dr. Julie Anderson
+
+Personal note: Patient has been working to complete a personal library in their home.
+
+History of Present Illness: Laura Thompson is a 45-year-old female who presents with persistent lower back pain that began six months ago during a period of increased physical activity involving lifting and organizing heavy books. She has experienced ongoing difficulties in daily activities due to this pain, particularly with movement or lifting. The patient denies any recent trauma or new injuries. Her symptoms have not been associated with changes in weight, appetite, or bowel/bladder function.
+
+Allergies: NKDA
+
+Medications: Ibuprofen 400mg orally twice a day as needed for pain
+
+Previous History: Past Medical History: Hypertension Past Surgical History: Appendectomy 1998 Family History: Mother with osteoporosis Social History: Non-smoker, consumes alcohol socially, lives with partner, no children
+
+Review of Systems: Denies recent trauma or new injuries. Reports ongoing lower back pain, especially with movement or lifting. No recent changes in weight, appetite, or bowel/bladder function.
+
+Physical Exam: The patient appears in mild distress due to pain.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 122/82 mmHg Heart Rate: 76 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air
+
+Moderate tenderness over the lumbar region was noted during palpation. The patient exhibits a limited range of motion in the lumbar spine, with apparent stiffness.
+
+Assessment: The patient has a fatigue fracture of the vertebra in the lumbar region with delayed healing. ICD-10 Code: M48.46xG.
+
+Plan:
+
+Continue pain management with ibuprofen.
+Order an MRI of the lumbar spine to evaluate the extent of delayed fracture healing and check for any associated disc or soft tissue abnormalities.
+Refer to an orthopedic spine specialist for evaluation of potential intervention options.
+Continue monitoring of symptoms and adjust treatment based on specialist feedback and imaging results.
+Medical Decision Making: This is a moderately complex encounter due to the persistent, unresolved lumbar vertebral fracture requiring additional diagnostic imaging and potential specialist consultation. The decision to order an MRI to further assess the fracture healing process and any underlying complications reflects the need for comprehensive management. Consideration was given to ruling out underlying metabolic or bone health issues that could be contributing to the delayed healing process. The provided plan ensures continued evaluation and appropriate intervention for this orthopedic condition.

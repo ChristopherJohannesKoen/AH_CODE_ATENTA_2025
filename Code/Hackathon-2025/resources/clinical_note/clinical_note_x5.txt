@@ -1,0 +1,37 @@
+Clinical Note:
+
+Patient Name: Emma Thompson
+
+Date of Birth: 1985-07-12
+
+Age: 38 years
+
+Sex: Female
+
+Medical Record #: MRN12345678
+
+Date of clinic visit: 2023-10-15
+
+Primary care provider: Dr. James Adler
+
+Personal note: Patient enjoys gardening during weekends and has a small collection of succulents.
+
+History of Present Illness: Emma Thompson, a 38-year-old female graphic designer, presents with a chief complaint of weight gain over the past several months. She attributes this weight gain to her current medication, Tryptanol, which she has been prescribed for depression. The patient does not report changes in appetite or gastrointestinal discomfort. She feels mild fatigue but denies experiencing endocrine symptoms such as polyuria or polydipsia.
+
+Allergies: NKDA
+
+Medications: Tryptanol 50 mg daily
+
+Previous History: Past Medical History: Depression Past Surgical History: Appendectomy in 2002 Family History: Mother has a history of hypothyroidism Social History: Non-smoker, occasional alcohol consumption, lives with spouse
+
+Review of Systems: Positive for weight gain and mild fatigue. Negative for changes in appetite, gastrointestinal discomfort, or endocrine symptoms such as polyuria or polydipsia.
+
+Physical Exam: The patient appears well-developed and in no acute distress. BMI is calculated at 32, indicating obesity. No signs of peripheral edema or thyroid enlargement.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 130/85 mmHg Heart Rate: 76 bpm Respiratory Rate: 18 breaths/min Oxygen Saturation: 99% on room air
+
+Assessment: Subsequent encounter for obesity resulting from the prescription drug Tryptanol. ICD-10 Codes: E66.1 (Obesity due to drugs), T43.015D (Adverse effect of tricyclic antidepressants, subsequent encounter)
+
+Plan: Evaluate potential for adjusting the medication to better manage weight while maintaining control of depressive symptoms. Consider consultation with a psychiatrist for medication adjustment, exploring alternative antidepressants with a favorable weight profile.
+
+Medical Decision Making: The encounter is of moderate complexity, necessitating an interdisciplinary approach to manage the side effects of medication while ensuring effective control of depressive symptoms. The patient’s medication history was reviewed, and potential adjustments were discussed. A recommendation was made for a psychiatric consultation to explore alternates to Tryptanol that may have a lesser impact on weight yet still effectively manage depressive symptoms.
