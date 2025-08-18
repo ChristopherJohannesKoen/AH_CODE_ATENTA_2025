@@ -1,0 +1,39 @@
+Clinical Note:
+
+Patient Name: Emily Thompson
+
+Date of Birth: 2007-04-18
+
+Age: 16 years
+
+Sex: Female
+
+Medical Record #: MRN123456
+
+Date of clinic visit: 2023-11-01
+
+Primary care provider: Dr. Benjamin Rogers
+
+Personal note: Patient is passionate about dance and enjoys participating in school events.
+
+History of Present Illness: Emily Thompson is a 16-year-old female who presents with pain and swelling in the left ankle following a fall during a dance contest at her school's gymnasium. She reports slipping and landing on her ankle. There was immediate pain and swelling. Evaluation in the emergency department ruled out a fracture, diagnosing a sprain to the left ankle.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: No significant medical history. Past Surgical History: None Family History: No family history of significant musculoskeletal conditions. Social History: Student, lives with parents, no tobacco or alcohol use.
+
+Review of Systems: Constitutional: Denies fever or chills. Musculoskeletal: Reports pain and swelling in left ankle. Denies any other joint pain. Neurological: Denies numbness or tingling. Cardiovascular: No chest pain or palpitations.
+
+Physical Exam: General: Appears in mild distress due to pain, otherwise well-nourished and alert. Vital Signs: Temperature: 98.6 F Blood Pressure: 112/70 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air Left Ankle: Notable swelling and tenderness over the lateral aspect. Limited range of motion noted in dorsiflexion and plantar flexion secondary to pain. X-ray results show no fracture, consistent with ankle sprain.
+
+Assessment: Left ankle sprain (ICD-10: S93.402A) resulting from fall (ICD-10: W01.0xxA) at school facility (ICD-10: Y92.39) during dancing activity (ICD-10: Y93.41). School event (ICD-10: Y99.2).
+
+Plan:
+
+Educated on R.I.C.E. therapy: Rest, Ice, Compression, and Elevation for the ankle sprain.
+Instructions provided to avoid weight bearing for the next 48 hours.
+Advised to initiate follow-up with physical therapy if symptoms do not improve within 2 weeks.
+Consider return visit for evaluation if pain or swelling persists beyond two weeks.
+Medical Decision Making: The decision to manage Emily's left ankle sprain conservatively with home-based care was based on the clinical examination and imaging findings that confirmed the absence of a fracture. The negative X-ray was crucial in ruling out a minor fracture, thereby confirming the presence of only a sprain, which allows for a non-surgical treatment plan. The management plan comprises comprehensive instructions to ensure recovery through R.I.C.E. therapy, with a consideration for physical therapy if the condition does not improve, reflecting a moderate complexity due to the need for imaging and detailed care instructions.

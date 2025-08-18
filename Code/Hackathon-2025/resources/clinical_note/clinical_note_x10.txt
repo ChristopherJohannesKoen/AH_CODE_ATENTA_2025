@@ -1,0 +1,67 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-04-15
+
+Age: 38 years
+
+Sex: Male
+
+Medical Record #: MRN456789
+
+Date of clinic visit: 2023-10-10
+
+Primary care provider: Dr. Emily Barnes
+
+Personal note: Patient is an avid hiker who recently climbed a challenging trail.
+
+History of Present Illness:
+
+John Doe is a 38-year-old male presenting with a painful lump on the lateral aspect of his left foot that developed over the past week. The mass is described as being tender, swollen, and localized without any systemic symptoms such as fever, chills, or weight loss. The patient is right-hand dominant and works as a graphic designer. He acknowledges discomfort especially when walking, which coincides with recent hiking activities.
+
+Allergies:
+
+NKDA
+
+Medications:
+
+Ibuprofen 200 mg as needed for pain
+
+Previous History:
+
+Past Medical History: Seasonal allergies
+Past Surgical History: Appendectomy, 2006
+Family History: Father with hypertension
+Social History: Non-smoker, drinks alcohol socially, lives with spouse and two children
+
+Review of Systems:
+
+Positive for localized swelling and pain on the left foot. Denies fever, chills, or weight loss.
+
+Physical Exam:
+
+The patient is a well-nourished, well-developed male in no acute distress.
+
+Vital Signs:
+Temperature: 98.6 F
+Blood Pressure: 120/80 mmHg
+Heart Rate: 72 bpm
+Respiratory Rate: 16 breaths/min
+Oxygen Saturation: 98% on room air
+
+On examination, there is a palpable, erythematous, and fluctuant mass on the dorsum of the left foot, with mild tenderness noted upon palpation.
+
+Assessment:
+
+The patient has a boil on the left foot, consistent with a localized abscess due to a bacterial infection. ICD-10: L02.622.
+
+Plan:
+
+Perform incision and drainage of the abscess on the left foot to alleviate pressure and promote drainage.
+Consider empirical antibiotics following the procedure, depending on the culture results from the drained fluid.
+Advise the patient on wound care and signs of infection to monitor post-procedure.
+Follow-up appointment to assess healing and response to treatment.
+Medical Decision Making:
+
+The decision to perform incision and drainage is influenced by the fluctuant nature of the mass, indicating probable pus collection. The procedure is necessary to relieve pressure and reduce infection risk. Antibiotic therapy will be contemplated post-procedure, guided by culture findings. The complexity of care is moderate due to the procedural intervention and possible need for adjunctive antibiotic management.

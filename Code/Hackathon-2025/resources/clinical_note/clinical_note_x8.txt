@@ -1,0 +1,38 @@
+Clinical Note:
+
+Patient Name: Emily Jackson
+
+Date of Birth: 1983-07-22
+
+Age: 40 years
+
+Sex: Female
+
+Medical Record #: MRN10293847
+
+Date of clinic visit: 2023-10-14
+
+Primary care provider: Dr. Sarah Thompson
+
+Personal note: Patient is an avid reader and enjoys outdoor photography.
+
+History of Present Illness: Emily Jackson is a 40-year-old female presenting with persistent dryness and irritation in her right eye over the past few months. She is right-hand dominant and works as a graphic designer. The symptoms have not improved with the use of over-the-counter artificial tears. There is no report of recent vision changes, headaches, or trauma to the eye, but she experiences mild blurred vision intermittently. There is no history of eye infections.
+
+Allergies: Penicillin
+
+Medications: Artificial tears (as needed)
+
+Previous History: Past Medical History: Seasonal allergies Past Surgical History: Appendectomy in 2002 Family History: Mother has glaucoma Social History: Non-smoker, occasional alcohol use, lives with husband and two children.
+
+Review of Systems: Denies recent vision changes, headaches, or trauma to the eye. Reports mild blurred vision intermittently. No history of eye infections.
+
+Physical Exam: General appearance: No acute distress Vital Signs: Temperature: 98.6 F Blood Pressure: 120/80 mmHg Heart Rate: 70 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air Right eye examination reveals conjunctival injection and reduced tear meniscus height. Fluorescein staining shows mild punctate epithelial erosions in the right eye. Tear break-up time is less than 5 seconds on the right eye.
+
+Assessment: The patient is diagnosed with dry eye syndrome of the right lacrimal gland. [ICD-10 Code: H04.121]
+
+Plan:
+
+Prescribe cyclosporine ophthalmic emulsion 0.05% for the right eye, one drop twice daily.
+Recommend the application of warm compresses.
+Encourage frequent use of artificial tears to maintain eye moisture.
+Medical Decision Making: The moderate complexity of this case is due to persistent symptoms despite previous use of standard over-the-counter treatments. The prescription of cyclosporine ophthalmic emulsion is aimed at enhancing tear production and reducing inflammation. Patient education includes discussing lifestyle modifications to improve symptoms, such as maintaining proper hydration and using environmental controls to manage dryness. The tailored treatment and management plan consider both pharmacological and non-pharmacological interventions to address the underlying condition effectively.

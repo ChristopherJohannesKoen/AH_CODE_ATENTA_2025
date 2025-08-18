@@ -1,0 +1,50 @@
+Clinical Note:
+
+Patient Name: Sarah Anderson
+
+Date of Birth: 1985-08-14
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Thompson
+
+Personal note: null
+
+History of Present Illness: Sarah Anderson presents to the clinic with complaints of fatigue and jaundice. She reports feeling very tired and noticing yellowing of her skin and eyes, which started about two weeks ago. Fatigue began after starting a new medication about a month ago, with symptoms becoming noticeable after about a week on the medication. She denies fevers, cough, recent infections, rashes, or itching. She notes her urine is darker than usual.
+
+Allergies: Cephalosporins
+
+Medications: Hydrochlorothiazide
+
+Previous History: 
+Past Medical History: Hypertension
+Past Surgical History: Appendectomy in 2008
+Family History: Mother with rheumatoid arthritis; denies family history of blood disorders
+Social History: null
+
+Review of Systems: Positive for fatigue, yellowing of the eyes and skin, and dark urine. Negative for recent infections, fever, rashes, or itching.
+
+Physical Exam: 
+General: Patient appears fatigued.
+Eyes: Scleral icterus and pale conjunctivae noted.
+Skin: Generalized yellowish discoloration (jaundice). No bruising or rash.
+Vital Signs: All in the normal range today.
+
+Assessment: Autoimmune hemolytic anemia, likely drug-induced.
+
+Plan: 
+- Start prednisone 40 mg daily.
+- Refer to hematologist for further management.
+- Repeat blood tests in about a week.
+- Advise patient to take it easy until energy improves; gentle activity and hydration encouraged.
+- Continue hydrochlorothiazide as usual.
+- No specific food restrictions for prednisone, but avoid excessive salt and take with food.
+- Instruct patient to call if symptoms worsen (increasing fatigue, chest pain, shortness of breath, worsening jaundice).
+
+Medical Decision Making: null

@@ -1,0 +1,56 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-09-12
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Emily Hawkins
+
+Personal note: null
+
+History of Present Illness: John Doe presented with a complaint of a scrape on his right elbow. The injury occurred when he tripped while rushing at the mall and sustained a superficial abrasion. No loss of consciousness, no dizziness (except for brief lightheadedness immediately after, attributed to being startled), no head injury, and no other pain except mild soreness at the right elbow. No swelling, warmth, pus, or fever. No other associated symptoms mentioned.
+
+Allergies: No known drug allergies.
+
+Medications: None.
+
+Previous History: 
+Past Medical History: No chronic conditions.
+Past Surgical History: Appendectomy in 2010.
+Family History: Father has high blood pressure.
+Social History: null
+
+Review of Systems: Denies loss of consciousness, dizziness, and fever. Positive for minor right elbow pain. null
+
+Physical Exam: 
+Inspection: Superficial abrasion over the lateral aspect of the right elbow, about two centimeters in size, no drainage or signs of infection.
+Palpation: No increased tenderness over the olecranon and lateral epicondyle, no bogginess, no crepitus.
+Range of Motion: Full range of motion, mild discomfort with full flexion, no instability, joint stable.
+Neurovascular: Sensation intact in thumb and fifth finger, radial and ulnar pulses strong, capillary refill less than two seconds, strength 5/5 for grip and wrist extension.
+General: null
+
+Vital Signs: null
+
+Examination of the right elbow reveals a superficial abrasion, with no signs of infection. The elbow exhibits a full range of motion with minimal discomfort.
+
+Assessment: Right elbow abrasion due to fall at the mall.
+
+(ICD-10: null)
+
+Plan:
+
+- Clean the area with mild soap and water twice daily, pat dry, apply a thin layer of Neosporin ointment, and cover with a non-stick bandage.
+- Prescribe Neosporin ointment.
+- Educate the patient on wound care, including signs of infection (redness spreading, warmth, pus, fever, increased pain) and to call the office if these occur.
+- May use arm as pain allows; avoid activities that could re-injure the area or expose it to dirt/bacteria for a few days.
+- No routine follow-up required unless concerns arise.
+
+Medical Decision Making: This encounter involved the assessment of a minor superficial abrasion on the patient's right elbow. There were no complications or signs of infection. The patient was educated on wound care and advised to follow up if symptoms change.

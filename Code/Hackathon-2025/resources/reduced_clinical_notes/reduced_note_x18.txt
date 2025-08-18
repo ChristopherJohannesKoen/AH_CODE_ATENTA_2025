@@ -1,0 +1,49 @@
+Clinical Note:
+
+Patient Name: Laura Thompson
+
+Date of Birth: 1978-06-23
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: Patient has been working to complete a personal library in their home.
+
+History of Present Illness: Laura Thompson presents with persistent lower back pain that began about five and a half to six months ago during a period of increased physical activity involving lifting and organizing heavy books. She has experienced ongoing difficulties in daily activities due to this pain, particularly with movement or lifting. The patient denies any recent trauma or new injuries. Her symptoms have not been associated with changes in weight, appetite, or bowel/bladder function.
+
+Allergies: No known allergies.
+
+Medications: Ibuprofen 400mg orally twice a day as needed for pain
+
+Previous History: 
+Past Medical History: Hypertension 
+Past Surgical History: Appendectomy 1998 
+Family History: Mother with osteoporosis 
+Social History: Non-smoker, consumes alcohol on weekends (a glass of wine or two), lives with partner
+
+Review of Systems: Denies recent trauma or new injuries. Reports ongoing lower back pain, especially with movement or lifting. No recent changes in weight, appetite, or bowel/bladder function.
+
+Physical Exam: 
+Moderate tenderness over the lumbar region was noted during palpation, more painful directly down the center, less on the sides. The patient exhibits a limited range of motion in the lumbar spine, with apparent stiffness and pain on forward bending, backward arching, and side-to-side motion. Sensation is intact in the lumbar and sacral dermatomes. Strength is 5 out of 5 in big toe dorsiflexion and plantarflexion. Reflexes are normal at the knees and ankles. Circulation is strong in both feet.
+
+Vital Signs: null
+
+Assessment: The patient has a fatigue fracture of the vertebra in the lumbar region with delayed healing. null
+
+Plan:
+
+Continue pain management with ibuprofen as needed, not more than two per day.
+Order an MRI of the lumbar spine to evaluate the extent of delayed fracture healing and check for any associated disc or soft tissue abnormalities.
+Refer to an orthopedic spine specialist for evaluation of potential intervention options.
+Avoid lifting anything heavy and pace activities to avoid aggravating pain.
+Follow up in two to three weeks or sooner if symptoms worsen.
+If pain suddenly worsens, or if there is numbness, trouble with legs, or trouble with bladder or bowels, patient to call clinic immediately.
+
+Medical Decision Making: null

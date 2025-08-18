@@ -1,0 +1,41 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-09-15
+
+Age: 38 years
+
+Sex: Male
+
+Medical Record #: MRN123456
+
+Date of clinic visit: 2023-11-25
+
+Primary care provider: Dr. Sarah Thompson
+
+Personal note: Patient is passionate about volunteer work and enjoys cooking for community events.
+
+History of Present Illness: John Doe is a 38-year-old right-hand-dominant male who presents with a laceration to his right thumb. The injury occurred while he was chopping vegetables in the kitchen of his mobile home for a community event. The patient reports that he cut his thumb with a kitchen knife, resulting in a deep laceration that extended to the nail bed. He noted immediate bleeding and partial loss of the nail with jagged edges. He denies any loss of sensation or function in the thumb.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: Occasional tension headaches Past Surgical History: Appendectomy in 2008 Family History: Father has hypertension Social History: Non-smoker, occasionally drinks alcohol, lives in a mobile home park, involved in community service
+
+Review of Systems: Denies loss of sensation or function in the thumb. No other injuries or complaints.
+
+Physical Exam: The patient appears well-nourished and in no acute distress. Examination of the right thumb reveals a deep laceration extending to the nail bed with active bleeding and partial nail loss with jagged edges.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 125/78 mmHg Heart Rate: 72 bpm Respiratory Rate: 16 breaths/min Oxygen Saturation: 98% on room air
+
+Assessment: Right thumb laceration with nail bed involvement. (ICD-10 codes: S61.111A, W26.0xxA, Y92.020, Y93.G1, Y99.2)
+
+Plan:
+
+Perform wound irrigation and debridement.
+Repair the nail bed as necessary.
+Apply Bacitracin ointment to prevent infection.
+Schedule a follow-up appointment to assess wound healing and nail growth.
+Medical Decision Making: The decision-making process was moderate in complexity due to the involvement of the nail bed, which increases the risk of infection and potential complications with nail regrowth. Consideration was given to choosing the most appropriate wound closure technique to optimize healing and minimize infection risk. Utilization of antibiotic prophylaxis was planned, and follow-up care was scheduled to ensure appropriate healing and function restoration. The straightforward nature of the repair aligned with an E/M level 3 for this encounter.

@@ -1,0 +1,42 @@
+Clinical Note:
+
+Patient Name: Helen Carter
+
+Date of Birth: 1982-03-12
+
+Age: 41 years
+
+Sex: Female
+
+Medical Record #: MRN3274651
+
+Date of clinic visit: 2023-10-15
+
+Primary care provider: Dr. Amanda Lin
+
+Personal note: Patient enjoys attending local art classes during the weekends.
+
+History of Present Illness: Helen Carter is a 41-year-old female who presents as a new patient with concerns about her weight and its impact on her health. She reports a history of increased joint pain and fatigue, which she attributes to her obesity. The patient works as a graphic designer and notes that her sedentary lifestyle may contribute to her weight issues. She is particularly concerned about the impact on her knees and back, where she experiences discomfort. Furthermore, Helen has noted occasional shortness of breath but denies any chest pain or palpitations.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: Hypertension Past Surgical History: Appendectomy at age 23 Family History: Mother had type 2 diabetes, Father has heart disease Social History: Non-smoker, occasionally drinks wine, lives with her partner
+
+Review of Systems: Reports joint pain, especially in knees and back, and occasional shortness of breath. Denies chest pain or palpitations.
+
+Physical Exam: The patient appears well-nourished, though visibly obese. Vital Signs: Temperature: 98.6 F Blood Pressure: 145/90 mmHg Heart Rate: 78 bpm Respiratory Rate: 18 breaths/min Oxygen Saturation: 97% on room air
+
+Physical exam findings include a calculated BMI of 42, classifying the patient as morbidly obese. Blood pressure recorded is elevated at 145/90 mmHg, indicative of hypertension.
+
+Assessment: The patient presents with morbid obesity, characterized by a BMI of 42 (ICD-10: E66.01, Z68.41), and significant comorbidities such as hypertension and early arthritis. The complexity of her condition is compounded by her sedentary lifestyle and family history of cardiovascular disease, necessitating immediate intervention.
+
+Plan:
+
+Initiate antihypertensive therapy with Lisinopril 10 mg daily.
+Referral to a dietitian for nutritional counseling to assist with weight management.
+Order a baseline metabolic panel to assess the current metabolic status.
+Encourage regular physical activity tailored to the patient’s tolerance to support weight loss and improve cardiac health.
+Schedule follow-up in 1 month to monitor blood pressure and discuss weight management progress.
+Medical Decision Making: The encounter denotes moderate complexity due to the necessity of addressing multiple chronic conditions, including obesity and hypertension. Initiation of antihypertensive therapy was deemed crucial considering the patient's blood pressure readout and family history. Additionally, dietary intervention through a dietitian referral supports her weight management goal. Careful monitoring and lifestyle adjustments are essential to mitigate the progression of osteoarthritis and cardiovascular risk factors.

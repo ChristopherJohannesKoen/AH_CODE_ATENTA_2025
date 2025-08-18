@@ -1,0 +1,42 @@
+Clinical Note:
+
+Patient Name: Frank Thompson
+
+Date of Birth: 1946-06-15
+
+Age: 77 years
+
+Sex: Male
+
+Medical Record #: MRN1234567
+
+Date of clinic visit: 2023-10-25
+
+Primary care provider: Dr. Sarah Collins
+
+Personal note: Patient enjoys spending afternoons in his garden tending to his rose bushes.
+
+History of Present Illness: Frank Thompson is a 77-year-old right-hand dominant male, retired schoolteacher, presenting with complaints of progressively worsening blurry vision, particularly in the right eye, over the last few months. This has occurred alongside difficulty in seeing clearly, especially distinguishing colors. His granddaughter, Jane, has been helping him manage his care due to his conditions.
+
+Allergies: NKDA
+
+Medications: Insulin 15 units subcutaneously before meals, daily multivitamin.
+
+Previous History: Past Medical History: Type 2 diabetes mellitus diagnosed 10 years ago, hypertension. Past Surgical History: Appendectomy in 1975. Family History: Father had type 2 diabetes, mother had hypertension. Social History: Lives alone but will move in with granddaughter soon. Non-smoker, drinks alcohol occasionally. Enjoys gardening.
+
+Review of Systems: Positive for blurred vision and difficulty distinguishing colors. Negative for eye pain, headache, or recent trauma. Denies any recent changes in blood sugar levels or weight loss.
+
+Physical Exam: General appearance: Well-nourished, elderly male in no acute distress, though visibly concerned about his vision. Vital Signs: Temperature: 98.6 F Blood Pressure: 126/78 mmHg Heart Rate: 72 bpm Respiratory Rate: 14 breaths/min Oxygen Saturation: 99% on room air Physical exam findings include blurry vision predominately in the right eye, with signs of cataract evident upon fundoscopic examination. Macular edema observed on Optical Coherence Tomography (OCT) scan of the right eye.
+
+Assessment:
+
+Mild nonproliferative diabetic retinopathy with macular edema (ICD-10: E11.321).
+Diabetic cataract in the right eye (ICD-10: E11.36).
+Long-term use of insulin for type 2 diabetes mellitus (ICD-10: Z79.4).
+Plan:
+
+Continue with current insulin regimen, emphasizing frequent monitoring of blood glucose levels for optimal glycemic control.
+Referral to ophthalmology for evaluation of potential cataract surgery and further management of diabetic retinopathy.
+Schedule regular ophthalmologic evaluations to monitor progression and response to treatment.
+Educate patient and family about the importance of maintaining tight glycemic control to mitigate further ocular and systemic complications.
+Medical Decision Making: The complexity of managing Frank Thompson’s diabetes and its ocular complications requires a multifaceted approach. Emphasis is placed on achieving stringent glycemic control to prevent further progression of diabetic retinopathy. Regular eye exams are necessary to monitor changes and intervene promptly. The referral to an ophthalmologist is crucial for specialized evaluation and treatment, particularly considering the potential need for cataract surgery to restore visual acuity. Collaboration between primary care and specialized ophthalmological care will be essential for maintaining Mr. Thompson’s overall health and quality of life.

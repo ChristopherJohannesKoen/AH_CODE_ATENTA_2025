@@ -1,0 +1,47 @@
+Clinical Note:
+
+Patient Name: Tim Mitchell
+
+Date of Birth: null
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Emily Tan
+
+Personal note: null
+
+History of Present Illness: Tim Mitchell is a male who presented with complaints of a rash, abdominal cramping, and diarrhea, symptoms which began a few hours after consuming a meal at a restaurant. This occurred on the evening he and his wife were celebrating their anniversary by dining out. The rash is described as widespread urticarial rash appearing on his chest and arms. The abdominal cramping and diarrhea have been persistent since the onset. He denies any fever, vomiting, or respiratory symptoms.
+
+Allergies: None that he knows of.
+
+Medications: None
+
+Previous History: 
+Past Medical History: Hay fever (seasonal allergies)
+Past Surgical History: Appendectomy in 2009
+Family History: null
+Social History: null
+
+Review of Systems: Positive for abdominal pain, diarrhea, and skin rash. Denies fever, vomiting, or respiratory symptoms. Denies chills, joint pain, or mouth sores.
+
+Physical Exam: The skin examination reveals a widespread urticarial rash—raised, red, and blotchy areas—on the chest and both arms. No swelling of the lips or tongue. The abdominal exam shows mild tenderness on palpation in the right and left lower quadrants without guarding or rebound tenderness. Patient appears to be in mild discomfort but is alert and oriented. Heart and breathing are regular.
+
+Vital Signs: no fever, heart and breathing regular, all vital signs normal (exact values: null)
+
+Assessment: Allergic food gastroenteritis and mild contact dermatitis due to food.
+
+Plan:
+
+Prescribe Cetirizine 10 mg once daily as needed to manage the rash.
+Recommend oral rehydration solutions to prevent dehydration from diarrhea.
+Monitor symptoms for resolution over the next few days.
+Educate on signs to seek urgent care: swelling of lips/tongue, trouble breathing/swallowing, rapidly worsening rash, inability to keep fluids down, feeling very weak or faint.
+Follow-up if symptoms persist or worsen after 3 days.
+
+Medical Decision Making: Given the acute onset of symptoms shortly after ingesting the meal, along with an elevated white blood cell count of about 15,000 indicating a possible allergic response, an allergic reaction is highly probable. The combination of gastroenterological and dermatological symptoms suggests that supportive care with antihistamines is a suitable course of action. Tim has been advised to monitor his symptoms and return should they persist or escalate, ensuring the avoidance of suspected allergens in future meals.

@@ -1,0 +1,47 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-08-15
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Emily Carter
+
+Personal note: null
+
+History of Present Illness: John Doe presents with headache and neck pain following a fall while hiking. He slipped and landed on his backside. He reports no loss of consciousness. Headache started a few hours after the fall and neck pain began immediately. Headache is unchanged, neck pain persists and is worse with turning head or looking down, but not unbearable. Denies dizziness, nausea, vomiting, vision changes, numbness, weakness, or tingling in arms or legs. Reports neck stiffness. CT scan of head from the other day was normal.
+
+Allergies: No known drug allergies.
+
+Medications: Ibuprofen 400 mg as needed for pain
+
+Previous History: Past Medical History: Seasonal allergies Past Surgical History: Appendectomy Family History: Father has high blood pressure Social History: Non-smoker, social alcohol use
+
+Review of Systems: Reports headache and neck pain. Denies dizziness, nausea, vomiting, vision changes, numbness, weakness, or tingling in arms or legs.
+
+Physical Exam: Vital Signs: null
+
+General: null Head: null Neck: Mild tenderness in cervical paraspinal muscles. No visible swelling or deformity. Range of motion limited by discomfort, no instability. Neurological: Strength and sensation intact in arms and hands. Reflexes normal.
+
+Assessment:
+
+Concussion without loss of consciousness (ICD-10: null)
+Neck pain, likely muscular strain (ICD-10: null)
+
+Plan:
+
+Prescribe Cyclobenzaprine 5 mg every 8 hours as needed for muscle relaxation.
+Recommend rest and gradual return to activities as tolerated.
+Continue Ibuprofen 400 mg as needed for pain.
+Educate patient on warning signs that would necessitate immediate return, such as worsening headaches, confusion, vomiting, vision changes, numbness, weakness, or sudden increase in neck pain.
+Advise follow-up if symptoms do not improve within a week or worsen.
+Reassurance provided regarding the normal CT findings.
+
+Medical Decision Making: null

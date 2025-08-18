@@ -1,0 +1,99 @@
+Doctor: Hi John, good to see you. And Jane, it's nice to meet you as well. John, did you make any progress on that puzzle I gave you last time, or should I bring something more challenging next time?
+
+Patient: Hi Dr. Hawkins, actually, that puzzle kept me busy for a while. I eventually finished it—no, wait, I got stuck on the last part for ages, and Jane had to help me out.
+
+Other: He did most of it on his own, though! Thanks for bringing it, he really enjoys those.
+
+Doctor: Well, that's great to hear. So, John, before we get started, can you just confirm your full name and date of birth for me?
+
+Patient: Sure—John Doe, September 12th, 1985.
+
+Doctor: Perfect, thank you. Now, I understand you had a bit of an accident at the mall—something about chasing after a sale? Can you tell me in your own words what happened?
+
+Patient: Yeah, uhm, we were at the mall for those Black Friday deals, and I, you know, I saw a crowd going for the new iPhone, so I rushed and... well, I tripped on one of the steps and took a bit of a tumble. I scraped my right elbow but, honestly, it didn't seem too bad.
+
+Other: It looked pretty red and raw, though. I told him he should come get it checked.
+
+Doctor: That was smart advice, Jane. Now, John, just so I’m clear, was there any loss of consciousness, dizziness, or did you hit your head at all when you fell?
+
+Patient: No, none of that. No dizziness or anything. Oh—actually, I felt a tiny bit lightheaded right after I got up, but... no, now that I think about it, it was just from being startled.
+
+Doctor: Okay, that's good to know. Any pain anywhere else, maybe your wrist or shoulder, or just the elbow?
+
+Patient: Just the elbow, really. It's a little sore, but nothing major.
+
+Doctor: Okay. And have you noticed any swelling, warmth, pus, or fever since it happened?
+
+Patient: Nope, just a little redness and, uh, it stung a bit when I rinsed it off, but nothing else.
+
+Doctor: Great. Let’s quickly cover your medical background—any chronic conditions like high blood pressure, diabetes, or anything like that?
+
+Patient: No, nothing like that for me. My dad has high blood pressure, but I’m okay so far.
+
+Doctor: Okay. Surgeries? I have a note here about an appendectomy in 2010—any others?
+
+Patient: No, just that one.
+
+Doctor: Any medications you’re taking, even over-the-counter?
+
+Patient: No, none at all.
+
+Doctor: Any allergies to medications—penicillin, sulfa drugs, anything?
+
+Patient: No, no allergies.
+
+Doctor: Jane, has John ever had any problems with wounds healing in the past, or any issues with bleeding or clotting?
+
+Other: Nope, nothing like that. He heals up pretty quick, usually.
+
+Doctor: All right, John, I’m going to go ahead and examine your right elbow now. I’ll narrate what I’m checking for. First, I’m inspecting the area—there’s a superficial abrasion over the lateral aspect of your right elbow, about two centimeters in size, and there’s no drainage or signs of infection.
+
+Doctor: Next, I’ll gently palpate around the abrasion to check for tenderness—let me know if anything’s too painful… Okay, over the olecranon and lateral epicondyle there’s no increased tenderness, no bogginess, and no crepitus.
+
+Doctor: Now I’m going to move your elbow through its full range—flexion, extension, pronation, and supination. Please let me know if you feel any sharp pain as I do this.
+
+Patient: Uh, that’s fine… there’s just a little discomfort when you flex all the way, but it’s not bad.
+
+Doctor: That’s expected with a surface scrape. Good—your elbow has full range of motion, no instability, and the joint itself feels stable.
+
+Doctor: Now, I’m just going to quickly check sensation and circulation in your hand and fingers. Can you feel my touch here on your thumb and then your fifth finger?
+
+Patient: Yeah, I can feel both.
+
+Doctor: Excellent. Your radial and ulnar pulses are both strong, and capillary refill is less than two seconds. No deficits there. Your strength is 5 out of 5 for grip and wrist extension.
+
+Doctor: I also reviewed the X-ray of your right elbow; your bone structure looks normal, so there’s no fracture or dislocation.
+
+Other: That’s a relief. I was worried something might be broken.
+
+Doctor: Yes, nothing is broken. What you’ve got is a right elbow abrasion—a superficial scrape of the skin. It looks clean and is already starting to heal well. There’s no sign of infection or deeper injury, and your exam is normal apart from some mild tenderness.
+
+Patient: Okay, so—I just need to keep it clean, or…?
+
+Doctor: Exactly. Here’s what we’ll do: I’ll prescribe Neosporin ointment. Please clean the area with mild soap and water twice a day, gently pat dry, and then apply a thin layer of the ointment each time. It’s important to keep the area covered with a non-stick bandage to protect it from dirt and reduce the risk of infection.
+
+Patient: Twice a day? And for how long?
+
+Doctor: Yes, twice daily—usually, keep that up for about five to seven days, or until the skin looks well healed and there’s no more oozing or scabbing.
+
+Other: And if it starts to look worse, we should—
+
+Doctor: —if you notice any redness spreading, warmth, pus, or if you develop a fever, or if the pain increases instead of getting better, please call our office right away. Those could be signs of infection.
+
+Patient: Got it. Uh, is there anything I shouldn’t do, like, should I avoid using my arm?
+
+Doctor: You can use your arm as pain allows—it’s safe to move the elbow, and in fact, gentle movement helps prevent stiffness. Just avoid activities that would re-injure the skin or expose it to a lot of dirt or bacteria, like heavy lifting or contact sports, for a few days.
+
+Other: Do you want us to schedule a follow-up, or is this more of a “call if needed” situation?
+
+Doctor: Good question—if it’s healing as expected and you don’t have any concerns, you don’t have to come back for this. But if you see signs of infection or if you have any worries at all, call us, and we’ll fit you in. Otherwise, we’ll just see you for your routine check-up.
+
+Patient: Okay, that sounds good to me.
+
+Doctor: Any other questions, either of you—about wound care, the medication, or anything else?
+
+Other: No, I think you covered everything. Thank you for explaining it all so clearly.
+
+Patient: Yeah, thanks. I’ll… well, I’ll try not to rush for iPhones next time.
+
+Doctor: That sounds like a wise plan, John. I’ll send that Neosporin prescription electronically. Take care, and I’ll see what brain teaser I can challenge you with next time.

@@ -1,0 +1,47 @@
+Clinical Note:
+
+Patient Name: Angela Smith
+
+Date of Birth: 2023-09-15
+
+Age: 0 years
+
+Sex: Female
+
+Medical Record #: MRN123456
+
+Date of clinic visit: 2023-09-17
+
+Primary care provider: Dr. Emily Johnson
+
+Personal note: Angela's mother, Jill, enjoys painting landscapes in her free time.
+
+History of Present Illness: Angela Smith is a newborn female, presented with yellowing of the skin, born at 38 weeks gestation to a mother with blood type O while Angela has blood type A. She was admitted to the Neonatal Intensive Care Unit for the management of hemolytic disease due to ABO isoimmunization. Her condition was marked by jaundice that was primarily observed on her face and chest on physical examination.
+
+Allergies: Not specified
+
+Medications: None
+
+Previous History: Past Medical History: Born with ABO incompatibility; managed in NICU
+Past Surgical History: None
+Family History: No known family history of hematological disorders
+Social History: Lives with parents and an older sibling; non-smokers
+
+Review of Systems: Positive for jaundice, irritability, and poor feeding. Negative for fever or respiratory distress.
+
+Physical Exam: General appearance: Newborn in moderate distress due to jaundice. Vital Signs: Temperature: 98.6 F
+Blood Pressure: Not measured in newborn
+Heart Rate: 130 bpm
+Respiratory Rate: 40 breaths/min
+Oxygen Saturation: 98% on room air
+
+Physical Exam findings include pronounced jaundice particularly on the face and chest. There is also a palpable slightly enlarged liver on examination.
+
+Assessment: Angela is diagnosed with hemolytic disease due to ABO isoimmunization. (ICD-10 code: P55.1)
+
+Plan:
+
+Initiate phototherapy to manage elevated bilirubin levels.
+Monitor serum bilirubin levels daily to assess the progression of jaundice.
+Maintain NICU care with ongoing observation for any signs of anemia or increased hemolysis.
+Medical Decision Making: The decision for Angela's NICU admission was based on significant hyperbilirubinemia necessitating phototherapy. Given the risks associated with elevated bilirubin, regular monitoring is critical to prevent potential complications. Angela's condition implies a moderate level of complexity in care, requiring specialized phototherapy and vigilant bilirubin monitoring. Her current stability, along with the absence of other complications, supports continued NICU management to ensure safe progress and eventual improvement.

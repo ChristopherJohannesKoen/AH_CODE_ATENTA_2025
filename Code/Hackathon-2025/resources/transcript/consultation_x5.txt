@@ -1,0 +1,85 @@
+Doctor: Hi Emma, it's good to see you again. How have you been? And uh, have you had the chance to add any new succulents to your collection lately?
+
+Patient: Oh, hi Dr. Adler. Yes, actually—I picked up a little zebra plant last weekend. It's, uh, already one of my favorites. Thanks for remembering. I've been okay, but... that's, well, why I'm here.
+
+Doctor: I'm glad to hear about the zebra plant! So, just to double-check, you're Emma Thompson, born July 12, 1985, and here today because of some weight gain you've noticed?
+
+Patient: Yes, that's right. Over the last, uh—well, at first I thought it was just stress or maybe winter weight, but over the last, I guess five months? Or—wait, no, it's more like seven months...yeah, since early spring, really. It's been worrying me.
+
+Doctor: Alright, thanks for clarifying the timeline. And you mentioned you think this might be connected to your medication—you're currently taking Tryptanol, is that right?
+
+Patient: Yes, 50 milligrams every day, just like before.
+
+Doctor: And any other new medications, or over-the-counter supplements since we last spoke?
+
+Patient: No, nothing else. I just stick with the Tryptanol. And, uh, some multivitamins, but I’ve taken those for years.
+
+Doctor: Any allergies to medications or foods that you know of, Emma?
+
+Patient: No allergies that I know of.
+
+Doctor: Thanks. Now can you tell me a little more about the weight gain—when you first noticed it, whether it’s been steady, and if anything seems to make it better or worse?
+
+Patient: It started sort of slowly, like... maybe a pound here or there each month. I didn't think much at first. I’ve tried cutting back on snacks and uh—well, gardening helps keep me moving, but it didn’t make a difference. To be honest, I feel a bit tired more often, but—I don’t think I’m eating more than usual.
+
+Doctor: And have you had any changes in your appetite, bloating, nausea, or any issues with your digestion lately?
+
+Patient: No, nothing like that. My appetite seems the same, no stomach issues at all.
+
+Doctor: How about increased thirst, urination, or any feelings of being overheated or cold often?
+
+Patient: No, none of those. I—oh, actually, at first I wondered if it might be thyroid related because my mom has thyroid problems, but—uh, I don't think that's it.
+
+Doctor: That’s a very reasonable question. We'll get to that in a moment. For your medical background, aside from the depression and Tryptanol, any new physical or mental health diagnoses since your last visit?
+
+Patient: No, nothing else. Just the depression. And my appendix was removed, uh, ages ago, back in college.
+
+Doctor: Right, and just to confirm, you don’t smoke and drink only occasionally?
+
+Patient: That’s correct. Maybe a glass of wine on the weekend.
+
+Doctor: And how’s your mood been overall, aside from the stress about the weight?
+
+Patient: It’s been... pretty good. I mean, some days are harder, but the medication's helped my mood, to be honest.
+
+Doctor: Now, let’s go through your physical exam findings. Your weight today puts your BMI at 32, which does fall into the category we call obesity. It's, uh, a common side effect with some antidepressants, including Tryptanol. When I examined you, there were no signs of swelling in your legs or feet, and your thyroid gland—right here in the front of your neck—was normal in size and not enlarged. Your blood pressure and heart rate were both in a healthy range.
+
+Patient: Okay, that’s—uh, that’s sort of reassuring, actually.
+
+Doctor: I also reviewed your thyroid function tests, and those labs came back completely normal, which helps confirm this isn’t coming from thyroid issues—despite your family history. So, the working diagnosis is that your weight gain is most likely a side effect from the Tryptanol.
+
+Patient: I was afraid you might say that, but... I’m glad it’s not something else.
+
+Doctor: Yes, and I know it's frustrating, but identifying the cause helps us make a plan. Tryptanol—also known as amitriptyline—can sometimes cause weight gain as a side effect, especially with long-term use. That lines up with your timeline, and your other symptoms fit, so it really looks like the medication is the most likely cause here.
+
+Patient: So, does that mean I should stop taking it? Because, uh, it really did help with my depression...
+
+Doctor: That’s a great question, and I want to reassure you—we're not going to make any abrupt changes. We want to make sure your mental health stays stable. The best approach is to consult with your psychiatrist or a mental health specialist. There are other antidepressants with less effect on weight that we could consider. These would need to be discussed carefully to strike the right balance between managing your mood and minimizing side effects.
+
+Patient: But, what if—sorry to jump in, but what if the new medication doesn’t work as well? I—well, I’m nervous about changing something that’s been good for me.
+
+Doctor: That’s completely understandable, Emma. Finding the right medication can take patience, but there are several options. Your psychiatrist will help monitor your symptoms during any change, and if a new medication isn’t as effective, it can often be adjusted or switched back. The key is working closely together to find a plan that manages both mood and weight.
+
+Patient: Okay, that helps. I’d—uh, I’d like to at least talk to someone about my options.
+
+Doctor: That sounds like a good next step. I’ll refer you to a psychiatrist who’s experienced with medication adjustments for depression. In the meantime, there's no urgent need to stop the Tryptanol—just keep taking it as prescribed.
+
+Patient: That makes sense.
+
+Doctor: I’d also recommend continuing with your healthy routines—keeping active with gardening is great, and just watch portion sizes and food choices where you can. We can revisit your progress after your psychiatric consult, and, if necessary, develop a customized weight management plan.
+
+Patient: Alright, yeah. Should I, um—should I track my weight or anything before then?
+
+Doctor: That’s a good idea. If you’re comfortable, try to check your weight about once a week at the same time of day and jot it down. It helps us see if changes are ongoing or if things stabilize.
+
+Patient: Okay, I can do that.
+
+Doctor: So, to summarize—your weight gain appears to be related to the Tryptanol. I’ll refer you to psychiatry to review your antidepressant and discuss possible switches. Keep a log of your weight, continue your current routines, and we’ll follow up after your consult to review the next steps.
+
+Patient: That sounds good, thank you. And—uh, sorry, is there anything else I should be watching out for?
+
+Doctor: If you notice a sudden increase in weight, or any new symptoms like swelling in your legs, trouble breathing, or mood changes, please let me know right away. Otherwise, we’ll plan to follow up after your psychiatry appointment.
+
+Patient: Got it. Thanks so much, Dr. Adler.
+
+Doctor: You're welcome, Emma. And good luck with your new succulent—you’ll have to tell me how it’s doing next time. Take care, and we’ll talk soon.

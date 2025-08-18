@@ -1,0 +1,95 @@
+Doctor: Hi John, it's good to see you. I heard you recently took on a pretty tough hiking trail—how was that?
+
+Patient: Oh, hey, yeah, that trail was... well, it was a lot harder than I expected, honestly. But it felt good to finish it.
+
+Doctor: That's great to hear. So, just to make sure—you're John Doe, and you were born April 15th, 1985, correct?
+
+Patient: Yep, that's me.
+
+Doctor: Perfect. So, you're here today because of a painful lump on the side of your left foot, right? Can you tell me a bit more about how it all started?
+
+Patient: Yeah, sure. So... about a week ago, I noticed a little bump—no wait, actually, it was probably closer to five days, because it was after I got back from that hike. Anyway, it just kind of popped up and it's been getting more and more sore. It hurts the most when I try to walk.
+
+Doctor: And have you noticed any other symptoms? Things like fever, chills, or feeling generally unwell?
+
+Patient: No, none of that. Just the swelling and pain right where the lump is.
+
+Doctor: Got it, thanks. You said the discomfort is especially bad when walking—have you had any trouble moving your toes or putting weight on that foot?
+
+Patient: Umm... it’s a bit uncomfortable to put weight on it, but I can still move my toes okay.
+
+Doctor: Alright. Have you had anything like this before—a boil, abscess, or skin infection?
+
+Patient: Hmm, nope, I don’t think so. Not on my foot, anyway.
+
+Doctor: Alright. Just to double-check, you don’t have any medical conditions like diabetes, or any issues with your immune system?
+
+Patient: No, just seasonal allergies... and, uh... I had that appendix thing back in, I think, 2006.
+
+Doctor: That makes sense. Are you currently taking any medications besides ibuprofen for pain?
+
+Patient: Nope, just every now and then I take ibuprofen if it gets bad.
+
+Doctor: Any allergies to medications or anything else?
+
+Patient: Nah, no allergies that I know of.
+
+Doctor: And in terms of family history—anyone in your family with similar skin issues or infections?
+
+Patient: Not that I know of. My dad just has high blood pressure.
+
+Doctor: That’s helpful, thank you. Now, I’m going to examine your left foot, especially the area where you’re noticing the lump. Let me know if anything feels particularly uncomfortable.
+
+Patient: Okay, sure.
+
+Doctor: I’m going to gently palpate the dorsum—that’s the top—of your left foot, focusing on the lateral side where you noted the lump. There’s a palpable, fluctuant mass, and I can see it’s a bit red and swollen. Does it hurt when I press here?
+
+Patient: Yeah, a little, but not as bad as before.
+
+Doctor: The lesion is mildly tender on palpation, but there’s no sign of deeper infection. I’ll also make sure there’s no involvement of the tendons or joints. Now, I’m checking for sensation—can you feel this touch over the top and sides of your foot?
+
+Patient: Yeah, I can feel that.
+
+Doctor: Good, your sensation is intact. Now I’m assessing blood flow by checking your dorsalis pedis and posterior tibial pulses here... Both are strong and equal to the other side. Lastly, I reviewed your recent foot ultrasound, which shows a hypoechoic—so, uh, dark—area under the skin, consistent with a localized fluid collection. That fits with what I’m finding on exam.
+
+Patient: Okay. So, what does that mean? Is it just... is it like an infection?
+
+Doctor: Yes, that’s right. What you have is called a boil, or more formally, a localized abscess. Essentially, it’s a pocket of pus caused by bacteria getting under the skin—usually after some irritation, like from hiking boots or a tiny cut. That’s what’s causing the swelling and pain.
+
+Patient: Oh, I see... Is it dangerous, or...?
+
+Doctor: Well, most of the time it’s not dangerous if we treat it early. The main thing is that the infection is walled off, not spreading, and you don’t have fever or other signs of it getting into your system. The best treatment at this point is a minor procedure to drain the abscess—an incision and drainage.
+
+Patient: So... you’re going to cut it open?
+
+Doctor: Yes, but I’ll use local anesthetic to numb the area first, so you shouldn’t feel pain during the procedure. Making a small incision will allow the trapped pus to drain out, which usually relieves the pressure and helps it heal faster.
+
+Patient: Uh, does that mean I’ll need antibiotics too?
+
+Doctor: That’s a great question. For most healthy people, just draining it is enough. But since we’re already planning to drain it, I’ll send a sample of the pus for culture to make sure we know exactly what bacteria is causing it. If I see any signs during the procedure that suggest a bigger infection, or if your symptoms start to spread, I may add antibiotics. We’ll decide once we get those results.
+
+Patient: Okay, um... are there risks to the procedure?
+
+Doctor: There’s a very small risk of bleeding, scarring, or, rarely, the infection spreading. But overall, this is a safe and common procedure, and it’s the best option for a localized abscess like yours. The benefits are prompt relief and a lower chance of complications compared to just watching and waiting.
+
+Patient: And after the procedure, what do I have to do?
+
+Doctor: I’ll give you detailed wound care instructions—it’ll involve keeping the area clean, changing the dressing daily, and watching for signs like increased redness, swelling, or pus that doesn’t stop. If you notice fever or if the pain suddenly gets worse, come back or call right away.
+
+Patient: And follow-up? Should I come back soon or--?
+
+Doctor: Yes, definitely. Let’s set up a follow-up visit in about a week to check that it’s healing the way we want. If your culture suggests you’d benefit from an antibiotic, I’ll let you know right away.
+
+Patient: Uh, can I, like, still go hiking or... should I take it easy?
+
+Doctor: For now, I’d hold off on hiking until this has fully healed—just to avoid putting too much stress or bacteria on the wound as it recovers. I know that’s tough given how much you enjoy it, but it’s really the best thing for a quick recovery.
+
+Patient: Makes sense. Wait, so—if it fills up again, should I--
+
+Doctor: Exactly—if you notice the lump coming back, or any new symptoms like fever or spreading redness, let us know immediately. We want to catch anything early.
+
+Patient: Got it… I guess that’s everything I was wondering about. Thanks for explaining it all.
+
+Doctor: Of course, John. So today we’ll take care of the drainage, and I’ll keep you posted on the culture results. We’ll see you again next week for follow-up, but if you have any concerns before then, don’t hesitate to reach out. Sound good?
+
+Patient: Yeah, that sounds good. Thanks, Doctor.

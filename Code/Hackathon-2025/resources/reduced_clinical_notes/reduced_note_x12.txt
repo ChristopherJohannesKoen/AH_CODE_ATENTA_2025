@@ -1,0 +1,52 @@
+Clinical Note:
+
+Patient Name: Jane Doe
+
+Date of Birth: 1996-05-14
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Emily Roberts
+
+Personal note: null
+
+History of Present Illness: The patient has a history of alcohol use during pregnancy. She gave birth to a premature female infant at 30 weeks gestation in a taxi. The infant showed signs of fetal alcohol syndrome and neonatal withdrawal symptoms, including irritability and tremors. The baby's birth weight was 3.5 pounds, which is low for 30 weeks. The patient reports feeling overwhelmed and tired, with no pain or fever.
+
+Allergies: No known drug allergies.
+
+Medications: None
+
+Previous History: 
+Past Medical History: null
+Suspected polysubstance abuse: Patient reports one-time drug use prior to pregnancy, denies drug use during pregnancy.
+Past Surgical History: None
+Family History: null
+Social History: null
+
+Review of Systems: Patient reports feeling overwhelmed and tired, denies pain or fever. null
+
+Physical Exam: Infant appears smaller than expected for gestational age, with features of fetal alcohol syndrome. Signs of neonatal withdrawal, including irritability and tremors, are present. Birth weight is 3.5 pounds.
+
+Vital Signs: null
+
+Assessment: 
+Preterm newborn delivered in the taxi: null
+Newborn affected by maternal use of alcohol: Supported by transcript
+Fetal alcohol syndrome (dysmorphic): Supported by transcript
+Preterm newborn with extremely low birth weight: null
+Neonatal drug withdrawal syndrome: Supported by transcript
+
+Plan:
+
+Initiate neonatal drug withdrawal management protocol, including administering morphine as per standard protocol.
+Continuous monitoring in the NICU for complications related to prematurity and FAS.
+Conduct a toxicology screen for the infant to identify substances present.
+Immediate referral to social services for intervention and support for the family and to address the mother's substance use issues.
+
+Medical Decision Making: The infant is being managed for withdrawal symptoms and fetal alcohol syndrome in the NICU. Morphine is being administered for withdrawal. A toxicology screen is being conducted. Social services are involved to support the mother and family.

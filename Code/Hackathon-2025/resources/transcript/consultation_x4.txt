@@ -1,0 +1,101 @@
+Doctor: Hi Johnathan, welcome in. It’s good to see you—did you end up getting any good landscape shots out in Colorado?
+
+Patient: Hey, Dr. Patel. Thanks, yeah, I got some really nice ones... I mean, even though my eye started acting up right when I got back.
+
+Doctor: Oh, I’m sorry to hear that, but I’m glad you still enjoyed the trip. Before we get started, can I just confirm your birthdate is May 16th, 1984?
+
+Patient: Yes, that’s right.
+
+Doctor: Perfect. And you’re here today because of pain, redness, and some blurring of vision in your left eye, correct?
+
+Patient: Yeah, exactly. It started a few days ago—actually, I guess it was more like, uhm, the day after I got back from the campsite. My left eye got really red and painful, and vision just... went fuzzy, I guess.
+
+Doctor: Just to clarify, did these symptoms come on suddenly, or did they build up slowly?
+
+Patient: It was pretty sudden. It sort of felt like something was stuck in there at first. Umm... I thought maybe just dirt, but it didn’t get better, and then the pain and blurring kicked in. Wait, actually, now that I think about it, the tearing started a little before the pain. Sorry, I--I got that mixed up.
+
+Doctor: No worries at all—it’s really helpful that you’re thinking back through the details. Have you ever had anything like this happen before?
+
+Patient: No, this is a first for me.
+
+Doctor: And you don't wear contact lenses, is that right?
+
+Patient: That’s right. I just wear glasses for reading sometimes, but nothing else.
+
+Doctor: Any history of trauma to the eye, like scratches, during your camping trip?
+
+Patient: Not that I can remember. I mean, there was a lot of wind... And a couple times branches brushed past, but nothing really painful or noticeable.
+
+Doctor: Okay, thanks. Any other symptoms you’ve noticed? Things like seeing halos around lights, having headaches, or a fever?
+
+Patient: No, none of that, just the pain, redness, tearing... I get really sensitive to light now, too.
+
+Doctor: Understood. I’ve got down that you don’t take any regular medications, and you have no allergies to medicines, correct?
+
+Patient: That’s correct. No allergies, and I’m not on any prescriptions.
+
+Doctor: Any other medical issues in the past besides, uh, your appendectomy in 2005?
+
+Patient: No, everything else has been pretty good.
+
+Doctor: Any family history of eye diseases or similar problems?
+
+Patient: Not that I know of. My dad has high blood pressure, but eyes... I’m pretty sure he’s never had anything like this.
+
+Doctor: Got it. Let’s move on to taking a really close look at your eye. I’ll walk you through each step as we go. First, I’ll check your vision on the eye chart. So, with your right eye—I know this is uncomfortable—can you try to read the smallest line you can?
+
+Patient: Uhm, yeah, with the right eye it’s pretty clear. But with the left... I can’t really see the smaller letters. I think I stopped at... 20 over 80, I think.
+
+Doctor: Okay, thank you. Now I’m going to shine this light and examine your left eye carefully. You might feel a little sensitive. So, looking at the conjunctiva—that’s the white of your eye—I see quite a bit of injection, which means it's red and inflamed. Next, through the slit lamp, I’m looking at the cornea. There's an area here that looks cloudy—what we call a corneal opacity. That lines up with your symptoms.
+
+Patient: Is that dangerous?
+
+Doctor: I’ll answer that in just a moment. I want to finish your exam first. Now, I’m going to gently touch the surface of your cornea using a small, sterile spatula to collect a sample—we call this a corneal scraping. You may feel a bit of pressure, but it’ll be very quick. This is to check for infection so we can target treatment as best as possible.
+
+Patient: Okay, I’m ready.
+
+Doctor: All done with the scraping—it went smoothly. Now, let’s check the rest of your eye: I’m examining the anterior chamber for any cells or flare, and the lens is clear. No evidence of involvement at the back of the eye on fundoscopy, and your right eye is completely normal.
+
+Patient: That’s... good, I guess.
+
+Doctor: So Johnathan, based on your symptoms, the exam, and what I saw today, you have what's called a corneal ulcer in your left eye. That basically means there’s a sore or infection on the surface of your cornea—the clear window at the front of your eye.
+
+Patient: Oh... Is that, like, permanent—will it hurt my vision long term?
+
+Doctor: That’s a really understandable question. Corneal ulcers can be serious because, if left untreated, they can threaten vision. However, since you came in promptly and we’re starting treatment right away, the outlook is much better. The main goal is to control the infection and prevent scarring.
+
+Patient: What kind of treatment—do I need surgery or—?
+
+Doctor: Fortunately, most corneal ulcers from bacteria can be treated with intensive antibiotic drops, not surgery. I’m starting you on moxifloxacin 0.5% eye drops. You’ll need to use one drop in the affected eye every two hours, even overnight for the first day. This is to make sure the levels are high enough to fight the infection quickly.
+
+Patient: Every two hours, even at night?
+
+Doctor: Yes, just for the first 24 hours, then we can adjust depending on your progress. It's a little inconvenient, but--
+
+Patient: I mean, it's worth it if it helps my eye, but—go on.
+
+Doctor: Right, absolutely, and I’ll be monitoring you closely. We’re also sending the corneal scraping for culture, so if it turns out the infection is from something unusual, we can adjust the antibiotics if needed. The main risks if we don’t treat aggressively are permanent vision loss or even more serious complications, so early and frequent antibiotics are really important.
+
+Patient: Okay... I'll do whatever I need to. Is there anything else I should do—or avoid?
+
+Doctor: Great question. Don’t wear any eye makeup or put in contact lenses—though you mentioned you don’t use those. Don’t rub your eye, and avoid swimming pools or hot tubs for now. Rest as much as you can, and, if the pain or redness worsens, or if you get any new symptoms like swelling around the eye or vision gets even more blurry, call me right away.
+
+Patient: Got it. When should I come back, or--?
+
+Doctor: I’d like you to return in about 24 to 48 hours. At that visit, we’ll check your progress and look at the results of the culture. If there’s no improvement, or anything changes sooner, please let me know right away.
+
+Patient: Okay. Uhm, what if it doesn't get better at all in a couple of days? Is there something else we could do?
+
+Doctor: If there’s no improvement, we might switch or add medications based on the culture, and, in rare cases, sometimes other treatments are needed. But, I expect you’ll respond well to this plan. And I’ll be following up closely to make sure of that.
+
+Patient: Thanks, Dr. Patel. Just one more thing—does this mean I have to stay home from work?
+
+Doctor: It’s okay to work as long as you’re comfortable and can avoid eye strain—or if staring at screens bothers you, take frequent breaks. Let your comfort and symptoms be your guide.
+
+Patient: Alright, that makes sense. Thanks for explaining everything and for seeing me so quickly.
+
+Doctor: Of course, Johnathan. I know this is stressful, but you’re doing the right thing. So, to summarize: start the moxifloxacin drops every two hours, avoid rubbing the eye, and come back in a couple of days, or sooner if anything gets worse. Call with any questions at all.
+
+Patient: Okay, will do. Thanks again, Dr. Patel.
+
+Doctor: You’re very welcome. I’ll see you soon—take care, and hopefully the next set of photos will be a bit less eventful!

@@ -1,0 +1,42 @@
+Clinical Note:
+
+Patient Name: Tim Mitchell
+
+Date of Birth: 1985-03-16
+
+Age: 38 years
+
+Sex: Male
+
+Medical Record #: MRN593847
+
+Date of clinic visit: 2023-10-05
+
+Primary care provider: Dr. Emily Tan
+
+Personal note: Tim enjoys trying new cuisines with Susan on their special occasions.
+
+History of Present Illness: Tim Mitchell is a 38-year-old male who presented with complaints of a rash, abdominal cramping, and diarrhea, symptoms which began a few hours after consuming a meal at a restaurant. This occurred on the evening he and his wife were celebrating their anniversary by dining out. He tried a new dish that he had not previously eaten. The rash is described as widespread urticarial rash appearing on his chest and arms. The abdominal cramping and diarrhea have been persistent since the onset but deny any fever, vomiting, or respiratory symptoms.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: Seasonal allergies Past Surgical History: Appendectomy in 2009 Family History: No known family history of food allergies Social History: Non-smoker, rare alcohol consumption, lives with his wife Susan.
+
+Review of Systems: Positive for abdominal pain, diarrhea, and skin rash. Denies fever, vomiting, or respiratory symptoms.
+
+Physical Exam: Upon examination, Tim appears to be in mild discomfort but is alert and oriented. The skin examination reveals an urticarial rash on the chest and arms. The abdominal exam shows mild tenderness on palpation without guarding or rebound tenderness.
+
+Vital Signs: Temperature: 98.6 F Blood Pressure: 118/76 mmHg Heart Rate: 78 bpm Respiratory Rate: 18 breaths/min Oxygen Saturation: 99% on room air
+
+Assessment: Tim’s symptoms are indicative of an allergic reaction to food, with manifestations of both dermatological and gastrointestinal distress. He is diagnosed with Allergic food gastroenteritis and contact dermatitis due to food. (ICD-10: K52.2, L27.2).
+
+Plan:
+
+Prescribe Cetirizine 10 mg once daily as needed to manage the rash.
+Recommend oral rehydration solutions to prevent dehydration from diarrhea.
+Educate Tim on identifying and avoiding potential food allergens.
+Monitor symptoms for resolution over the next few days.
+Follow-up visit if symptoms persist or worsen.
+Medical Decision Making: Given the acute onset of symptoms shortly after ingesting the meal, along with an elevated white blood cell count indicating a possible allergic response, an allergic reaction is highly probable. The combination of gastroenterological and dermatological symptoms suggests that supportive care with antihistamines is a suitable course of action. Tim has been advised to monitor his symptoms vigilantly and return should they persist or escalate, ensuring the avoidance of suspected allergens in future meals.

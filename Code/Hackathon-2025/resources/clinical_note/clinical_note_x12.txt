@@ -1,0 +1,50 @@
+Clinical Note:
+
+Patient Name: Jane Doe
+
+Date of Birth: 1996-05-14
+
+Age: 26 years
+
+Sex: Female
+
+Medical Record #: MRN123456
+
+Date of clinic visit: 2023-11-15
+
+Primary care provider: Dr. Emily Roberts
+
+Personal note: Patient recently got into knitting and enjoys making clothes for her family.
+
+History of Present Illness: The patient, a 26-year-old female, has a history of alcohol use throughout her pregnancy, despite being advised against it by both her family and physician. She presented after giving birth to a premature female infant at 30 weeks gestation in a taxi cab during a night out bar drinking. It is suspected that she may have been using drugs as well. The infant showed signs of fetal alcohol syndrome and neonatal withdrawal symptoms, which include irritability and tremors. The baby's birth weight was recorded at 3.5 pounds, indicative of low birth weight.
+
+Allergies: NKDA
+
+Medications: None
+
+Previous History: Past Medical History: History of alcohol use disorder. Suspected polysubstance abuse. Past Surgical History: None Family History: Not specified Social History: Lives with parents, unemployed, history of alcohol consumption.
+
+Review of Systems: Patient reports feeling overwhelmed but denies other acute symptoms relevant to the current visit. No recent medical assessments aside from prenatal visits, which were sporadic.
+
+Physical Exam: General appearance reveals an infant smaller than gestational age showing signs of fetal alcohol syndrome. Signs of neonatal withdrawal, including irritability and tremors, are present. The birth weight is recorded as 3.5 pounds.
+
+Vital Signs: Temperature: 98.6 F
+Blood Pressure: 120/80 mmHg
+Heart Rate: 70 bpm
+Respiratory Rate: 16 breaths/min
+Oxygen Saturation: 98% on room air
+
+Assessment: Newborn affected by maternal use of alcohol and suspected drug use, with the following conditions and ICD-10 codes:
+
+Preterm newborn delivered in the taxi (Z38.1)
+Newborn affected by maternal use of alcohol (P04.3)
+Fetal alcohol syndrome (dysmorphic) (Q86.0)
+Preterm newborn with extremely low birth weight (P07.16, P07.33)
+Neonatal drug withdrawal syndrome (P96.1)
+Plan:
+
+Initiate neonatal drug withdrawal management protocol, including administering morphine as per standard protocol.
+Continuous monitoring in the NICU for complications related to prematurity and FAS.
+Conduct a toxicology screen for the infant to identify substances present.
+Immediate referral to social services for intervention and support for the family and to address the mother's substance use issues.
+Medical Decision Making: The situation involves high complexity due to multiple chronic conditions, including the effects of maternal substance use on the newborn. Management necessitates a collaborative, interdisciplinary approach involving neonatology, social services, and toxicology specialists. The primary objectives are stabilizing the infant, managing withdrawal symptoms, and providing social support to address the mother's substance use challenges. The planned toxicology screen is crucial for confirming substance exposure, guiding further management, and engaging appropriate social interventions to support the patient and her family.

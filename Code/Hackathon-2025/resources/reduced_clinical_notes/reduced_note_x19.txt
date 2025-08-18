@@ -1,0 +1,42 @@
+Clinical Note:
+
+Patient Name: John Doe
+
+Date of Birth: 1985-09-15
+
+Age: null
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: null
+
+Personal note: null
+
+History of Present Illness: John Doe is a null-year-old null-hand-dominant male who presents with a laceration to his right thumb. The injury occurred while he was chopping carrots in the kitchen. The patient reports that he cut his thumb with a kitchen knife, resulting in a deep laceration that extended to the nail bed. He noted immediate bleeding and partial loss of the nail with jagged edges. He denies any loss of sensation or function in the thumb.
+
+Allergies: None
+
+Medications: None
+
+Previous History: Past Medical History: null Past Surgical History: Appendectomy in 2008 Family History: null Social History: null
+
+Review of Systems: Denies loss of sensation or function in the thumb. No other injuries or complaints.
+
+Physical Exam: null Examination of the right thumb reveals a deep laceration extending to the nail bed with active bleeding and partial nail loss with jagged edges. There is tenderness on the lateral aspect of the thumb. Sensation is intact to light touch on the tip of the right thumb. Patient is able to flex and extend at the interphalangeal and metacarpophalangeal joints. Capillary refill is less than two seconds. Pulses are intact.
+
+Vital Signs: null
+
+Assessment: Right thumb laceration with nail bed involvement.
+
+Plan:
+
+Perform wound irrigation and debridement.
+Repair the nail bed as necessary.
+Apply Bacitracin ointment to prevent infection.
+Schedule a follow-up appointment to assess wound healing and nail growth.
+
+Medical Decision Making: null

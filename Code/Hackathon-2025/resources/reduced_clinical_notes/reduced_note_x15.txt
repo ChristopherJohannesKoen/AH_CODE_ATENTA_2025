@@ -1,0 +1,57 @@
+Clinical Note:
+
+Patient Name: Emily Thompson
+
+Date of Birth: null
+
+Age: sixteen years old
+
+Sex: null
+
+Medical Record #: null
+
+Date of clinic visit: null
+
+Primary care provider: Dr. Rogers
+
+Personal note: null
+
+History of Present Illness: Emily Thompson is a sixteen-year-old who presents with pain and swelling in the left ankle following a fall during a dance contest at school. She reports slipping and landing on her ankle. There was immediate pain and swelling. Evaluation in the emergency department ruled out a fracture, diagnosing a sprain to the left ankle.
+
+Allergies: No allergies.
+
+Medications: Over-the-counter ibuprofen as needed.
+
+Previous History: 
+Past Medical History: No significant medical history. 
+Past Surgical History: null 
+Family History: No family history of bone or joint issues, like arthritis or osteoporosis.
+Social History: null
+
+Review of Systems: 
+Constitutional: No fevers or chills. 
+Musculoskeletal: Pain and swelling in left ankle. No other joint pain reported. 
+Neurological: No numbness or tingling. 
+Cardiovascular: null
+
+Physical Exam: 
+General: null 
+Vital Signs: null 
+Left Ankle: Notable swelling and tenderness over the lateral aspect. Limited range of motion in dorsiflexion and plantar flexion due to pain. Mild instability on anterior drawer test, but nothing severe. Sensation and movement intact. Pulses good. No bruising noted. Skin intact.
+
+X-ray results: No fracture, consistent with ankle sprain.
+
+Assessment: Left ankle sprain after fall during dance contest. No fracture on X-ray.
+
+Plan:
+
+- Educated on R.I.C.E. therapy: Rest, Ice, Compression, and Elevation for the ankle sprain.
+- Instructions to avoid weight bearing for the next 48 hours and use crutches if needed.
+- Ice for 15–20 minutes every two to three hours, use elastic bandage for compression, and keep ankle elevated.
+- Avoid gym and dance until pain and swelling improve.
+- Start to put a little weight on the ankle when pain is much less, usually after two or three days.
+- Return for follow-up if pain or swelling persists beyond two weeks, or sooner if symptoms worsen (increased swelling, numbness, severe pain, or inability to move toes).
+- Consider physical therapy if not improved in two weeks.
+- May consider walking boot if pain remains severe after a couple days.
+
+Medical Decision Making: null
