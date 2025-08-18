@@ -41,21 +41,38 @@ jsonschema>=4.19
 
 REQ_FILE = Path("requirements.txt")
 
+
 def run(cmd):
     print(f"→ {' '.join(cmd)}")
     return subprocess.run(cmd, check=True)
 
+
 def ensure_requirements_file():
     if not REQ_FILE.exists():
-        print(f"[info] requirements.txt not found. Creating one at: {REQ_FILE.resolve()}")
+        print(
+            f"[info] requirements.txt not found. Creating one at: {REQ_FILE.resolve()}"
+        )
         REQ_FILE.write_text(REQ_CONTENT.strip() + "\n", encoding="utf-8")
     else:
         print(f"[info] Using existing requirements.txt at: {REQ_FILE.resolve()}")
 
+
 def pip_install_requirements():
     print("\n[step] Installing Python dependencies from requirements.txt …")
-    run([sys.executable, "-m", "pip", "install", "--upgrade", "pip", "setuptools", "wheel"])
+    run(
+        [
+            sys.executable,
+            "-m",
+            "pip",
+            "install",
+            "--upgrade",
+            "pip",
+            "setuptools",
+            "wheel",
+        ]
+    )
     run([sys.executable, "-m", "pip", "install", "-r", str(REQ_FILE)])
+
 
 def check_ffmpeg():
     print("\n[step] Checking FFmpeg availability …")
@@ -63,11 +80,14 @@ def check_ffmpeg():
     if exe:
         print(f"[ok] ffmpeg found at: {exe}")
         return
-    print("[warn] ffmpeg not found on PATH. The code uses ffmpeg-python which shells out to the ffmpeg binary.")
+    print(
+        "[warn] ffmpeg not found on PATH. The code uses ffmpeg-python which shells out to the ffmpeg binary."
+    )
     print("       Please install it and ensure it's on PATH:")
     print("       - Windows:   choco install ffmpeg")
     print("       - macOS:     brew install ffmpeg")
     print("       - Ubuntu/Debian: sudo apt-get install ffmpeg")
+
 
 def quick_import_smoke_test():
     print("\n[step] Verifying imports …")
@@ -100,11 +120,16 @@ def quick_import_smoke_test():
         print(f"[warn] {'pyannote.audio':12s} — optional; import error: {e}")
 
     if failed:
-        print("\n[warn] Some imports failed. If errors involve torch/torchaudio wheels on your platform,")
-        print("       you may need platform-specific install instructions from https://pytorch.org/")
+        print(
+            "\n[warn] Some imports failed. If errors involve torch/torchaudio wheels on your platform,"
+        )
+        print(
+            "       you may need platform-specific install instructions from https://pytorch.org/"
+        )
         print("       (e.g., CUDA-enabled wheels).")
     else:
         print("\n[ok] All core imports succeeded.")
+
 
 def main():
     ensure_requirements_file()
@@ -114,6 +139,7 @@ def main():
     print("\n[done] Environment is ready. Remember to set:")
     print("       - OPENAI_API_KEY      (required for Brain/LLM features)")
     print("       - HUGGINGFACE_TOKEN   (required if you enable diarization)")
+
 
 if __name__ == "__main__":
     main()

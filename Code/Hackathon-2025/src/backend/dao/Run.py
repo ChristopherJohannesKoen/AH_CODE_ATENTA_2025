@@ -3,6 +3,7 @@ import os
 from typing import Optional
 from df.enhance import enhance, init_df, load_audio, save_audio
 
+
 def denoise(input_file: str, output_dir: Optional[str] = None) -> str:
     """
     Denoise an audio file using DeepFilterNet.
@@ -72,8 +73,11 @@ if __name__ == "__main__":
     # Optional: manual quick test (edit path as needed)
     # Example: python Run.py "/absolute/path/to/noisy_recording.wav"
     import sys
+
     if len(sys.argv) < 2:
-        print("Usage: python Run.py /absolute/path/to/noisy_recording.wav [optional_output_dir]")
+        print(
+            "Usage: python Run.py /absolute/path/to/noisy_recording.wav [optional_output_dir]"
+        )
         sys.exit(1)
     inp = sys.argv[1]
     out_dir = sys.argv[2] if len(sys.argv) > 2 else None

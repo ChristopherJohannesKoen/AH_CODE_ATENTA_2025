@@ -9,6 +9,7 @@ from importlib.resources import files
 # 3. The output will help us diagnose the problem.
 # -------------------------
 
+
 def check_deepfilternet_files():
     """
     Checks for the presence and location of DeepFilterNet model files
@@ -18,7 +19,7 @@ def check_deepfilternet_files():
     try:
         # Get the installation path of the deepfilternet package using a robust method
         # This works even if the package is installed in a .zip file
-        pkg_path = files(DeepFilterNet).joinpath('')
+        pkg_path = files(DeepFilterNet).joinpath("")
         print(f"DeepFilterNet package found at: {pkg_path}")
 
         # Construct the path to the 'models' directory where the zip files should be
@@ -34,7 +35,7 @@ def check_deepfilternet_files():
         # List all files in the models directory to find the zip files
         found_zips = False
         for file in models_path.iterdir():
-            if file.suffix in ['.zip', '.gz']:
+            if file.suffix in [".zip", ".gz"]:
                 print(f"Found model file: {file}")
                 found_zips = True
 
@@ -49,6 +50,7 @@ def check_deepfilternet_files():
         print("Run: pip install deepfilternet")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
 
 if __name__ == "__main__":
     check_deepfilternet_files()
