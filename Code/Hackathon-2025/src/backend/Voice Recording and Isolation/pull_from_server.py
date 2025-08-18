@@ -7,7 +7,9 @@ import os
 import subprocess
 from datetime import datetime
 from threading import Thread
-from Run import denoise  # denoise(input_file: str, output_dir: Optional[str] = None) -> str
+from Run import (
+    denoise,
+)  # denoise(input_file: str, output_dir: Optional[str] = None) -> str
 
 app = Flask(__name__)
 
@@ -22,6 +24,7 @@ print("Startup: upload folder =", UPLOAD_FOLDER)
 
 
 # --- Helpers ------------------------------------------------------------------
+
 
 def is_wav_like(filename: str, mimetype: Optional[str]) -> bool:
     """
@@ -41,14 +44,20 @@ def transcode_to_wav(input_path: str, output_path: str, target_sr: int = 48000) 
     """
     cmd = [
         "ffmpeg",
-        "-y",                  # overwrite output
-        "-i", input_path,      # input file
-        "-ac", "1",            # mono
-        "-ar", str(target_sr), # sample rate
-        "-sample_fmt", "s16",  # 16-bit PCM
-        output_path
+        "-y",  # overwrite output
+        "-i",
+        input_path,  # input file
+        "-ac",
+        "1",  # mono
+        "-ar",
+        str(target_sr),  # sample rate
+        "-sample_fmt",
+        "s16",  # 16-bit PCM
+        output_path,
     ]
-    proc = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
+    proc = subprocess.run(
+        cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True
+    )
     if proc.returncode != 0 or (not os.path.exists(output_path)):
         raise RuntimeError("ffmpeg failed to transcode.\n" + (proc.stderr or ""))
 
@@ -75,7 +84,8 @@ def _run_denoise_async(input_path: str, mimetype: Optional[str]) -> None:
 
 # --- Routes -------------------------------------------------------------------
 
-@app.route('/save-recording', methods=['POST'])
+
+@app.route("/save-recording", methods=["POST"])
 def save_recording():
     """
     Accepts multipart/form-data with field 'audio' (preferred) or 'file'.
@@ -83,12 +93,19 @@ def save_recording():
     Responds immediately with the saved original file path.
     """
     # Accept 'audio' (your client) or 'file' (generic)
-    file_key = 'audio' if 'audio' in request.files else ('file' if 'file' in request.files else None)
+    file_key = (
+        "audio"
+        if "audio" in request.files
+        else ("file" if "file" in request.files else None)
+    )
     if not file_key:
-        return jsonify({"error": "No audio file. Expect form field 'audio' or 'file'."}), 400
+        return (
+            jsonify({"error": "No audio file. Expect form field 'audio' or 'file'."}),
+            400,
+        )
 
     audio_file = request.files[file_key]
-    if (audio_file is None) or (audio_file.filename == ''):
+    if (audio_file is None) or (audio_file.filename == ""):
         return jsonify({"error": "No selected file"}), 400
 
     # Prepare a safe file name; keep original extension (webm/ogg/m4a/mp3/etc.)
@@ -110,18 +127,19 @@ def save_recording():
     Thread(
         target=_run_denoise_async,
         args=(save_path, getattr(audio_file, "mimetype", None)),
-        daemon=True
+        daemon=True,
     ).start()
 
-    return jsonify({
-        "status": "success",
-        "message": "Recording saved",
-        "file_path": save_path
-    }), 200
+    return (
+        jsonify(
+            {"status": "success", "message": "Recording saved", "file_path": save_path}
+        ),
+        200,
+    )
 
 
 # --- Main ---------------------------------------------------------------------
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("Flask app starting on http://127.0.0.1:8000 ...")
     app.run(port=8000, debug=True)

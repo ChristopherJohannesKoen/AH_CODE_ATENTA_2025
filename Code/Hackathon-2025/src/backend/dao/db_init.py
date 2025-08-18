@@ -1,8 +1,10 @@
 import sqlite3
 from pathlib import Path
 import db_manager as manager
+
 DB = "atenta"
 SCHEMA = Path(__file__).parent / "build2.sql"
+
 
 def db_init(build_clean):
     conn = sqlite3.connect(DB)
@@ -16,7 +18,7 @@ def db_init(build_clean):
 
     path_templates = Path(__file__).resolve().parent / "../Model/Templates"
     json_files = list(path_templates.glob("*.json"))
-    
+
     conn.commit()
     conn.close()
     for x in json_files:
