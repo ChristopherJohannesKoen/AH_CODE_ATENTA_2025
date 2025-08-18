@@ -34,34 +34,48 @@ for i in range(1, NUM_PAIRS + 1):
 
     # Build command exactly in your required format
     cmd = [
-        "python", SCRIPT,
-        "--mode", "1",
-        "--audio", str(audio_file),
-        "--template", TEMPLATE,
-        "--output", str(output_json),
-        "--whisper-model", "base",
+        "python",
+        SCRIPT,
+        "--mode",
+        "1",
+        "--audio",
+        str(audio_file),
+        "--template",
+        TEMPLATE,
+        "--output",
+        str(output_json),
+        "--whisper-model",
+        "base",
         "--diarize",
-        "--role-map", "SPEAKER_00=Doctor", "SPEAKER_01=Patient",
+        "--role-map",
+        "SPEAKER_00=Doctor",
+        "SPEAKER_01=Patient",
         "--use-brain",
-        "--brain-provider", "openai",
-        "--brain-model", "gpt-4o-mini",
+        "--brain-provider",
+        "openai",
+        "--brain-model",
+        "gpt-4o-mini",
         "--use-llm",
-        "--llm-provider", "openai",
-        "--llm-model", "gpt-4o-mini"
+        "--llm-provider",
+        "openai",
+        "--llm-model",
+        "gpt-4o-mini",
     ]
 
     print(f"[{i:02d}] Running model for {audio_file.name}...")
     subprocess.run(cmd, check=True)
 
     # Store record for later analysis
-    all_records.append({
-        "session": i,
-        "audio": str(audio_file),
-        "reduced_note_gold": str(reduced_note),
-        "transcript_gold": str(transcript),
-        "model_output_json": str(output_json),
-        "model_output_transcript": str(output_tx),
-    })
+    all_records.append(
+        {
+            "session": i,
+            "audio": str(audio_file),
+            "reduced_note_gold": str(reduced_note),
+            "transcript_gold": str(transcript),
+            "model_output_json": str(output_json),
+            "model_output_transcript": str(output_tx),
+        }
+    )
 
 # Save mapping for analysis (ordered)
 mapping_file = OUTPUT_DIR / "comparison_index.json"
@@ -74,14 +88,22 @@ print(f"\n[OK] Batch completed. Index saved -> {mapping_file}")
 # Run the quality evaluation
 # ---------------------------
 eval_cmd = [
-    "python", EVAL_SCRIPT,
-    "--gt-notes-dir", str(REDUCED_DIR),
-    "--gt-transcripts-dir", str(TRANSCRIPT_DIR),
-    "--model-json-dir", str(OUTPUT_DIR),
-    "--model-transcripts-dir", str(OUTPUT_DIR),
-    "--out-dir", str(EVAL_OUT_DIR),
+    "python",
+    EVAL_SCRIPT,
+    "--gt-notes-dir",
+    str(REDUCED_DIR),
+    "--gt-transcripts-dir",
+    str(TRANSCRIPT_DIR),
+    "--model-json-dir",
+    str(OUTPUT_DIR),
+    "--model-transcripts-dir",
+    str(OUTPUT_DIR),
+    "--out-dir",
+    str(EVAL_OUT_DIR),
 ]
 
 print("\n[QA] Running quality evaluation...")
 subprocess.run(eval_cmd, check=True)
-print(f"[QA] Done. See:\n  - {EVAL_OUT_DIR}\\per_pair_scores.csv\n  - {EVAL_OUT_DIR}\\per_pair_section_matches.csv\n  - {EVAL_OUT_DIR}\\summary.json")
+print(
+    f"[QA] Done. See:\n  - {EVAL_OUT_DIR}\\per_pair_scores.csv\n  - {EVAL_OUT_DIR}\\per_pair_section_matches.csv\n  - {EVAL_OUT_DIR}\\summary.json"
+)

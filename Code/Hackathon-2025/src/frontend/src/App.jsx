@@ -1,18 +1,17 @@
-import { useState, useRef } from 'react';
-import axios from 'axios';
-import './App.css';
+import { useState, useRef } from "react";
+import axios from "axios";
+import "./App.css";
 
 function App() {
   // State management
   const [jsonData, setJsonData] = useState(null);
-  const [editableJson, setEditableJson] = useState('');
-  const [status, setStatus] = useState('pending');
-  const [micStatus, setMicStatus] = useState('off');
+  const [editableJson, setEditableJson] = useState("");
+  const [status, setStatus] = useState("pending");
+  const [micStatus, setMicStatus] = useState("off");
   const [isEditing, setIsEditing] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState(null);
-  const [serverresponse, setServerResponse] = useState('');
   // Refs for audio recording
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
@@ -40,13 +39,15 @@ function App() {
       };
 
       mediaRecorderRef.current.onstop = async () => {
-        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/wav' });
+        const audioBlob = new Blob(audioChunksRef.current, {
+          type: "audio/wav",
+        });
         await processRecording(audioBlob);
       };
 
       mediaRecorderRef.current.start();
       setIsRecording(true);
-      setMicStatus('on');
+      setMicStatus("on");
     } catch (err) {
       console.error("Error accessing microphone:", err);
       setError("Could not access microphone. Please check permissions.");
@@ -56,9 +57,11 @@ function App() {
   const stopRecording = () => {
     if (mediaRecorderRef.current) {
       mediaRecorderRef.current.stop();
-      mediaRecorderRef.current.stream.getTracks().forEach(track => track.stop());
+      mediaRecorderRef.current.stream
+        .getTracks()
+        .forEach((track) => track.stop());
       setIsRecording(false);
-      setMicStatus('off');
+      setMicStatus("off");
     }
   };
 
@@ -66,13 +69,13 @@ function App() {
     try {
       setProcessing(true);
       const formData = new FormData();
-      formData.append('file', audioBlob, 'recording.wav');
+      formData.append("file", audioBlob, "recording.wav");
 
       // Send recording to backend for processing
       const response = await axios.post(
-        'http://localhost:8000/save-recording', 
+        "http://localhost:8000/save-recording",
         formData,
-        {  responseType: 'json' }
+        { responseType: "json" },
       );
       const serverString = response.data;
       console.log("Server response:", serverString);
@@ -81,17 +84,16 @@ function App() {
       //setServerResponse(JSON.parse(jsonData))
       setEditableJson(JSON.stringify(response.data, null, 2));
       setProcessing(false);
-      
     } catch (error) {
-      console.error('Error processing recording:', error);
-      setError('Failed to process recording. Please try again.');
+      console.error("Error processing recording:", error);
+      setError("Failed to process recording. Please try again.");
       setProcessing(false);
     }
   };
 
   // JSON editing functions
   const handleApprove = () => {
-    setStatus('approved');
+    setStatus("approved");
   };
 
   const handleEditToggle = () => {
@@ -99,15 +101,13 @@ function App() {
       try {
         const parsedData = JSON.parse(editableJson);
         setJsonData(parsedData);
-        setStatus('edited');
-        
-        // Send updated JSON to backend
-        axios.post('http://localhost:8000/update-json', parsedData)
-          .then(() => console.log("Data updated successfully"))
-          .catch(err => console.error("Update failed:", err));
-          
+        setStatus("edited");
 
-          
+        // Send updated JSON to backend
+        axios
+          .post("http://localhost:8000/update-json", parsedData)
+          .then(() => console.log("Data updated successfully"))
+          .catch((err) => console.error("Update failed:", err));
       } catch (error) {
         alert(`Invalid JSON: ${error.message}`);
         return;
@@ -127,22 +127,22 @@ function App() {
         <div className="patient-sidebar">
           <center>
             <img src="/logo.png" alt="Atenta Logo" className="logo" />
-            <button 
-              className='action-button' 
+            <button
+              className="action-button"
               onClick={toggleRecording}
               disabled={processing}
             >
-              <img 
-                src={micStatus === 'on' ? "/micon.png" : "/micoff.png"} 
-                alt={micStatus === 'on' ? "Microphone On" : "Microphone Off"} 
-                className='mic'
+              <img
+                src={micStatus === "on" ? "/micon.png" : "/micoff.png"}
+                alt={micStatus === "on" ? "Microphone On" : "Microphone Off"}
+                className="mic"
               />
               <span className="mic-status">
-                {micStatus === 'on' 
-                  ? 'Recording... (Tap to Stop)' 
-                  : processing 
-                    ? 'Processing...' 
-                    : 'Tap to Record'}
+                {micStatus === "on"
+                  ? "Recording... (Tap to Stop)"
+                  : processing
+                    ? "Processing..."
+                    : "Tap to Record"}
               </span>
             </button>
           </center>
@@ -155,7 +155,7 @@ function App() {
             <div className={`status-badge ${status}`}>
               {status.toUpperCase()}
             </div>
-            
+
             {error ? (
               <div className="error-message">
                 {error}
@@ -176,13 +176,10 @@ function App() {
                     spellCheck="false"
                   />
                   <div className="edit-controls">
-                    <button 
-                      onClick={handleEditToggle}
-                      className="save-button"
-                    >
+                    <button onClick={handleEditToggle} className="save-button">
                       Save Changes
                     </button>
-                    <button 
+                    <button
                       onClick={() => {
                         setEditableJson(JSON.stringify(jsonData, null, 2));
                         setIsEditing(false);
@@ -195,13 +192,13 @@ function App() {
                 </div>
               ) : (
                 <div className="json-viewer">
-                 <pre>{editableJson}</pre>
-                 
-                  <button 
+                  <pre>{editableJson}</pre>
+
+                  <button
                     onClick={handleEditToggle}
-                    className={`edit-button ${status === 'edited' ? 'active' : ''}`}
+                    className={`edit-button ${status === "edited" ? "active" : ""}`}
                   >
-                    {status === 'edited' ? '✎ Edit Again' : 'Edit'}
+                    {status === "edited" ? "✎ Edit Again" : "Edit"}
                   </button>
                 </div>
               )
@@ -212,14 +209,14 @@ function App() {
               </div>
             )}
           </div>
-          
+
           {jsonData && (
             <div className="button-container">
-              <button 
-                className={`approve-button ${status === 'approved' ? 'active' : ''}`}
+              <button
+                className={`approve-button ${status === "approved" ? "active" : ""}`}
                 onClick={handleApprove}
               >
-                {status === 'approved' ? '✓ Approved' : 'Approve'}
+                {status === "approved" ? "✓ Approved" : "Approve"}
               </button>
             </div>
           )}
