@@ -1,12 +1,32 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite frontend for the Atenta clinical-note workflow.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```powershell
+npm install
+npm run dev
+npm run lint
+npm run build
+npm run preview
+```
 
-## Expanding the ESLint configuration
+## Environment Variables
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `VITE_API_BASE_URL` (optional, default: `http://localhost:8000`)
+
+Example:
+
+```powershell
+$env:VITE_API_BASE_URL = "http://localhost:8000"
+npm run dev
+```
+
+## Current UI Flow
+
+1. Record audio in browser
+2. Upload recording to backend
+3. Display returned JSON
+4. Edit JSON and save with `POST /update-json`
+5. Approve final state

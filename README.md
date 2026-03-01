@@ -32,7 +32,7 @@ Frontend default dev URL: `http://localhost:5173`
 ### 2) Backend (FastAPI path currently used by frontend)
 
 ```powershell
-cd "Code/Hackathon-2025/src/backend/dao"
+cd "Code/Hackathon-2025/src/backend/api"
 python app.py
 ```
 
@@ -56,7 +56,7 @@ Set these before running model features that require external providers:
 |  |  |  |- backend/
 |  |  |- resources/
 |  |  |- scripts/
-|  |  |- testing/
+|  |  |- tests/
 |- recordings/
 ```
 
@@ -65,4 +65,3 @@ Set these before running model features that require external providers:
 - This repository contains large binary artifacts (audio, generated outputs). See [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md).
 - Before publishing publicly, run a secret scan and remove or rotate any exposed credentials.
 - No explicit license file is currently included.
-

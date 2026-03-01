@@ -25,12 +25,12 @@ Main project lives in:
 Key subfolders:
 
 - `src/frontend` React/Vite UI
-- `src/backend/dao` FastAPI and database manager
+- `src/backend/api` FastAPI and database manager
 - `src/backend/Model` transcription and note generation pipelines
-- `src/backend/Voice Recording and Isolation` Flask upload/denoise path
+- `src/backend/voice_recording_isolation` Flask upload/denoise path
 - `resources` training, transcript, and audio datasets
 - `scripts` helper scripts and local utility setup
-- `testing` ad hoc testing assets
+- `tests` ad hoc testing assets
 
 ## Notes on Special Paths
 
@@ -43,4 +43,3 @@ Key subfolders:
 - Architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
 - API: [API.md](API.md)
 - Known issues: [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
-

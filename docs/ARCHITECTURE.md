@@ -5,7 +5,7 @@
 The repository contains a prototype stack with:
 
 - React frontend (`Code/Hackathon-2025/src/frontend`)
-- FastAPI backend (`Code/Hackathon-2025/src/backend/dao/app.py`)
+- FastAPI backend (`Code/Hackathon-2025/src/backend/api/app.py`)
 - Audio-to-structured-note pipeline (`Code/Hackathon-2025/src/backend/Model/AudToSpeach/V2`)
 - Supporting training/evaluation resources (`Code/Hackathon-2025/resources`)
 
@@ -36,7 +36,7 @@ User (browser)
 
 ## 2) API Backend (FastAPI)
 
-- Primary file: `src/backend/dao/app.py`
+- Primary file: `src/backend/api/app.py`
 - Responsibilities:
   - Expose endpoints used by frontend
   - Save uploaded audio
@@ -63,7 +63,7 @@ User (browser)
 ## Alternate Service Path (Legacy/Parallel)
 
 - There is also a Flask service:
-  - `src/backend/Voice Recording and Isolation/pull_from_server.py`
+  - `src/backend/voice_recording_isolation/pull_from_server.py`
 - It has overlapping endpoint naming (`/save-recording`) but different behavior.
 
 ## Current Architectural Risks
@@ -72,4 +72,3 @@ User (browser)
 - Hardcoded credentials in older scripts
 - Endpoint mismatch between frontend and backend for JSON update action
 - Generated artifacts tracked in repository
-

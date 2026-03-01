@@ -28,7 +28,7 @@ npm run build
 Backend (basic sanity):
 
 ```powershell
-cd "Code/Hackathon-2025/src/backend/dao"
+cd "Code/Hackathon-2025/src/backend/api"
 python -m compileall .
 ```
 
@@ -55,4 +55,3 @@ python -m compileall .
 
 - Open an issue using the issue templates.
 - Link the issue in your PR when applicable.
-

@@ -30,9 +30,14 @@ def load_audio_ffmpeg(audio_file, sample_rate=16000):
 # Function for speaker diarization using pyannote
 def diarize_audio(audio_file):
     try:
+        hf_token = os.getenv("HUGGINGFACE_TOKEN")
+        if not hf_token:
+            raise RuntimeError(
+                "Missing HUGGINGFACE_TOKEN environment variable for diarization."
+            )
         pipeline = Pipeline.from_pretrained(
             "pyannote/speaker-diarization",
-            use_auth_token="HUGGINGFACE_TOKEN_REDACTED",
+            use_auth_token=hf_token,
         )
         diarization_result = pipeline(audio_file)
         return diarization_result

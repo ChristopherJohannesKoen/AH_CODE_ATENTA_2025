@@ -11,7 +11,7 @@ IF ERRORLEVEL 1 (
     exit /b
 )
 
-REM Run the Python script inside source
-python src\main.py
+REM Run FastAPI backend service
+python ..\src\backend\api\app.py
 
 pause

@@ -147,4 +147,4 @@ def run(req: RunRequest):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("server_mode3:app", host="0.0.0.0", port=8013, reload=False)
+    uvicorn.run(app, host="0.0.0.0", port=8013, reload=False)

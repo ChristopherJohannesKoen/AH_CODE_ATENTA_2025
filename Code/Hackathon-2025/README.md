@@ -1,12 +1,50 @@
 # Hackathon-2025
-Repo for the Stairmasters :D
 
-Use github desktop to clone the Repo for you...
-When coding, code in src, you can add more folders in there, Lets try and keep most main functionality in the main.py script and import functionality into it if needed
+Clinical documentation hackathon prototype.
 
-Use the run_program script to run the program for you. Ive added shortcuts that can be placed on your desktop to run it from there.
+## Structure
 
-Contributors:
-Hanru Visser
-Luhandre Olivier
-Cameron Hatch
+- `src/frontend` React + Vite UI
+- `src/backend/api` FastAPI backend and SQLite access layer
+- `src/backend/Model` transcription/model pipelines
+- `src/backend/voice_recording_isolation` Flask denoise/upload path
+- `resources` sample transcript/audio/note data
+- `scripts` local helper scripts
+- `tests` ad hoc test assets
+
+## Run Locally
+
+### Frontend
+
+```powershell
+cd "src/frontend"
+npm install
+npm run dev
+```
+
+### Backend API
+
+```powershell
+cd "src/backend/api"
+python app.py
+```
+
+## Environment Variables
+
+Set provider keys before running model features:
+
+```powershell
+$env:OPENAI_API_KEY = "your-key"
+$env:HUGGINGFACE_TOKEN = "your-token"
+```
+
+## Notes
+
+- This is still a prototype and not production-ready.
+- Generated artifacts and local runtime files are now git-ignored by default.
+
+## Contributors
+
+- Hanru Visser
+- Luhandre Olivier
+- Cameron Hatch

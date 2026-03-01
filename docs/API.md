@@ -4,7 +4,7 @@ This document describes the currently exposed API surfaces found in the reposito
 
 ## Primary Backend (FastAPI)
 
-Source: `Code/Hackathon-2025/src/backend/dao/app.py`
+Source: `Code/Hackathon-2025/src/backend/api/app.py`
 
 Base URL (local): `http://127.0.0.1:8000`
 
@@ -64,7 +64,7 @@ Frontend currently calls:
 
 ## Secondary Backend (Flask)
 
-Source: `Code/Hackathon-2025/src/backend/Voice Recording and Isolation/pull_from_server.py`
+Source: `Code/Hackathon-2025/src/backend/voice_recording_isolation/pull_from_server.py`
 
 Exposes:
 
@@ -79,4 +79,3 @@ When FastAPI service is running:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
 - OpenAPI JSON: `http://127.0.0.1:8000/openapi.json`
-

@@ -11,14 +11,9 @@ IF ERRORLEVEL 1 (
     exit /b
 )
 
-pip install whisper
-pip install torch
-pip install numpy
-pip install ffmpeg
-pip install torch
-pip install tqdm
-pip install pyannote
-pip install scispacy
-pip install re
+python -m pip install --upgrade pip
+python -m pip install fastapi uvicorn python-multipart
+python -m pip install openai-whisper torch torchaudio numpy tqdm
+python -m pip install ffmpeg-python pyannote.audio deepfilternet
 
 pause

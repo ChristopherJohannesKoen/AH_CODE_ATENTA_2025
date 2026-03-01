@@ -15,7 +15,7 @@ from pyannote.audio import Pipeline
 # --------- Config ---------
 # Prefer reading your HF token from an env var for safety:
 #   set HUGGINGFACE_TOKEN=hf_********************************
-HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN") or "HUGGINGFACE_TOKEN_REDACTED"
+HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 
 SAMPLE_RATE = 16000
 WHISPER_MODEL = "small"  # change to "base", "medium", etc. if needed

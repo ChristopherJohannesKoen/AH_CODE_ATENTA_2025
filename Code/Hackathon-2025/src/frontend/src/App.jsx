@@ -2,8 +2,9 @@ import { useState, useRef } from "react";
 import axios from "axios";
 import "./App.css";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+
 function App() {
-  // State management
   const [jsonData, setJsonData] = useState(null);
   const [editableJson, setEditableJson] = useState("");
   const [status, setStatus] = useState("pending");
@@ -12,17 +13,16 @@ function App() {
   const [isRecording, setIsRecording] = useState(false);
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState(null);
-  // Refs for audio recording
+
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
 
-  // Audio recording functions
   const toggleRecording = async () => {
     if (isRecording) {
       stopRecording();
-    } else {
-      await startRecording();
+      return;
     }
+    await startRecording();
   };
 
   const startRecording = async () => {
@@ -39,9 +39,7 @@ function App() {
       };
 
       mediaRecorderRef.current.onstop = async () => {
-        const audioBlob = new Blob(audioChunksRef.current, {
-          type: "audio/wav",
-        });
+        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/wav" });
         await processRecording(audioBlob);
       };
 
@@ -55,64 +53,60 @@ function App() {
   };
 
   const stopRecording = () => {
-    if (mediaRecorderRef.current) {
-      mediaRecorderRef.current.stop();
-      mediaRecorderRef.current.stream
-        .getTracks()
-        .forEach((track) => track.stop());
-      setIsRecording(false);
-      setMicStatus("off");
+    if (!mediaRecorderRef.current) {
+      return;
     }
+
+    mediaRecorderRef.current.stop();
+    mediaRecorderRef.current.stream.getTracks().forEach((track) => track.stop());
+    setIsRecording(false);
+    setMicStatus("off");
   };
 
   const processRecording = async (audioBlob) => {
     try {
       setProcessing(true);
+      setError(null);
+
       const formData = new FormData();
       formData.append("file", audioBlob, "recording.wav");
 
-      // Send recording to backend for processing
-      const response = await axios.post(
-        "http://localhost:8000/save-recording",
-        formData,
-        { responseType: "json" },
-      );
-      const serverString = response.data;
-      console.log("Server response:", serverString);
-      // Set the JSON data from backend response
+      const response = await axios.post(`${API_BASE_URL}/save-recording`, formData, {
+        responseType: "json",
+      });
+
       setJsonData(response.data);
-      //setServerResponse(JSON.parse(jsonData))
       setEditableJson(JSON.stringify(response.data, null, 2));
-      setProcessing(false);
-    } catch (error) {
-      console.error("Error processing recording:", error);
+    } catch (err) {
+      console.error("Error processing recording:", err);
       setError("Failed to process recording. Please try again.");
+    } finally {
       setProcessing(false);
     }
   };
 
-  // JSON editing functions
   const handleApprove = () => {
     setStatus("approved");
   };
 
-  const handleEditToggle = () => {
+  const handleEditToggle = async () => {
     if (isEditing) {
       try {
         const parsedData = JSON.parse(editableJson);
         setJsonData(parsedData);
         setStatus("edited");
-
-        // Send updated JSON to backend
-        axios
-          .post("http://localhost:8000/update-json", parsedData)
-          .then(() => console.log("Data updated successfully"))
-          .catch((err) => console.error("Update failed:", err));
-      } catch (error) {
-        alert(`Invalid JSON: ${error.message}`);
+        await axios.post(`${API_BASE_URL}/update-json`, { data: parsedData });
+      } catch (err) {
+        if (err instanceof SyntaxError) {
+          alert(`Invalid JSON: ${err.message}`);
+        } else {
+          console.error("Update failed:", err);
+          alert("Could not save JSON to backend.");
+        }
         return;
       }
     }
+
     setIsEditing(!isEditing);
   };
 
@@ -123,15 +117,10 @@ function App() {
   return (
     <div className="app-container">
       <div className="main-content">
-        {/* Patient sidebar */}
         <div className="patient-sidebar">
           <center>
             <img src="/logo.png" alt="Atenta Logo" className="logo" />
-            <button
-              className="action-button"
-              onClick={toggleRecording}
-              disabled={processing}
-            >
+            <button className="action-button" onClick={toggleRecording} disabled={processing}>
               <img
                 src={micStatus === "on" ? "/micon.png" : "/micoff.png"}
                 alt={micStatus === "on" ? "Microphone On" : "Microphone Off"}
@@ -148,13 +137,10 @@ function App() {
           </center>
         </div>
 
-        {/* Document viewer */}
         <div className="document-viewer">
           <div className="scrollable-content">
-            <h2>Clinical Content: </h2>
-            <div className={`status-badge ${status}`}>
-              {status.toUpperCase()}
-            </div>
+            <h2>Clinical Content:</h2>
+            <div className={`status-badge ${status}`}>{status.toUpperCase()}</div>
 
             {error ? (
               <div className="error-message">
@@ -172,7 +158,7 @@ function App() {
                   <textarea
                     value={editableJson}
                     onChange={handleJsonChange}
-                    className="json-editor"
+                    className="json-textarea"
                     spellCheck="false"
                   />
                   <div className="edit-controls">
@@ -193,12 +179,11 @@ function App() {
               ) : (
                 <div className="json-viewer">
                   <pre>{editableJson}</pre>
-
                   <button
                     onClick={handleEditToggle}
                     className={`edit-button ${status === "edited" ? "active" : ""}`}
                   >
-                    {status === "edited" ? "✎ Edit Again" : "Edit"}
+                    {status === "edited" ? "Edit Again" : "Edit"}
                   </button>
                 </div>
               )
@@ -216,7 +201,7 @@ function App() {
                 className={`approve-button ${status === "approved" ? "active" : ""}`}
                 onClick={handleApprove}
               >
-                {status === "approved" ? "✓ Approved" : "Approve"}
+                {status === "approved" ? "Approved" : "Approve"}
               </button>
             </div>
           )}

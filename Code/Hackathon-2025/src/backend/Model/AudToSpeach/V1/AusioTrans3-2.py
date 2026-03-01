@@ -26,8 +26,11 @@ def load_audio_ffmpeg(audio_file, sample_rate=16000):
 # Function for speaker diarization using pyannote (with GPU support)
 def diarize_audio(audio_file):
     try:
-        # Replace with your actual Hugging Face token
-        hf_token = "HUGGINGFACE_TOKEN_REDACTED"
+        hf_token = os.getenv("HUGGINGFACE_TOKEN")
+        if not hf_token:
+            raise RuntimeError(
+                "Missing HUGGINGFACE_TOKEN environment variable for diarization."
+            )
         device = torch.device(
             "cuda" if torch.cuda.is_available() else "cpu"
         )  # Correct device handling

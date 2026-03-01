@@ -22,3 +22,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python cache/build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local database / runtime artifacts
+atenta
+recordings/
+src/backend/recordings/
+
+# Generated model outputs
+src/backend/Model/Output/*
+!src/backend/Model/Output/.gitkeep
+
+# Local audio capture files
+input.wav
+src/frontend/input.wav
+resources/audio/*.wav
+
+# Node install artifacts
+scripts/node_modules/
+
+# Local cloud credentials
+.aws/

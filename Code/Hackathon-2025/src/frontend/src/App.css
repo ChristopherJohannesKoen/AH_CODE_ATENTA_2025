@@ -212,7 +212,7 @@ body {
 }
 
 /* JSON Editor Styles */
-.json-editor {
+.json-editor-container {
   display: flex;
   flex-direction: column;
   width: 100%;

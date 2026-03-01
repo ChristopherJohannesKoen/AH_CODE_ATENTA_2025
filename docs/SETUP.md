@@ -31,7 +31,7 @@ Frontend runs at `http://localhost:5173`.
 ## Backend Setup (FastAPI route used by frontend)
 
 ```powershell
-cd "Code/Hackathon-2025/src/backend/dao"
+cd "Code/Hackathon-2025/src/backend/api"
 python app.py
 ```
 
@@ -57,7 +57,7 @@ $env:HUGGINGFACE_TOKEN = "your-huggingface-token"
 
 ## Typical Run Order
 
-1. Start backend server in `src/backend/dao`
+1. Start backend server in `src/backend/api`
 2. Start frontend in `src/frontend`
 3. Open the frontend URL and test recording flow
 
@@ -71,7 +71,7 @@ $env:HUGGINGFACE_TOKEN = "your-huggingface-token"
 
 ### Database errors (`no such table`)
 
-- Run DB initialization script from `src/backend/dao`:
+- Run DB initialization script from `src/backend/api`:
 
 ```powershell
 python db_init.py
@@ -85,4 +85,3 @@ python db_init.py
 ### FFmpeg errors
 
 - Install FFmpeg and confirm `ffmpeg -version` works in the same shell session.
-
